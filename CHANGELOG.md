@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.90.1 (2025-12-17)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix oxc plugin usage (● [74d050c](https://github.com/softvisio/cli/commit/74d050c7); 👬 zdm)
+
+- \[PATCH] fix: remove NPM_TOKEN_GITHUB (● [2dc331c](https://github.com/softvisio/cli/commit/2dc331c6); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: move npm api to core (● [99e6429](https://github.com/softvisio/cli/commit/99e64291); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [fa283ff](https://github.com/softvisio/cli/commit/fa283ff3), [31fb229](https://github.com/softvisio/cli/commit/31fb2299), [d9b551a](https://github.com/softvisio/cli/commit/d9b551a6); 👬 zdm)
+
+Compare with the previous release: [v3.90.0](https://github.com/softvisio/cli/compare/v3.90.0...v3.90.1)
+
 ### v3.90.0 (2025-12-13)
 
 **New features:**

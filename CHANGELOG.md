@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.90.2 (2025-12-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix docker credentials (● [a16eed9](https://github.com/softvisio/cli/commit/a16eed98); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [c7fa3c0](https://github.com/softvisio/cli/commit/c7fa3c0d); 👬 zdm)
+
+Compare with the previous release: [v3.90.1](https://github.com/softvisio/cli/compare/v3.90.1...v3.90.2)
+
 ### v3.90.1 (2025-12-17)
 
 **Bug fixes:**

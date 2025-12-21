@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.90.3 (2025-12-21)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: add dockerhub token (● [88ec139](https://github.com/softvisio/cli/commit/88ec1398); 👬 zdm)
+
+Compare with the previous release: [v3.90.2](https://github.com/softvisio/cli/compare/v3.90.2...v3.90.3)
+
 ### v3.90.2 (2025-12-19)
 
 **Bug fixes:**

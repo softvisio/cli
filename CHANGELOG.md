@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.91.0 (2025-12-22)
+
+**New features:**
+
+- \[MINOR] feat: add possibility to update npm package tags to metadata updater (● [a690857](https://github.com/softvisio/cli/commit/a6908571); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8821616](https://github.com/softvisio/cli/commit/88216168); 👬 zdm)
+
+Compare with the previous release: [v3.90.3](https://github.com/softvisio/cli/compare/v3.90.3...v3.91.0)
+
 ### v3.90.3 (2025-12-21)
 
 **Code refactoring:**

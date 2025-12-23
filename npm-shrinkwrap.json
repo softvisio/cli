@@ -87,9 +87,9 @@
             }
         },
         "node_modules/@c0rejs/core": {
-            "version": "7.192.2",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.192.2/50aa0a8120773a4e0fb1f890214939ac999e4a68",
-            "integrity": "sha512-A6mvkhA602+q2dA86o/TUC1H/JrcG7IfVm45KXj0ar+Ge5VQgxyxTqb2e4YWQmjHyykoT2b5GvDmcRq/K14WkA==",
+            "version": "7.192.3",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.192.3/d11eb80b7b63130dba0c1fd50e78a064e22c1048",
+            "integrity": "sha512-wVow6LgaazE+iGDZp2t9+Umo97VGNKOquLxkZG9Bvf3UbiAzegmf0uLQgwKnAjonRr4zfUQMkarm2MQnn7VDkA==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {

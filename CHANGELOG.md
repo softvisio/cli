@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.91.2 (2025-12-24)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix npm log (● [6a58c63](https://github.com/softvisio/cli/commit/6a58c637), [6e015a9](https://github.com/softvisio/cli/commit/6e015a9d), [5849c15](https://github.com/softvisio/cli/commit/5849c15d); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [cbaa41c](https://github.com/softvisio/cli/commit/cbaa41c0); 👬 zdm)
+
+- style: fix typo (● [2385f55](https://github.com/softvisio/cli/commit/2385f559); 👬 zdm)
+
+Compare with the previous release: [v3.91.1](https://github.com/softvisio/cli/compare/v3.91.1...v3.91.2)
+
 ### v3.91.1 (2025-12-23)
 
 **Other changes:**

@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.91.4 (2025-12-26)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix publish private package (● [9ae3746](https://github.com/softvisio/cli/commit/9ae37468); 👬 zdm)
+
+Compare with the previous release: [v3.91.3](https://github.com/softvisio/cli/compare/v3.91.3...v3.91.4)
+
 ### v3.91.3 (2025-12-25)
 
 **Other changes:**

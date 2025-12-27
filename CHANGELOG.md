@@ -1,5 +1,15 @@
 # Changelog
 
+### v3.91.5 (2025-12-27)
+
+**Other changes:**
+
+- chore: update log text (● [220e399](https://github.com/softvisio/cli/commit/220e399f); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [f5be2e8](https://github.com/softvisio/cli/commit/f5be2e85); 👬 zdm)
+
+Compare with the previous release: [v3.91.4](https://github.com/softvisio/cli/compare/v3.91.4...v3.91.5)
+
 ### v3.91.4 (2025-12-26)
 
 **Bug fixes:**

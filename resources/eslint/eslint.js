@@ -11,6 +11,7 @@ const CONFIG = [
             // eslint
             "curly": [ "error", "multi-line", "consistent" ],
             "eqeqeq": [ "error", "smart" ],
+            "getter-return": [ "error", { "allowImplicit": true } ],
             "grouped-accessor-pairs": [ "error", "getBeforeSet" ],
             "no-constructor-return": "error",
             "no-lone-blocks": "off", // XXX we are using lone blocks for code folding in vim

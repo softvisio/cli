@@ -7,18 +7,22 @@ meta:
 
   dependabot:
     npm:
+      enabled: true
       interval: weekly
       day: Monday
       time: 00:00
       timezone: UTC
       open-pull-requests-limit: 5
     docker:
+      enabled: true
       interval: daily
       day: Monday
       time: 00:00
       timezone: UTC
       open-pull-requests-limit: 5
     github-actions:
+      enabled: true
+      actionsEnabled: false
       interval: daily
       day: Monday
       time: 00:00

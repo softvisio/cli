@@ -17,10 +17,8 @@ properties:
           npm:
             type: object
             properties:
-              interval:
-                anyOf:
-                  - type: "null"
-                  - enum: [daily, weekly, monthly]
+              enabled: { type: boolean }
+              interval: { enum: [daily, weekly, monthly] }
               day: { type: string, format: weekday }
               time: { type: string, format: time }
               timezone: { type: string, format: timezone }
@@ -31,10 +29,8 @@ properties:
           docker:
             type: object
             properties:
-              interval:
-                anyOf:
-                  - type: "null"
-                  - enum: [daily, weekly, monthly]
+              enabled: { type: boolean }
+              interval: { enum: [daily, weekly, monthly] }
               day: { type: string, format: weekday }
               time: { type: string, format: time }
               timezone: { type: string, format: timezone }
@@ -45,10 +41,9 @@ properties:
           github-actions:
             type: object
             properties:
-              interval:
-                anyOf:
-                  - type: "null"
-                  - enum: [daily, weekly, monthly]
+              enabled: { type: boolean }
+              actionsEnabled: { type: boolean }
+              interval: { enum: [daily, weekly, monthly] }
               day: { type: string, format: weekday }
               time: { type: string, format: time }
               timezone: { type: string, format: timezone }

@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.91.8 (2026-01-03)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor cli dependabot options (● [d7654ed](https://github.com/softvisio/cli/commit/d7654ed8); 👬 zdm)
+
+Compare with the previous release: [v3.91.7](https://github.com/softvisio/cli/compare/v3.91.7...v3.91.8)
+
 ### v3.91.7 (2026-01-03)
 
 **Bug fixes:**

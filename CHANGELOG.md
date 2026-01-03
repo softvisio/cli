@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.91.7 (2026-01-03)
+
+**Bug fixes:**
+
+- \[PATCH] fix: improve dependabot config generator (● [51fdf97](https://github.com/softvisio/cli/commit/51fdf977); 👬 zdm)
+
+Compare with the previous release: [v3.91.6](https://github.com/softvisio/cli/compare/v3.91.6...v3.91.7)
+
 ### v3.91.6 (2026-01-03)
 
 **Code refactoring:**

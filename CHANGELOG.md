@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.91.6 (2026-01-03)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update eslint getter-return rule to return undefined (● [d75c850](https://github.com/softvisio/cli/commit/d75c850c); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [50aebdb](https://github.com/softvisio/cli/commit/50aebdb2), [2ff282f](https://github.com/softvisio/cli/commit/2ff282fa), [a3e984b](https://github.com/softvisio/cli/commit/a3e984bc), [0637981](https://github.com/softvisio/cli/commit/0637981d), [2eac781](https://github.com/softvisio/cli/commit/2eac781e); 👬 zdm)
+
+Compare with the previous release: [v3.91.5](https://github.com/softvisio/cli/compare/v3.91.5...v3.91.6)
+
 ### v3.91.5 (2025-12-27)
 
 **Other changes:**

@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.92.0 (2026-01-05)
+
+**New features:**
+
+- \[MINOR] feat: add release tags for major branches (● [7a75bfd](https://github.com/softvisio/cli/commit/7a75bfd2), [9236f6f](https://github.com/softvisio/cli/commit/9236f6f0); 👬 zdm)
+
+**Other changes:**
+
+- chore: remove npm @sencha:registry (● [45dbccd](https://github.com/softvisio/cli/commit/45dbccd5); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [51ec6c4](https://github.com/softvisio/cli/commit/51ec6c4f), [d5a343c](https://github.com/softvisio/cli/commit/d5a343ca); 👬 zdm)
+
+Compare with the previous release: [v3.91.8](https://github.com/softvisio/cli/compare/v3.91.8...v3.92.0)
+
 ### v3.91.8 (2026-01-03)
 
 **Code refactoring:**

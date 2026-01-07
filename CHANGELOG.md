@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.92.4 (2026-01-07)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remove force from fetch tags (● [ac67bd1](https://github.com/softvisio/cli/commit/ac67bd15); 👬 zdm)
+
+Compare with the previous release: [v3.92.3](https://github.com/softvisio/cli/compare/v3.92.3...v3.92.4)
+
 ### v3.92.3 (2026-01-07)
 
 **Bug fixes:**

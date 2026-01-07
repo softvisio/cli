@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.92.1 (2026-01-07)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix release (● [67dc925](https://github.com/softvisio/cli/commit/67dc925d); 👬 zdm)
+
+- \[PATCH] fix: fix set npm tags (● [cadb8c3](https://github.com/softvisio/cli/commit/cadb8c3f); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor release tags (● [08283c5](https://github.com/softvisio/cli/commit/08283c56), [46f82fe](https://github.com/softvisio/cli/commit/46f82fe0), [db38216](https://github.com/softvisio/cli/commit/db38216f); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [570a7e6](https://github.com/softvisio/cli/commit/570a7e6b); 👬 zdm)
+
+Compare with the previous release: [v3.92.0](https://github.com/softvisio/cli/compare/v3.92.0...v3.92.1)
+
 ### v3.92.0 (2026-01-05)
 
 **New features:**

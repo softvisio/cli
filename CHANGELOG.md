@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.92.3 (2026-01-07)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix fetch remote tags with force (● [657256a](https://github.com/softvisio/cli/commit/657256a3); 👬 zdm)
+
+Compare with the previous release: [v3.92.2](https://github.com/softvisio/cli/compare/v3.92.2...v3.92.3)
+
 ### v3.92.2 (2026-01-07)
 
 **Bug fixes:**

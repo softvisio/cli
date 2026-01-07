@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.92.2 (2026-01-07)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fetch remote tags on metadata update (● [95340d2](https://github.com/softvisio/cli/commit/95340d27); 👬 zdm)
+
+Compare with the previous release: [v3.92.1](https://github.com/softvisio/cli/compare/v3.92.1...v3.92.2)
+
 ### v3.92.1 (2026-01-07)
 
 **Bug fixes:**

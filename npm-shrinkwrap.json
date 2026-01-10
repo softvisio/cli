@@ -142,9 +142,9 @@
             }
         },
         "node_modules/@c0rejs/msgpack": {
-            "version": "3.5.5",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/msgpack/3.5.5/26167bb4a14e67dfb8590326d5ab4056c2c3d3d5",
-            "integrity": "sha512-kVvRMzdfYujaf3coww+3PZ5ImqujYlRuYktonKgc+nVrLrOMPSEcAvqbdCHu0z8HTZS3tl0aZUjaNdlsNxtb2A==",
+            "version": "3.5.6",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/msgpack/3.5.6/bc9a9eca44d07b6e8c75cb5b60c69a41efdb020d",
+            "integrity": "sha512-5XkMRbgV3Sv+pnFIqg1c2PcQRLZJEqZxyl+f91m41N8m3Fo0bKWzmAyINHiNl5ygFVkBjndxnfhw2TKg8tqe7w==",
             "license": "ISC"
         },
         "node_modules/@c0rejs/result": {
@@ -165,9 +165,9 @@
             }
         },
         "node_modules/@c0rejs/utils": {
-            "version": "2.10.8",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/utils/2.10.8/f1e8e16f5afeae8f68badc5115444b8f3114da8d",
-            "integrity": "sha512-LXrwf0ZEIiwxKn9rlsWdVzTJ6u88bKr9r/EwxPRV/aRvHxeGQHxbGSzyzYa4OKYGtsrIP09KMORuzePiAIy63g==",
+            "version": "2.10.9",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/utils/2.10.9/0178a2ce623a25bfad31ccf7201105ff9d4abd38",
+            "integrity": "sha512-AAt+xYxMIcIvbh8I7SCy9nzxlJQczbfRzKecAzlE5Uy/SxPmVG2Gg2AK7vexghf/dAdYnWyC1QtslYS+CcwBVw==",
             "license": "ISC",
             "peerDependencies": {
                 "@c0rejs/result": "^6.1.1",

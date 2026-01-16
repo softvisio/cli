@@ -2061,9 +2061,9 @@
             "license": "MIT"
         },
         "node_modules/baseline-browser-mapping": {
-            "version": "2.9.14",
-            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.14.tgz",
-            "integrity": "sha512-B0xUquLkiGLgHhpPBqvl7GWegWBUNuujQ6kXd/r1U38ElPT6Ok8KZ8e+FpUGEc2ZoRQUzq/aUnaKFc/svWUGSg==",
+            "version": "2.9.15",
+            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.15.tgz",
+            "integrity": "sha512-kX8h7K2srmDyYnXRIppo4AH/wYgzWVCs+eKr3RusRSQ5PvRYoEFmR/I0PbdTjKFAoKqp5+kbxnNTFO9jOfSVJg==",
             "license": "Apache-2.0",
             "bin": {
                 "baseline-browser-mapping": "dist/cli.js"
@@ -3479,9 +3479,9 @@
             }
         },
         "node_modules/eslint-plugin-vue": {
-            "version": "10.6.2",
-            "resolved": "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-10.6.2.tgz",
-            "integrity": "sha512-nA5yUs/B1KmKzvC42fyD0+l9Yd+LtEpVhWRbXuDj0e+ZURcTtyRbMDWUeJmTAh2wC6jC83raS63anNM2YT3NPw==",
+            "version": "10.7.0",
+            "resolved": "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-10.7.0.tgz",
+            "integrity": "sha512-r2XFCK4qlo1sxEoAMIoTTX0PZAdla0JJDt1fmYiworZUX67WeEGqm+JbyAg3M+pGiJ5U6Mp5WQbontXWtIW7TA==",
             "license": "MIT",
             "dependencies": {
                 "@eslint-community/eslint-utils": "^4.4.0",
@@ -7451,9 +7451,9 @@
             }
         },
         "node_modules/tar": {
-            "version": "7.5.2",
-            "resolved": "https://registry.npmjs.org/tar/-/tar-7.5.2.tgz",
-            "integrity": "sha512-7NyxrTE4Anh8km8iEy7o0QYPs+0JKBTj5ZaqHg6B39erLg0qYXN3BijtShwbsNSvQ+LN75+KV+C4QR/f6Gwnpg==",
+            "version": "7.5.3",
+            "resolved": "https://registry.npmjs.org/tar/-/tar-7.5.3.tgz",
+            "integrity": "sha512-ENg5JUHUm2rDD7IvKNFGzyElLXNjachNLp6RaGf4+JOgxXHkqA+gq81ZAMCUmtMtqBsoU62lcp6S27g1LCYGGQ==",
             "license": "BlueOak-1.0.0",
             "peer": true,
             "dependencies": {

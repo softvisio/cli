@@ -155,9 +155,9 @@
             "peer": true
         },
         "node_modules/@c0rejs/sqlite": {
-            "version": "1.28.36",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/sqlite/1.28.36/07d674e8cccaca30998be52a759bf959057563d6",
-            "integrity": "sha512-596XQjKJMkk75wtxXyAjPDzya9av0GTz+x+mO/mEPzYcWMBRFEHxVd/BOq/FzuVr8LwK/5u/UZauCDCa+n7iPw==",
+            "version": "1.28.37",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/sqlite/1.28.37/6c991d698c03ff366c30a398fe5a731855e1a600",
+            "integrity": "sha512-dAF5uWfJUtN0VbpabYUo0hnWiYq3U/hctd3P4z2n4wJvhwXZGO8F+dwUrC0pzTUPz6BsbSG548+xhtl55Ih3hw==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {

@@ -46,7 +46,9 @@ const CONFIG = [
             "unicorn/number-literal-case": "error",
             "unicorn/numeric-separators-style": "error",
 
-            "unicorn/prefer-at": "error",
+            // NOTE: can break third-party code
+            // "unicorn/prefer-at": "error",
+
             "unicorn/prefer-bigint-literals": "error",
             "unicorn/prefer-class-fields": "error",
             "unicorn/prefer-classlist-toggle": "error",

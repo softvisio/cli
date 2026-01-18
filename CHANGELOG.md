@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.92.6 (2026-01-18)
+
+**Bug fixes:**
+
+- \[PATCH] fix: disable prefer-at rule (● [d33f52f](https://github.com/softvisio/cli/commit/d33f52ff); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [4aadbe0](https://github.com/softvisio/cli/commit/4aadbe0e), [542641b](https://github.com/softvisio/cli/commit/542641b3); 👬 zdm)
+
+Compare with the previous release: [v3.92.5](https://github.com/softvisio/cli/compare/v3.92.5...v3.92.6)
+
 ### v3.92.5 (2026-01-17)
 
 **Other changes:**

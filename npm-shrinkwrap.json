@@ -87,9 +87,9 @@
             }
         },
         "node_modules/@c0rejs/core": {
-            "version": "7.195.1",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.195.1/a4c6975992ad3baeeb2f4e85a3a3451b9c77eaee",
-            "integrity": "sha512-RGCXYxDNbCZfu1j0VbRn/hq4wM9QBh2+dVaueOF9bYYXGhj7zqloy2ocbvYEtiELL0XGNUs/6wc3onZlpAKR3A==",
+            "version": "7.197.8",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.197.8/b35458b00cf29560922b98fe7cf342dc0332dfda",
+            "integrity": "sha512-fGcvMyxBFnF/rEQtyUesJwUiUD6OBqSwhkf5sPACTm/LT6iK/1vPurhg9VbhNT0/Pxx+OTkcOnReR2W4UesEyg==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -104,7 +104,7 @@
                 "ajv-formats-draft2019": "^1.4.3",
                 "ajv-keywords": "^5.0.0",
                 "decimal.js": "^10.4.3",
-                "ejs": "^3.1.5",
+                "ejs": "^4.0.0",
                 "fast-xml-parser": "^5.0.0",
                 "js-yaml": "^4.1.0",
                 "json5": "^2.2.0",
@@ -148,9 +148,9 @@
             "license": "ISC"
         },
         "node_modules/@c0rejs/result": {
-            "version": "6.5.25",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/result/6.5.25/1c3d56a34d2d3add3e758e28bb48a5dd4aaf3c5f",
-            "integrity": "sha512-Mh5lT1COv9yJCbBsZPn/B68E6mfaWBBrb2Cv7E50/bwmZ3DndPmDQw/jESxdTvKKhe0tXqCT+zPR/yHXI2iV+Q==",
+            "version": "6.5.26",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/result/6.5.26/5338f183a0a6946a345a08d74493b8c8fe2c9d2c",
+            "integrity": "sha512-jyEC2icaLgrKRdKl9wmFg5yTuGKiRvSx8VOcobXKhRZxi323nCE5I4em/d0Xi7/m0wuHC4JXJm1i87yLyu8idg==",
             "license": "ISC",
             "peer": true
         },
@@ -2991,18 +2991,18 @@
             }
         },
         "node_modules/ejs": {
-            "version": "3.1.10",
-            "resolved": "https://registry.npmjs.org/ejs/-/ejs-3.1.10.tgz",
-            "integrity": "sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==",
+            "version": "4.0.1",
+            "resolved": "https://registry.npmjs.org/ejs/-/ejs-4.0.1.tgz",
+            "integrity": "sha512-krvQtxc0btwSm/nvnt1UpnaFDFVJpJ0fdckmALpCgShsr/iGYHTnJiUliZTgmzq/UxTX33TtOQVKaNigMQp/6Q==",
             "license": "Apache-2.0",
             "dependencies": {
-                "jake": "^10.8.5"
+                "jake": "^10.9.1"
             },
             "bin": {
                 "ejs": "bin/cli.js"
             },
             "engines": {
-                "node": ">=0.10.0"
+                "node": ">=0.12.18"
             }
         },
         "node_modules/electron-to-chromium": {
@@ -3980,9 +3980,9 @@
             }
         },
         "node_modules/git-hooks-list": {
-            "version": "4.1.1",
-            "resolved": "https://registry.npmjs.org/git-hooks-list/-/git-hooks-list-4.1.1.tgz",
-            "integrity": "sha512-cmP497iLq54AZnv4YRAEMnEyQ1eIn4tGKbmswqwmFV4GBnAqE8NLtWxxdXa++AalfgL5EBH4IxTPyquEuGY/jA==",
+            "version": "4.2.1",
+            "resolved": "https://registry.npmjs.org/git-hooks-list/-/git-hooks-list-4.2.1.tgz",
+            "integrity": "sha512-WNvqJjOxxs/8ZP9+DWdwWJ7cDsd60NHf39XnD82pDVrKO5q7xfPqpkK6hwEAmBa/ZSEE4IOoR75EzbbIuwGlMw==",
             "license": "MIT",
             "funding": {
                 "url": "https://github.com/fisker/git-hooks-list?sponsor=1"
@@ -6664,12 +6664,12 @@
             }
         },
         "node_modules/prettier-plugin-packagejson": {
-            "version": "2.5.21",
-            "resolved": "https://registry.npmjs.org/prettier-plugin-packagejson/-/prettier-plugin-packagejson-2.5.21.tgz",
-            "integrity": "sha512-d9ivsysb1SeRaKDhjf6Hi7jBGnP4TVsh7DeVi8N5HtHJ5vwD7YHcQIuy6jRkr2qGW/VKbrEVDWVMODuqcZuz8Q==",
+            "version": "2.5.22",
+            "resolved": "https://registry.npmjs.org/prettier-plugin-packagejson/-/prettier-plugin-packagejson-2.5.22.tgz",
+            "integrity": "sha512-G6WalmoUssKF8ZXkni0+n4324K+gG143KPysSQNW+FrR0XyNb3BdRxchGC/Q1FE/F702p7/6KU7r4mv0WSWbzA==",
             "license": "MIT",
             "dependencies": {
-                "sort-package-json": "3.5.0"
+                "sort-package-json": "3.6.0"
             },
             "peerDependencies": {
                 "prettier": ">= 1.16.0"
@@ -7208,18 +7208,18 @@
             "license": "MIT"
         },
         "node_modules/sort-package-json": {
-            "version": "3.5.0",
-            "resolved": "https://registry.npmjs.org/sort-package-json/-/sort-package-json-3.5.0.tgz",
-            "integrity": "sha512-moY4UtptUuP5sPuu9H9dp8xHNel7eP5/Kz/7+90jTvC0IOiPH2LigtRM/aSFSxreaWoToHUVUpEV4a2tAs2oKQ==",
+            "version": "3.6.0",
+            "resolved": "https://registry.npmjs.org/sort-package-json/-/sort-package-json-3.6.0.tgz",
+            "integrity": "sha512-fyJsPLhWvY7u2KsKPZn1PixbXp+1m7V8NWqU8CvgFRbMEX41Ffw1kD8n0CfJiGoaSfoAvbrqRRl/DcHO8omQOQ==",
             "license": "MIT",
             "dependencies": {
-                "detect-indent": "^7.0.1",
+                "detect-indent": "^7.0.2",
                 "detect-newline": "^4.0.1",
-                "git-hooks-list": "^4.0.0",
+                "git-hooks-list": "^4.1.1",
                 "is-plain-obj": "^4.1.0",
-                "semver": "^7.7.1",
-                "sort-object-keys": "^2.0.0",
-                "tinyglobby": "^0.2.12"
+                "semver": "^7.7.3",
+                "sort-object-keys": "^2.0.1",
+                "tinyglobby": "^0.2.15"
             },
             "bin": {
                 "sort-package-json": "cli.js"

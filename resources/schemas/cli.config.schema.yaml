@@ -109,9 +109,9 @@ properties:
     type: object
     properties:
       enabled: { type: boolean }
-      branches: { type: array, items: { type: string }, uniqueItems: true, minItems: 1 }
+      versionBranch: { type: boolean }
     additionalProperties: false
-    required: [enabled, branches]
+    required: [enabled, versionBranch]
 
   docker:
     type: object

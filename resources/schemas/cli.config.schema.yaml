@@ -110,8 +110,9 @@ properties:
     properties:
       enabled: { type: boolean }
       versionBranch: { type: boolean }
+      releaseBranch: { type: string }
     additionalProperties: false
-    required: [enabled, versionBranch]
+    required: [enabled, versionBranch, releaseBranch]
 
   docker:
     type: object

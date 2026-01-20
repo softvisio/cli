@@ -53,6 +53,7 @@ meta:
 release:
   enabled: false
   versionBranch: false
+  releaseBranch: main
 
 docker:
   composeFile: compose.yaml

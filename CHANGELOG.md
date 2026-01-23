@@ -1,5 +1,27 @@
 # Changelog
 
+### v3.93.0 (2026-01-23)
+
+**New features:**
+
+- \[MINOR] feat: add restrict release on version branch (● [5cf2b54](https://github.com/softvisio/cli/commit/5cf2b54d), [9aa4582](https://github.com/softvisio/cli/commit/9aa45823); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix ls report indentation (● [6dfbc13](https://github.com/softvisio/cli/commit/6dfbc13c); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: remove ls branch hl (● [1cd9130](https://github.com/softvisio/cli/commit/1cd9130c); 👬 zdm)
+
+- \[PATCH] refactor: rename table.add() to table.write() (● [ce6f4f9](https://github.com/softvisio/cli/commit/ce6f4f92); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [4b6ede3](https://github.com/softvisio/cli/commit/4b6ede3c), [19c6394](https://github.com/softvisio/cli/commit/19c63942), [085bc2c](https://github.com/softvisio/cli/commit/085bc2c7), [2d716a2](https://github.com/softvisio/cli/commit/2d716a21); 👬 zdm)
+
+Compare with the previous release: [v3.92.6](https://github.com/softvisio/cli/compare/v3.92.6...v3.93.0)
+
 ### v3.92.6 (2026-01-18)
 
 **Bug fixes:**

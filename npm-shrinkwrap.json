@@ -87,9 +87,9 @@
             }
         },
         "node_modules/@c0rejs/core": {
-            "version": "7.197.9",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.197.9/b4aa891eb50269ddcbae4f9ff6daa3c21d823f32",
-            "integrity": "sha512-P+3diL1s77Q7ert597BhlsdOzCJx9nUs9zOixTAoYrLsF27NTfz4Q4gI6Tqmg3zkvEtP0N32kwTgrVdcpPbrew==",
+            "version": "7.197.10",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.197.10/f194c02bc09bba8127a57a5083543dfa80b78ba4",
+            "integrity": "sha512-4Uj9QUOlet59bQ7EGB7kmSqIIi2e4AV8RkWs1m8689dY7VJtMMi6J2wM7cT8/fDww0TURibbHemufQOY1G5VSw==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -7856,9 +7856,9 @@
             }
         },
         "node_modules/unist-util-visit": {
-            "version": "5.0.0",
-            "resolved": "https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-5.0.0.tgz",
-            "integrity": "sha512-MR04uvD+07cwl/yhVuVWAtw+3GOR/knlL55Nd/wAdblk27GCVt3lqpTivy/tkJcZoNPzTwS1Y+KMojlLDhoTzg==",
+            "version": "5.1.0",
+            "resolved": "https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-5.1.0.tgz",
+            "integrity": "sha512-m+vIdyeCOpdr/QeQCu2EzxX/ohgS8KbnPDgFni4dQsfSCtpz8UqDyY5GjRru8PDKuYn7Fq19j1CQ+nJSsGKOzg==",
             "license": "MIT",
             "dependencies": {
                 "@types/unist": "^3.0.0",

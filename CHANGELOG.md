@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.93.1 (2026-01-24)
+
+**Bug fixes:**
+
+- \[PATCH] fix: disable unicorn/prefer-modern-dom-apis rule (● [c46df11](https://github.com/softvisio/cli/commit/c46df11a); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bump prettier-plugin-packagejson\@3.0.0 (● [a2e2048](https://github.com/softvisio/cli/commit/a2e20484); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [e631ca1](https://github.com/softvisio/cli/commit/e631ca15), [03059d8](https://github.com/softvisio/cli/commit/03059d89); 👬 zdm)
+
+Compare with the previous release: [v3.93.0](https://github.com/softvisio/cli/compare/v3.93.0...v3.93.1)
+
 ### v3.93.0 (2026-01-23)
 
 **New features:**

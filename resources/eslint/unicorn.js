@@ -58,7 +58,10 @@ const CONFIG = [
             "unicorn/prefer-dom-node-remove": "error",
             "unicorn/prefer-global-this": "error",
             "unicorn/prefer-import-meta-properties": "error",
-            "unicorn/prefer-modern-dom-apis": "error",
+
+            // XXX can break browser code (extjs.js)
+            // "unicorn/prefer-modern-dom-apis": "error",
+
             "unicorn/prefer-modern-math-apis": "error",
             "unicorn/prefer-negative-index": "error",
 

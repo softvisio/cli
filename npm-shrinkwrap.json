@@ -87,9 +87,9 @@
             }
         },
         "node_modules/@c0rejs/core": {
-            "version": "7.197.10",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.197.10/f194c02bc09bba8127a57a5083543dfa80b78ba4",
-            "integrity": "sha512-4Uj9QUOlet59bQ7EGB7kmSqIIi2e4AV8RkWs1m8689dY7VJtMMi6J2wM7cT8/fDww0TURibbHemufQOY1G5VSw==",
+            "version": "7.199.0",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.199.0/f769d13fc54ba92462f6816cdce1ac43aff3cd4e",
+            "integrity": "sha512-X+zin9B/l+jydcuADgst7WXs9vliVaMQZJhUv+OKa4MdtKVnN1OXLfkD/sSnx+9xoanO4RBD1dz1cz3RRfn7hA==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -2054,9 +2054,9 @@
             "license": "MIT"
         },
         "node_modules/baseline-browser-mapping": {
-            "version": "2.9.17",
-            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.17.tgz",
-            "integrity": "sha512-agD0MgJFUP/4nvjqzIB29zRPUuCF7Ge6mEv9s8dHrtYD7QWXRcx75rOADE/d5ah1NI+0vkDl0yorDd5U852IQQ==",
+            "version": "2.9.18",
+            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.18.tgz",
+            "integrity": "sha512-e23vBV1ZLfjb9apvfPk4rHVu2ry6RIr2Wfs+O324okSidrX7pTAnEJPCh/O5BtRlr7QtZI7ktOP3vsqr7Z5XoA==",
             "license": "Apache-2.0",
             "bin": {
                 "baseline-browser-mapping": "dist/cli.js"
@@ -7814,9 +7814,9 @@
             }
         },
         "node_modules/undici": {
-            "version": "7.19.0",
-            "resolved": "https://registry.npmjs.org/undici/-/undici-7.19.0.tgz",
-            "integrity": "sha512-Heho1hJD81YChi+uS2RkSjcVO+EQLmLSyUlHyp7Y/wFbxQaGb4WXVKD073JytrjXJVkSZVzoE2MCSOKugFGtOQ==",
+            "version": "7.19.1",
+            "resolved": "https://registry.npmjs.org/undici/-/undici-7.19.1.tgz",
+            "integrity": "sha512-Gpq0iNm5M6cQWlyHQv9MV+uOj1jWk7LpkoE5vSp/7zjb4zMdAcUD+VL5y0nH4p9EbUklq00eVIIX/XcDHzu5xg==",
             "license": "MIT",
             "engines": {
                 "node": ">=20.18.1"

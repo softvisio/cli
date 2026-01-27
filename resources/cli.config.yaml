@@ -52,6 +52,7 @@ meta:
 
 release:
   enabled: false
+  allowMajorTag: false
   versionBranch: false
   releaseBranch: main
 

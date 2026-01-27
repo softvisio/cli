@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.95.0 (2026-01-27)
+
+**New features:**
+
+- \[MINOR] feat: add release branches (● [fdadb6b](https://github.com/softvisio/cli/commit/fdadb6b1); 👬 zdm)
+
+Compare with the previous release: [v3.94.0](https://github.com/softvisio/cli/compare/v3.94.0...v3.95.0)
+
 ### v3.94.0 (2026-01-27)
 
 **New features:**

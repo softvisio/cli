@@ -1,5 +1,27 @@
 # Changelog
 
+### v3.94.0 (2026-01-27)
+
+**New features:**
+
+- \[MINOR] feat: clear changelog on major release (● [a352806](https://github.com/softvisio/cli/commit/a3528063); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dependabot generator (● [d2682f9](https://github.com/softvisio/cli/commit/d2682f95); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor release tags (● [5667f0f](https://github.com/softvisio/cli/commit/5667f0fb), [29388ea](https://github.com/softvisio/cli/commit/29388eab), [8c13a5f](https://github.com/softvisio/cli/commit/8c13a5f2), [ab3e619](https://github.com/softvisio/cli/commit/ab3e6196), [c98ddac](https://github.com/softvisio/cli/commit/c98ddac3); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [e717458](https://github.com/softvisio/cli/commit/e7174580), [b1777ac](https://github.com/softvisio/cli/commit/b1777acd); 👬 zdm)
+
+- chore(metadata): update package metadata (● [16160a3](https://github.com/softvisio/cli/commit/16160a31); 👬 zdm)
+
+Compare with the previous release: [v3.93.1](https://github.com/softvisio/cli/compare/v3.93.1...v3.94.0)
+
 ### v3.93.1 (2026-01-24)
 
 **Bug fixes:**

@@ -110,10 +110,8 @@ properties:
     properties:
       enabled: { type: boolean }
       allowMajorTag: { type: boolean }
-      versionBranch: { type: boolean }
-      releaseBranch: { type: string }
     additionalProperties: false
-    required: [enabled, allowMajorTag, versionBranch, releaseBranch]
+    required: [enabled, allowMajorTag]
 
   docker:
     type: object

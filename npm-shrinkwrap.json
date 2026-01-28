@@ -87,9 +87,9 @@
             }
         },
         "node_modules/@c0rejs/core": {
-            "version": "7.199.2",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.199.2/20b2440d0304b4c45e280dd89354eae821839bf7",
-            "integrity": "sha512-RbSOrz5RyfcRm+bpNdGCVvyP2eAJSr6irmITOp24fdnidtnSOPXnU73gDdFCVOOyIzQY2YN3vyaxMeM5q+KbDA==",
+            "version": "7.199.3",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.199.3/c1381fa9ced8e44bc94db0bf65f91c727e5fbefb",
+            "integrity": "sha512-Rr6Y4B9J9T6EF9Yk22K3lRtsqFrVbp7pWPLrBx22j1WtMAJjkT2Wov7nQT6jDIMmkmVELlTmfdqBfayQkwBE1w==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -7432,9 +7432,9 @@
             }
         },
         "node_modules/tar": {
-            "version": "7.5.6",
-            "resolved": "https://registry.npmjs.org/tar/-/tar-7.5.6.tgz",
-            "integrity": "sha512-xqUeu2JAIJpXyvskvU3uvQW8PAmHrtXp2KDuMJwQqW8Sqq0CaZBAQ+dKS3RBXVhU4wC5NjAdKrmh84241gO9cA==",
+            "version": "7.5.7",
+            "resolved": "https://registry.npmjs.org/tar/-/tar-7.5.7.tgz",
+            "integrity": "sha512-fov56fJiRuThVFXD6o6/Q354S7pnWMJIVlDBYijsTNx6jKSE4pvrDTs6lUnmGvNyfJwFQQwWy3owKz1ucIhveQ==",
             "license": "BlueOak-1.0.0",
             "peer": true,
             "dependencies": {
@@ -7814,9 +7814,9 @@
             }
         },
         "node_modules/undici": {
-            "version": "7.19.1",
-            "resolved": "https://registry.npmjs.org/undici/-/undici-7.19.1.tgz",
-            "integrity": "sha512-Gpq0iNm5M6cQWlyHQv9MV+uOj1jWk7LpkoE5vSp/7zjb4zMdAcUD+VL5y0nH4p9EbUklq00eVIIX/XcDHzu5xg==",
+            "version": "7.19.2",
+            "resolved": "https://registry.npmjs.org/undici/-/undici-7.19.2.tgz",
+            "integrity": "sha512-4VQSpGEGsWzk0VYxyB/wVX/Q7qf9t5znLRgs0dzszr9w9Fej/8RVNQ+S20vdXSAyra/bJ7ZQfGv6ZMj7UEbzSg==",
             "license": "MIT",
             "engines": {
                 "node": ">=20.18.1"

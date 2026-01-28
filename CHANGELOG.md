@@ -1,5 +1,25 @@
 # Changelog
 
+### v3.96.0 (2026-01-28)
+
+**New features:**
+
+- \[MINOR] feat: change release branch to vx.x format (● [3bf15f1](https://github.com/softvisio/cli/commit/3bf15f1c); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dependabot registries (● [4572ea5](https://github.com/softvisio/cli/commit/4572ea50); 👬 zdm)
+
+- \[PATCH] fix: fix sort release tags (● [c1bc93f](https://github.com/softvisio/cli/commit/c1bc93f4); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [7f58c01](https://github.com/softvisio/cli/commit/7f58c017), [eda7879](https://github.com/softvisio/cli/commit/eda78799); 👬 zdm)
+
+- chore(metadata): update package metadata (● [64a2545](https://github.com/softvisio/cli/commit/64a25450); 👬 zdm)
+
+Compare with the previous release: [v3.95.0](https://github.com/softvisio/cli/compare/v3.95.0...v3.96.0)
+
 ### v3.95.0 (2026-01-27)
 
 **New features:**

@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.96.1 (2026-01-29)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix compare function (● [e94e375](https://github.com/softvisio/cli/commit/e94e3755); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor release (● [c26efb4](https://github.com/softvisio/cli/commit/c26efb46); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [d616e62](https://github.com/softvisio/cli/commit/d616e628); 👬 zdm)
+
+Compare with the previous release: [v3.96.0](https://github.com/softvisio/cli/compare/v3.96.0...v3.96.1)
+
 ### v3.96.0 (2026-01-28)
 
 **New features:**

@@ -110,8 +110,12 @@ properties:
     properties:
       enabled: { type: boolean }
       allowMajorTag: { type: boolean }
+      allowedBranches:
+        anyOf:
+          - type: "null"
+          - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
     additionalProperties: false
-    required: [enabled, allowMajorTag]
+    required: [enabled, allowMajorTag, allowedBranches]
 
   docker:
     type: object

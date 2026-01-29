@@ -53,6 +53,7 @@ meta:
 release:
   enabled: false
   allowMajorTag: false
+  allowedBranches: [main]
 
 docker:
   composeFile: compose.yaml

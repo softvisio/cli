@@ -133,31 +133,31 @@
             }
         },
         "node_modules/@c0rejs/eslint-plugin": {
-            "version": "1.7.39",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/eslint-plugin/1.7.39/f3317ca87a491a788f079b8352503fbe917043e5",
-            "integrity": "sha512-vXYHV1PuGGv+nDeXpzofVrgJC0Mn27uKqvbVrs5JBFUJ2YSdYXa3xLC4zGL/o8z7wghy+MGANovZuVJ4VWe5Cg==",
+            "version": "1.7.40",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/eslint-plugin/1.7.40/ce9d5d31890d8b89fa75f67f481d68ae5f2ef5d8",
+            "integrity": "sha512-x6uvXqLDrSW/gHPgo34c1ppPLa0Euz49sOYpfxnmXjSr+v2zME2S9hg2NwvYlqMJMuzfn4oKRn5d1IjKOsJ76Q==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"
             }
         },
         "node_modules/@c0rejs/msgpack": {
-            "version": "3.5.7",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/msgpack/3.5.7/5e01c8b1315f42693b4962d1a0c93652b2e36b93",
-            "integrity": "sha512-1tPP+CRWyIBbHC4Au59VSJ3PFK76n+ckMKQeVmnB3Xatj/+5vh88ZVtI5K3nalwdGGLNjTh1wM9qPdsaiHerDA==",
+            "version": "3.5.8",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/msgpack/3.5.8/b47dbf7c613e8c97f698ccd80b1390a26e2f462d",
+            "integrity": "sha512-OSxCpESyDP1D4nfipAIbif2I9SRc03+kUiseHnhvfHhmeLBSVKDrwTeb1fJfce7ohrRrNJMU4KcHb/XSqb5Ulw==",
             "license": "ISC"
         },
         "node_modules/@c0rejs/result": {
-            "version": "6.5.27",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/result/6.5.27/d61a918a660886708e8aab66eb9b695cf2ada9e5",
-            "integrity": "sha512-f1pdE7h49uJ8dJFjH4pPxw0nerFyzfMa7lrZc6S8XZuZ8t6+yGQRKdzyhzjCAD/og9Gx+DvgZV0XwX+HJT0Y9Q==",
+            "version": "6.5.28",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/result/6.5.28/004a90bc0e3ddcb78d1c9f82a2865b5f82996fc5",
+            "integrity": "sha512-v5IVcaBSja+12zWMDBd5qgQosCMBeXRKSkaFhSI8uzCuGqEUqIVqIwoDA4FaFtfGWQtJFSUvwmkz7hFugcccxA==",
             "license": "ISC",
             "peer": true
         },
         "node_modules/@c0rejs/sqlite": {
-            "version": "1.28.39",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/sqlite/1.28.39/34a2a20385c5a62446490bf38145147aea6c29a2",
-            "integrity": "sha512-mG4s1UqsW6U4nvL4H4dNfj8iaZkrdVUpwWjvGz1ce3l63BQxpfBk/Q1hwc8fLkwRn7Ggr3m5mwT5JfC3wDTYtg==",
+            "version": "1.28.40",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/sqlite/1.28.40/43e48e6586984c748d24e7de17e689e7e8675cf3",
+            "integrity": "sha512-ONrXHZoVTyo1uILs4Wau6F9YGgGarKU3qhGUIO3GZk5iuTE12X4KwUWucnHyUmtYgBPKSBQd1n6b+KWX/2y2ug==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -165,9 +165,9 @@
             }
         },
         "node_modules/@c0rejs/utils": {
-            "version": "2.10.11",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/utils/2.10.11/1334353e9af8f04e1affdf2e488c3837bf4bfdc2",
-            "integrity": "sha512-zFI7GWOti9557dplTjXIYHeKCeqdFxP8lSwIeptcREzRXvoGalDR+sBAoCrdb7sOBrPwLYm/0F1XQPgplZHWAw==",
+            "version": "2.10.12",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/utils/2.10.12/c9109f30ceb54bcce7626fac8106ee795d80f511",
+            "integrity": "sha512-WlshpbdY29dhIlvHwDTjgbiJcN174F7KyBDYJ/jo4qt5d+J1W3Il7jYfLoms5Z8KK9oivyFZ6MtuVYNRfvZWlg==",
             "license": "ISC",
             "peerDependencies": {
                 "@c0rejs/result": "^6.1.1",
@@ -175,9 +175,9 @@
             }
         },
         "node_modules/@c0rejs/uws": {
-            "version": "2.11.31",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/uws/2.11.31/02503b04d880a4c81ffff7f19006e73160bfd573",
-            "integrity": "sha512-iXX9RGZnMzIShlXjwz90zUuIwxdHimR9b+vXb/+7TDChkPFiwyigJxkbAtCnpxiXzlb1n/OGAACLYBgMFWlKWA==",
+            "version": "2.11.32",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/uws/2.11.32/0c433e06152d21c1951cb9a7123863be15bc7ba3",
+            "integrity": "sha512-8OLWRocLLUGs4h2IAo5hJqEBSkpRb+nbcTtLzYR5AE46CPIx5fRh9S2joPcK9rircIL6ZXPiFQutxzTkhIIjfg==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {

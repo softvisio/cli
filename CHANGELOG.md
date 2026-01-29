@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.96.6 (2026-01-29)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: remove tags from update tags result status text (● [75ba930](https://github.com/softvisio/cli/commit/75ba930d); 👬 zdm)
+
+Compare with the previous release: [v3.96.5](https://github.com/softvisio/cli/compare/v3.96.5...v3.96.6)
+
 ### v3.96.5 (2026-01-29)
 
 **Code refactoring:**

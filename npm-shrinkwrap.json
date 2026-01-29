@@ -87,9 +87,9 @@
             }
         },
         "node_modules/@c0rejs/core": {
-            "version": "7.199.3",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.199.3/c1381fa9ced8e44bc94db0bf65f91c727e5fbefb",
-            "integrity": "sha512-Rr6Y4B9J9T6EF9Yk22K3lRtsqFrVbp7pWPLrBx22j1WtMAJjkT2Wov7nQT6jDIMmkmVELlTmfdqBfayQkwBE1w==",
+            "version": "7.199.4",
+            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.199.4/798870d130bc3c26c0adc08b2444b98f821661fe",
+            "integrity": "sha512-NGR1m9Iwu+G+40iyCxz4Ie/ASjeblXlZ/ZLCM5XTYQaJ/EMbDGBl2IZcCXiGcg5lqtNk9rMFeMVGl7X6dM4FQQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -2054,9 +2054,9 @@
             "license": "MIT"
         },
         "node_modules/baseline-browser-mapping": {
-            "version": "2.9.18",
-            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.18.tgz",
-            "integrity": "sha512-e23vBV1ZLfjb9apvfPk4rHVu2ry6RIr2Wfs+O324okSidrX7pTAnEJPCh/O5BtRlr7QtZI7ktOP3vsqr7Z5XoA==",
+            "version": "2.9.19",
+            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.19.tgz",
+            "integrity": "sha512-ipDqC8FrAl/76p2SSWKSI+H9tFwm7vYqXQrItCuiVPt26Km0jS+NzSsBWAaBusvSbQcfJG+JitdMm+wZAgTYqg==",
             "license": "Apache-2.0",
             "bin": {
                 "baseline-browser-mapping": "dist/cli.js"

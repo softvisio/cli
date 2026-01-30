@@ -112,6 +112,7 @@ properties:
       releaseBranches:
         anyOf:
           - type: "null"
+          - const: false
           - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
       majorTagEnabled: { type: boolean }
     additionalProperties: false

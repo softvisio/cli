@@ -1,5 +1,43 @@
 # Changelog
 
+### v3.96.7 (2026-01-30)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix git branches compare (● [c52abfa](https://github.com/softvisio/cli/commit/c52abfa4); 👬 zdm)
+
+- \[PATCH] fix: update cli config (● [d91426e](https://github.com/softvisio/cli/commit/d91426e3); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor release code (● [65b63da](https://github.com/softvisio/cli/commit/65b63da5); 👬 zdm)
+
+- \[PATCH] refactor: rename currentRelease -> parentRelease (● [f3c0997](https://github.com/softvisio/cli/commit/f3c0997f), [1f37e54](https://github.com/softvisio/cli/commit/1f37e54b); 👬 zdm)
+
+- \[PATCH] refactor: rename getCurrentRelease -> getParentRelease (● [9e07c12](https://github.com/softvisio/cli/commit/9e07c125); 👬 zdm)
+
+- \[PATCH] refactor: rename parent release (● [0180c70](https://github.com/softvisio/cli/commit/0180c70c), [7ca3c6c](https://github.com/softvisio/cli/commit/7ca3c6c3), [fb1f43f](https://github.com/softvisio/cli/commit/fb1f43fe), [d9cf304](https://github.com/softvisio/cli/commit/d9cf304b); 👬 zdm)
+
+- \[PATCH] refactor: rename parent release in reports (● [297725e](https://github.com/softvisio/cli/commit/297725ed); 👬 zdm)
+
+- \[PATCH] refactor: rename parentRelease -> previousRelease (● [87aef7e](https://github.com/softvisio/cli/commit/87aef7eb); 👬 zdm)
+
+- \[PATCH] refactor: update ls report (● [32c9ae5](https://github.com/softvisio/cli/commit/32c9ae5e), [6ca8204](https://github.com/softvisio/cli/commit/6ca8204b), [7bddcba](https://github.com/softvisio/cli/commit/7bddcba7); 👬 zdm)
+
+- \[PATCH] refactor: update release report (● [b88a349](https://github.com/softvisio/cli/commit/b88a3490), [80d79c9](https://github.com/softvisio/cli/commit/80d79c9a), [33886f8](https://github.com/softvisio/cli/commit/33886f81), [81c0a21](https://github.com/softvisio/cli/commit/81c0a216); 👬 zdm)
+
+- \[PATCH] refactor: use version string in reports (● [47938bd](https://github.com/softvisio/cli/commit/47938bdd), [47f4de2](https://github.com/softvisio/cli/commit/47f4de26); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [900b253](https://github.com/softvisio/cli/commit/900b253e), [6ed586d](https://github.com/softvisio/cli/commit/6ed586d8); 👬 zdm)
+
+- style: refactor code (● [794fc96](https://github.com/softvisio/cli/commit/794fc96d), [c383afb](https://github.com/softvisio/cli/commit/c383afb2), [1b05891](https://github.com/softvisio/cli/commit/1b05891b); 👬 zdm)
+
+- style: update log (● [4d9a57c](https://github.com/softvisio/cli/commit/4d9a57ce); 👬 zdm)
+
+Compare with the previous release: [v3.96.6](https://github.com/softvisio/cli/compare/v3.96.6...v3.96.7)
+
 ### v3.96.6 (2026-01-29)
 
 **Code refactoring:**

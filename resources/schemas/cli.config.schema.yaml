@@ -109,13 +109,13 @@ properties:
     type: object
     properties:
       enabled: { type: boolean }
-      allowMajorTag: { type: boolean }
-      allowedBranches:
+      releaseBranches:
         anyOf:
           - type: "null"
           - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+      majorTagEnabled: { type: boolean }
     additionalProperties: false
-    required: [enabled, allowMajorTag, allowedBranches]
+    required: [enabled, releaseBranches, majorTagEnabled]
 
   docker:
     type: object

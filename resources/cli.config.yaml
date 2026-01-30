@@ -52,8 +52,8 @@ meta:
 
 release:
   enabled: false
-  allowMajorTag: false
-  allowedBranches: [main]
+  releaseBranches: [main]
+  majorTagEnabled: false
 
 docker:
   composeFile: compose.yaml

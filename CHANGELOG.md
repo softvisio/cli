@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.96.11 (2026-01-31)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update status report (● [6ce72e9](https://github.com/softvisio/cli/commit/6ce72e9a), [a19368b](https://github.com/softvisio/cli/commit/a19368b7); 👬 zdm)
+
+Compare with the previous release: [v3.96.10](https://github.com/softvisio/cli/compare/v3.96.10...v3.96.11)
+
 ### v3.96.10 (2026-01-31)
 
 **Bug fixes:**

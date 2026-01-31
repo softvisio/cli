@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.96.10 (2026-01-31)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix npm update tags status (● [74600a6](https://github.com/softvisio/cli/commit/74600a68); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update ls, status reports (● [8c69de5](https://github.com/softvisio/cli/commit/8c69de58); 👬 zdm)
+
+- \[PATCH] refactor: update status reports (● [27ea0e8](https://github.com/softvisio/cli/commit/27ea0e8a); 👬 zdm)
+
+Compare with the previous release: [v3.96.9](https://github.com/softvisio/cli/compare/v3.96.9...v3.96.10)
+
 ### v3.96.9 (2026-01-31)
 
 **Other changes:**

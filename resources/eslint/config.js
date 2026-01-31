@@ -1,6 +1,6 @@
 import mixins from "#core/mixins";
 import Comments from "./comments.js";
-import corejslib from "./corejslib.js";
+import Corejslib from "./corejslib.js";
 import Eslint from "./eslint.js";
 import Globals from "./globals.js";
 import Import from "./import.js";
@@ -60,7 +60,7 @@ export default class Config extends mixins(
     Stylistic,
     Import,
     Unicorn,
-    corejslib,
+    Corejslib,
     Comments,
     Eslint,
     EslintConfig

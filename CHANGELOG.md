@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.96.8 (2026-01-31)
+
+**Bug fixes:**
+
+- \[PATCH] fix: process 404 error on npm tags update (● [3fce09b](https://github.com/softvisio/cli/commit/3fce09bb); 👬 zdm)
+
+**Other changes:**
+
+- chore: rename c0rejs namespace (● [3405c62](https://github.com/softvisio/cli/commit/3405c624), [3db0e05](https://github.com/softvisio/cli/commit/3db0e051); 👬 zdm)
+
+Compare with the previous release: [v3.96.7](https://github.com/softvisio/cli/compare/v3.96.7...v3.96.8)
+
 ### v3.96.7 (2026-01-30)
 
 **Bug fixes:**

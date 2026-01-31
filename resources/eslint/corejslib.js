@@ -1,4 +1,4 @@
-import eslintSoftvisio from "@c0rejs/eslint-plugin";
+import eslintSoftvisio from "@corejslib/eslint-plugin";
 
 const OVERRIDES = [
 
@@ -9,7 +9,7 @@ const OVERRIDES = [
     {
         "name": "@softvisio custom",
         "rules": {
-            "@c0rejs/camel-case": [
+            "@corejslib/camel-case": [
                 "error",
                 {
                     "properties": "never",

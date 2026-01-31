@@ -1,5 +1,5 @@
 // import babelEslintParser from "@babel/eslint-parser";
-// import { createConfig } from "@c0rejs/babel";
+// import { createConfig } from "@corejslib/babel";
 
 const CONFIG = [
     {

@@ -10,8 +10,8 @@
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
-                "@c0rejs/core": "^7.175.0",
-                "@c0rejs/eslint-plugin": "^1.0.1",
+                "@corejslib/core": "^7.175.0",
+                "@corejslib/eslint-plugin": "^1.0.1",
                 "@prettier/plugin-oxc": "^0.1.2",
                 "@prettier/plugin-xml": "^3.4.1",
                 "@stylistic/eslint-plugin": "^5.0.0",
@@ -86,17 +86,17 @@
                 "node": ">=6.9.0"
             }
         },
-        "node_modules/@c0rejs/core": {
-            "version": "7.200.0",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/core/7.200.0/101c716f6ca80a18baf2f2110f7ff3a38b764227",
-            "integrity": "sha512-52RbfFrzfRBai07tSxbQpX2nvtH/cDPgxzl8rdehOIuviMmgtHTwBSv3Kb1wW1qySw1rSfQzc9QxFBDo5h0E7A==",
+        "node_modules/@corejslib/core": {
+            "version": "7.200.1",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.200.1/b853bda04da2939b13878bf21ca3bf71ff60926e",
+            "integrity": "sha512-0uruDfFMEBhLpkAzrVx2KyhCf6ipEEa15v7LNNJW/PczVbHjMFaOA9qomv+hHI8y8gsSRQxPiyfrN3YcmP/LzA==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
-                "@c0rejs/msgpack": "^3.0.0",
-                "@c0rejs/sqlite": "^1.15.39",
-                "@c0rejs/utils": "^2.0.0",
-                "@c0rejs/uws": "^2.0.0",
+                "@corejslib/msgpack": "^3.0.0",
+                "@corejslib/sqlite": "^1.15.39",
+                "@corejslib/utils": "^2.0.0",
+                "@corejslib/uws": "^2.0.0",
                 "adm-zip": "^0.5.16",
                 "ajv": "^8.0.1",
                 "ajv-errors": "^3.0.0",
@@ -132,56 +132,56 @@
                 "npm": ">=11.6.1"
             }
         },
-        "node_modules/@c0rejs/eslint-plugin": {
-            "version": "1.7.40",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/eslint-plugin/1.7.40/ce9d5d31890d8b89fa75f67f481d68ae5f2ef5d8",
-            "integrity": "sha512-x6uvXqLDrSW/gHPgo34c1ppPLa0Euz49sOYpfxnmXjSr+v2zME2S9hg2NwvYlqMJMuzfn4oKRn5d1IjKOsJ76Q==",
+        "node_modules/@corejslib/eslint-plugin": {
+            "version": "1.7.41",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/eslint-plugin/1.7.41/32014b8b0bce1852d73a1fb371f78de9079d05a8",
+            "integrity": "sha512-ATXF5X2b350OwT+MSUQuQyfah642NKmcLGBfAIrvg8G7vhwank96UjI1gPaaToidyiWfgRmJLmBXG/OxJl8nHw==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"
             }
         },
-        "node_modules/@c0rejs/msgpack": {
-            "version": "3.5.8",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/msgpack/3.5.8/b47dbf7c613e8c97f698ccd80b1390a26e2f462d",
-            "integrity": "sha512-OSxCpESyDP1D4nfipAIbif2I9SRc03+kUiseHnhvfHhmeLBSVKDrwTeb1fJfce7ohrRrNJMU4KcHb/XSqb5Ulw==",
+        "node_modules/@corejslib/msgpack": {
+            "version": "3.5.9",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/msgpack/3.5.9/474ba5a128b048b3084a2e45cb72316419a624dc",
+            "integrity": "sha512-iBRDF68Xe7vDFyoxLGdAdzm7iI3dq65O0+z/I6akm5I/m354sg3kQ3Ez7SABpJaAEVZm8DNPFWSs/VhBKFL/4g==",
             "license": "ISC"
         },
-        "node_modules/@c0rejs/result": {
-            "version": "6.5.28",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/result/6.5.28/004a90bc0e3ddcb78d1c9f82a2865b5f82996fc5",
-            "integrity": "sha512-v5IVcaBSja+12zWMDBd5qgQosCMBeXRKSkaFhSI8uzCuGqEUqIVqIwoDA4FaFtfGWQtJFSUvwmkz7hFugcccxA==",
+        "node_modules/@corejslib/result": {
+            "version": "6.5.29",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/result/6.5.29/6b0fbeb4fd0a0a4930fed5ae6010564f71a1cb33",
+            "integrity": "sha512-ur1ngudbc/mVURLCh6DsPlOL7FSmnCwZKPK/yV29I/UKlfwi/W5YnoMEp/vu5MQ5a0/wtnbeL7b6iAfi/25awQ==",
             "license": "ISC",
             "peer": true
         },
-        "node_modules/@c0rejs/sqlite": {
-            "version": "1.28.40",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/sqlite/1.28.40/43e48e6586984c748d24e7de17e689e7e8675cf3",
-            "integrity": "sha512-ONrXHZoVTyo1uILs4Wau6F9YGgGarKU3qhGUIO3GZk5iuTE12X4KwUWucnHyUmtYgBPKSBQd1n6b+KWX/2y2ug==",
+        "node_modules/@corejslib/sqlite": {
+            "version": "1.28.41",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/sqlite/1.28.41/d5e33869d4e7566776180a3eae91d5940f379d77",
+            "integrity": "sha512-oyGTWJd/ToHxMHuqWvrJ6Ylg7aXWBBg4Ff0af237jNMrCpscLpxNki3ErNtJMVj+12eYjkQRmrIJXeEsu4+tjQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
-                "@c0rejs/utils": "^2.0.0"
+                "@corejslib/utils": "^2.0.0"
             }
         },
-        "node_modules/@c0rejs/utils": {
-            "version": "2.10.12",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/utils/2.10.12/c9109f30ceb54bcce7626fac8106ee795d80f511",
-            "integrity": "sha512-WlshpbdY29dhIlvHwDTjgbiJcN174F7KyBDYJ/jo4qt5d+J1W3Il7jYfLoms5Z8KK9oivyFZ6MtuVYNRfvZWlg==",
+        "node_modules/@corejslib/utils": {
+            "version": "2.10.13",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/utils/2.10.13/53efbfad40e9dea41a0fc15b4dc5899f67125bba",
+            "integrity": "sha512-Cu4p4VNBAPoWSzByEu9jlpsrOwApDx0t1UIm1QPohuJYIT8hU5now5oylJH1owqiIqneZOU0t7m9TtLSXKGC6A==",
             "license": "ISC",
             "peerDependencies": {
-                "@c0rejs/result": "^6.1.1",
+                "@corejslib/result": "^6.1.1",
                 "tar": "^7.0.0"
             }
         },
-        "node_modules/@c0rejs/uws": {
-            "version": "2.11.32",
-            "resolved": "https://npm.pkg.github.com/download/@c0rejs/uws/2.11.32/0c433e06152d21c1951cb9a7123863be15bc7ba3",
-            "integrity": "sha512-8OLWRocLLUGs4h2IAo5hJqEBSkpRb+nbcTtLzYR5AE46CPIx5fRh9S2joPcK9rircIL6ZXPiFQutxzTkhIIjfg==",
+        "node_modules/@corejslib/uws": {
+            "version": "2.11.33",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/uws/2.11.33/4c21adf17bdd3b74124d72cd1f23cddc2076d52d",
+            "integrity": "sha512-VUyaEaRMErdfyGGkV2ZNv7H42foM/5FJfqqXh+NGI+z10PXJsgR+Qd/Sn9pojbN0piOOjyTmkHq+FpqaWjyj3w==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
-                "@c0rejs/utils": "^2.0.0"
+                "@corejslib/utils": "^2.0.0"
             }
         },
         "node_modules/@cryptography/aes": {
@@ -2416,9 +2416,9 @@
             "license": "MIT"
         },
         "node_modules/commander": {
-            "version": "14.0.2",
-            "resolved": "https://registry.npmjs.org/commander/-/commander-14.0.2.tgz",
-            "integrity": "sha512-TywoWNNRbhoD0BXs1P3ZEScW8W5iKrnbithIl0YH+uCmBd0QpPOA8yc82DS3BIE5Ma6FnBVUsJ7wVUDz4dvOWQ==",
+            "version": "14.0.3",
+            "resolved": "https://registry.npmjs.org/commander/-/commander-14.0.3.tgz",
+            "integrity": "sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw==",
             "license": "MIT",
             "engines": {
                 "node": ">=20"

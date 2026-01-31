@@ -235,7 +235,7 @@ Array of links to the external projects config files to load external types:
 
 ```yaml
 externalTypes:
-  - https://c0rejs.github.io/core/
+  - https://corejslib.github.io/core/
 ```
 
 ## FAQ

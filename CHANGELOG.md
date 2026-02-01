@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.96.12 (2026-02-01)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: add pull / push emojis (● [c3394c6](https://github.com/softvisio/cli/commit/c3394c6e); 👬 zdm)
+
+- \[PATCH] refactor: update status command to get branches previous release in parallel (● [ba27afd](https://github.com/softvisio/cli/commit/ba27afd5), [02f1249](https://github.com/softvisio/cli/commit/02f1249f); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [373a5d6](https://github.com/softvisio/cli/commit/373a5d64); 👬 zdm)
+
+Compare with the previous release: [v3.96.11](https://github.com/softvisio/cli/compare/v3.96.11...v3.96.12)
+
 ### v3.96.11 (2026-01-31)
 
 **Code refactoring:**

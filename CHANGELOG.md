@@ -1,5 +1,25 @@
 # Changelog
 
+### v3.96.14 (2026-02-03)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix lint file mime type detection (● [a6bb768](https://github.com/softvisio/cli/commit/a6bb768e); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor status command (● [bf1a125](https://github.com/softvisio/cli/commit/bf1a125e); 👬 zdm)
+
+- \[PATCH] refactor: update File api (● [d80974f](https://github.com/softvisio/cli/commit/d80974f9); 👬 zdm)
+
+- \[PATCH] refactor: update fs api to use rmEmptyDir (● [925c03d](https://github.com/softvisio/cli/commit/925c03d4); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [dfd9b1d](https://github.com/softvisio/cli/commit/dfd9b1dd), [9b4d0f3](https://github.com/softvisio/cli/commit/9b4d0f37); 👬 zdm)
+
+Compare with the previous release: [v3.96.13](https://github.com/softvisio/cli/compare/v3.96.13...v3.96.14)
+
 ### v3.96.13 (2026-02-01)
 
 **Other changes:**

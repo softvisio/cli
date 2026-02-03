@@ -87,9 +87,9 @@
             }
         },
         "node_modules/@corejslib/core": {
-            "version": "7.201.0",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.201.0/34242bea512640a36bd86854c95eb9d0232238a1",
-            "integrity": "sha512-wWWPRTnNrpjBpJmgLnccrdEChZ4VTNT226EeFu9Sj5LYiwIlvH5AilZFRObSu5tD9KQzjT70Rznpob5y7wkeNw==",
+            "version": "7.201.1",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.201.1/05063d536c44cb64eec28fb4ef4843bc4e3bb3f6",
+            "integrity": "sha512-u4lY56feOr9YuEOqlysD0Ilu8MVT35Aqo8NjOYkygd9Gm/xckqqHoTJjGAGOHyroClxAOGXCUWvUz7rFELzNBQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {

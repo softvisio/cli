@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.96.16 (2026-02-05)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix docs builder (● [b91d774](https://github.com/softvisio/cli/commit/b91d7744); 👬 zdm)
+
+**Other changes:**
+
+- chore: remove @zdm npm registry (● [36d3b96](https://github.com/softvisio/cli/commit/36d3b962); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [c078f5b](https://github.com/softvisio/cli/commit/c078f5bd), [3bd754e](https://github.com/softvisio/cli/commit/3bd754ed); 👬 zdm)
+
+Compare with the previous release: [v3.96.15](https://github.com/softvisio/cli/compare/v3.96.15...v3.96.16)
+
 ### v3.96.15 (2026-02-03)
 
 **Other changes:**

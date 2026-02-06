@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.96.19 (2026-02-06)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update status report (● [622b6ce](https://github.com/softvisio/cli/commit/622b6ce4); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [5539027](https://github.com/softvisio/cli/commit/5539027b); 👬 zdm)
+
+Compare with the previous release: [v3.96.18](https://github.com/softvisio/cli/compare/v3.96.18...v3.96.19)
+
 ### v3.96.18 (2026-02-05)
 
 **Other changes:**

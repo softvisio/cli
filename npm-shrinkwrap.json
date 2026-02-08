@@ -3733,9 +3733,9 @@
             "license": "BSD-3-Clause"
         },
         "node_modules/fast-xml-parser": {
-            "version": "5.3.4",
-            "resolved": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-5.3.4.tgz",
-            "integrity": "sha512-EFd6afGmXlCx8H8WTZHhAoDaWaGyuIBoZJ2mknrNxug+aZKjkp0a0dlars9Izl+jF+7Gu1/5f/2h68cQpe0IiA==",
+            "version": "5.3.5",
+            "resolved": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-5.3.5.tgz",
+            "integrity": "sha512-JeaA2Vm9ffQKp9VjvfzObuMCjUYAp5WDYhRYL5LrBPY/jUDlUtOvDfot0vKSkB9tuX885BDHjtw4fZadD95wnA==",
             "funding": [
                 {
                     "type": "github",
@@ -3744,7 +3744,7 @@
             ],
             "license": "MIT",
             "dependencies": {
-                "strnum": "^2.1.0"
+                "strnum": "^2.1.2"
             },
             "bin": {
                 "fxparser": "src/cli/cli.js"
@@ -7814,9 +7814,9 @@
             }
         },
         "node_modules/undici": {
-            "version": "7.20.0",
-            "resolved": "https://registry.npmjs.org/undici/-/undici-7.20.0.tgz",
-            "integrity": "sha512-MJZrkjyd7DeC+uPZh+5/YaMDxFiiEEaDgbUSVMXayofAkDWF1088CDo+2RPg7B1BuS1qf1vgNE7xqwPxE0DuSQ==",
+            "version": "7.21.0",
+            "resolved": "https://registry.npmjs.org/undici/-/undici-7.21.0.tgz",
+            "integrity": "sha512-Hn2tCQpoDt1wv23a68Ctc8Cr/BHpUSfaPYrkajTXOS9IKpxVRx/X5m1K2YkbK2ipgZgxXSgsUinl3x+2YdSSfg==",
             "license": "MIT",
             "engines": {
                 "node": ">=20.18.1"

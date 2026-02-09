@@ -11,6 +11,9 @@ const CONFIG = [
             // eslint
             "curly": [ "error", "multi-line", "consistent" ],
             "eqeqeq": [ "error", "smart" ],
+
+            // "func-names": [ "error", "as-needed" ],
+
             "getter-return": [ "error", { "allowImplicit": true } ],
             "grouped-accessor-pairs": [ "error", "getBeforeSet" ],
             "no-constructor-return": "error",

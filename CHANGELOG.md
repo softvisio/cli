@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.97.0 (2026-02-15)
+
+**New features:**
+
+- \[MINOR] feat: add lint support for .peggy (● [c790a4d](https://github.com/softvisio/cli/commit/c790a4d1), [d242723](https://github.com/softvisio/cli/commit/d2427235); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bunp eslint-plugin-unicorn@^63.0.0 (● [69acd1f](https://github.com/softvisio/cli/commit/69acd1f2); 👬 zdm)
+
+- chore: update eslint rules (● [40b7ec0](https://github.com/softvisio/cli/commit/40b7ec0f); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [fb1eddb](https://github.com/softvisio/cli/commit/fb1eddbc), [f7dcc10](https://github.com/softvisio/cli/commit/f7dcc107), [653ddc8](https://github.com/softvisio/cli/commit/653ddc85), [71c8d88](https://github.com/softvisio/cli/commit/71c8d88f), [6e83975](https://github.com/softvisio/cli/commit/6e839756), [97e11b8](https://github.com/softvisio/cli/commit/97e11b87), [566a3bd](https://github.com/softvisio/cli/commit/566a3bda), [316d1d4](https://github.com/softvisio/cli/commit/316d1d4c), [0856ed4](https://github.com/softvisio/cli/commit/0856ed4d); 👬 zdm)
+
+Compare with the previous release: [v3.96.19](https://github.com/softvisio/cli/compare/v3.96.19...v3.97.0)
+
 ### v3.96.19 (2026-02-06)
 
 **Code refactoring:**

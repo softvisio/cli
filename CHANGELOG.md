@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.97.2 (2026-02-19)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor file tree (● [47b64dc](https://github.com/softvisio/cli/commit/47b64dc0); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [6f80fb3](https://github.com/softvisio/cli/commit/6f80fb3f), [000962b](https://github.com/softvisio/cli/commit/000962b3); 👬 zdm)
+
+Compare with the previous release: [v3.97.1](https://github.com/softvisio/cli/compare/v3.97.1...v3.97.2)
+
 ### v3.97.1 (2026-02-18)
 
 **Other changes:**

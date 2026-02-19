@@ -22,8 +22,8 @@ for ( const type in options.types ) {
     if ( !res.ok ) throw res;
     const fileTree = res.data;
 
-    for ( const file of fileTree ) {
-        data[ type + "/" + file.path ] = await file.text();
+    for ( const [ filePath, file ] of fileTree ) {
+        data[ type + "/" + filePath ] = await file.text();
     }
 }
 

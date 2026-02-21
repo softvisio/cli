@@ -133,9 +133,9 @@
             }
         },
         "node_modules/@corejslib/eslint-plugin": {
-            "version": "1.7.42",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/eslint-plugin/1.7.42/f41f1e1d7f2d93c13cc3d4cd48eab9d459ef9708",
-            "integrity": "sha512-Nt7w0yCF1CDG7y9jMESc4fdyB/e90Hz4xoWctSNHSHptmE8EN+DJ3q6douL4DV0n1RBAmUvCNrjVD4g62b6dYA==",
+            "version": "1.7.43",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/eslint-plugin/1.7.43/a350aeccc4d0b5f28cfcacdd943162220748544e",
+            "integrity": "sha512-s6B1f/68xmu4z7BLIDzx/7wNew8YPE3+1aTlRn9WIBwhJqiDsvuLAho1rx6XjaL4bZgc5URebH4kYlDSbg7Ntw==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"

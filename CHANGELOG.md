@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.97.7 (2026-02-21)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename objectIsPlain to isPlainObject (● [ce281b9](https://github.com/softvisio/cli/commit/ce281b96); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [c68d554](https://github.com/softvisio/cli/commit/c68d5545), [37af992](https://github.com/softvisio/cli/commit/37af9920); 👬 zdm)
+
+Compare with the previous release: [v3.97.6](https://github.com/softvisio/cli/compare/v3.97.6...v3.97.7)
+
 ### v3.97.6 (2026-02-20)
 
 **Other changes:**

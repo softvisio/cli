@@ -1098,9 +1098,9 @@
             }
         },
         "node_modules/@one-ini/wasm": {
-            "version": "0.2.0",
-            "resolved": "https://registry.npmjs.org/@one-ini/wasm/-/wasm-0.2.0.tgz",
-            "integrity": "sha512-n+L/BvrwKUn7q5O3wHGo+CJZAqfewh38+37sk+eBzv/39lM9pPgPRd4sOZRvSRzo0ukLxzyXso4WlGj2oKZ5hA==",
+            "version": "0.2.1",
+            "resolved": "https://registry.npmjs.org/@one-ini/wasm/-/wasm-0.2.1.tgz",
+            "integrity": "sha512-TUqERXGNTifZ9y2g3wPxQrw3HpHv/02DsW3D90T9x0hhonrL1ZqpSmNrU2XkoIq0fP1N6gZfVQzy2Fw1ZvGBNg==",
             "license": "MIT"
         },
         "node_modules/@oxc-parser/binding-android-arm64": {
@@ -3015,51 +3015,21 @@
             }
         },
         "node_modules/editorconfig": {
-            "version": "3.0.1",
-            "resolved": "https://registry.npmjs.org/editorconfig/-/editorconfig-3.0.1.tgz",
-            "integrity": "sha512-k5NZM2XNIJfH/omUv0SRYaiLae4VRwg1ILW6xLOjuP4AQGAGcvzNij5imJ+m1rbzDIH0ov6EbH53BW96amFXpQ==",
+            "version": "3.0.2",
+            "resolved": "https://registry.npmjs.org/editorconfig/-/editorconfig-3.0.2.tgz",
+            "integrity": "sha512-T0ix8GhtxyKVfUFEcvdNDt3YGqlwkFHbD4/5bgFUDgFmxhI/cSRAeJ87/Sz//Cq8Eam6JX/e23RkoFO71P7aAA==",
             "license": "MIT",
             "dependencies": {
-                "@one-ini/wasm": "0.2.0",
-                "commander": "^14.0.0",
-                "minimatch": "10.0.1",
-                "semver": "^7.7.2"
+                "@one-ini/wasm": "0.2.1",
+                "commander": "^14.0.3",
+                "minimatch": "~10.2.4",
+                "semver": "^7.7.4"
             },
             "bin": {
                 "editorconfig": "bin/editorconfig"
             },
             "engines": {
                 "node": ">=20"
-            }
-        },
-        "node_modules/editorconfig/node_modules/balanced-match": {
-            "version": "1.0.2",
-            "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz",
-            "integrity": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==",
-            "license": "MIT"
-        },
-        "node_modules/editorconfig/node_modules/brace-expansion": {
-            "version": "2.0.2",
-            "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.2.tgz",
-            "integrity": "sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ==",
-            "license": "MIT",
-            "dependencies": {
-                "balanced-match": "^1.0.0"
-            }
-        },
-        "node_modules/editorconfig/node_modules/minimatch": {
-            "version": "10.0.1",
-            "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-10.0.1.tgz",
-            "integrity": "sha512-ethXTt3SGGR+95gudmqJ1eNhRO7eGEGIgYA9vnPatK4/etz2MEVDno5GMCibdMTuBMyElzIlgxMna3K94XDIDQ==",
-            "license": "ISC",
-            "dependencies": {
-                "brace-expansion": "^2.0.1"
-            },
-            "engines": {
-                "node": "20 || >=22"
-            },
-            "funding": {
-                "url": "https://github.com/sponsors/isaacs"
             }
         },
         "node_modules/ejs": {
@@ -5862,9 +5832,9 @@
             }
         },
         "node_modules/moo": {
-            "version": "0.5.2",
-            "resolved": "https://registry.npmjs.org/moo/-/moo-0.5.2.tgz",
-            "integrity": "sha512-iSAJLHYKnX41mKcJKjqvnAN9sf0LMDTXDEvFv+ffuRR9a1MIuXLjMNL6EsnDHSkKLTWNqQQ5uo61P4EbU4NU+Q==",
+            "version": "0.5.3",
+            "resolved": "https://registry.npmjs.org/moo/-/moo-0.5.3.tgz",
+            "integrity": "sha512-m2fmM2dDm7GZQsY7KK2cme8agi+AAljILjQnof7p1ZMDe6dQ4bdnSMx0cPppudoeNv5hEFQirN6u+O4fDE0IWA==",
             "license": "BSD-3-Clause"
         },
         "node_modules/ms": {
@@ -7474,9 +7444,9 @@
             }
         },
         "node_modules/strnum": {
-            "version": "2.1.2",
-            "resolved": "https://registry.npmjs.org/strnum/-/strnum-2.1.2.tgz",
-            "integrity": "sha512-l63NF9y/cLROq/yqKXSLtcMeeyOfnSQlfMSlzFt/K73oIaD8DGaQWd7Z34X9GPiKqP5rbSh84Hl4bOlLcjiSrQ==",
+            "version": "2.2.0",
+            "resolved": "https://registry.npmjs.org/strnum/-/strnum-2.2.0.tgz",
+            "integrity": "sha512-Y7Bj8XyJxnPAORMZj/xltsfo55uOiyHcU2tnAVzHUnSJR/KsEX+9RoDeXEnsXtl/CX4fAcrt64gZ13aGaWPeBg==",
             "funding": [
                 {
                     "type": "github",

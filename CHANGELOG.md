@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.98.0 (2026-03-02)
+
+**New features:**
+
+- \[MINOR] feat: add verbose option to workspace metadata command (● [51ffc38](https://github.com/softvisio/cli/commit/51ffc387); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix test script command (● [5510501](https://github.com/softvisio/cli/commit/55105014); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [971b718](https://github.com/softvisio/cli/commit/971b7189), [81ad77d](https://github.com/softvisio/cli/commit/81ad77d6), [5fa4fbe](https://github.com/softvisio/cli/commit/5fa4fbe8), [2201004](https://github.com/softvisio/cli/commit/2201004e), [249f59e](https://github.com/softvisio/cli/commit/249f59ef), [2cf8a18](https://github.com/softvisio/cli/commit/2cf8a18d), [f944cc0](https://github.com/softvisio/cli/commit/f944cc0d), [77b4161](https://github.com/softvisio/cli/commit/77b41610), [08c7008](https://github.com/softvisio/cli/commit/08c7008b), [0810ffc](https://github.com/softvisio/cli/commit/0810ffcf), [84a8c14](https://github.com/softvisio/cli/commit/84a8c145); 👬 zdm)
+
+- chore(metadata): update package metadata (● [ef38b84](https://github.com/softvisio/cli/commit/ef38b84c); 👬 zdm)
+
+Compare with the previous release: [v3.97.7](https://github.com/softvisio/cli/compare/v3.97.7...v3.98.0)
+
 ### v3.97.7 (2026-02-21)
 
 **Code refactoring:**

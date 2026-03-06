@@ -246,14 +246,21 @@
     directory: false
     directories: false
     schedule:
-      type: object
-      properties:
-        interval: { enum: [cron, daily, weekly, monthly, quarterly, semiannually, yearly] }
-        cronjob: { type: string, format: cron }
-        day: { type: string, format: weekday }
-        time: { type: string, format: time }
-        timezone: { type: string, format: timezone }
-      additionalProperties: false
-      required: [interval]
+      anyOf:
+        - type: object
+          properties:
+            interval: { const: cron }
+            cronjob: { type: string, format: cron }
+            timezone: { type: string, format: timezone }
+          additionalProperties: false
+          required: [interval, cronjob]
+        - type: object
+          properties:
+            interval: { enum: [daily, weekly, monthly, quarterly, semiannually, yearly] }
+            day: { type: string, format: weekday }
+            time: { type: string, format: time }
+            timezone: { type: string, format: timezone }
+          additionalProperties: false
+          required: [interval]
     open-pull-requests-limit: { type: integer, minimum: 0 }
   required: [schedule]

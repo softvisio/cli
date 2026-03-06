@@ -1,257 +1,236 @@
-type: object
-properties:
-  meta:
-    type: object
-    properties:
-      homepage:
-        anyOf:
-          - type: "null"
-          - { type: string, format: url }
-
-      license: { type: ["null", string] }
-      author: { type: ["null", string] }
-
-      dependabot:
-        type: object
-        properties:
-          npm:
-            type: object
-            properties:
-              enabled: { type: boolean }
-              interval: { enum: [cron, daily, weekly, monthly, quarterly, semiannually, yearly] }
-              cronjob: { type: string, format: cron }
-              day: { type: string, format: weekday }
-              time: { type: string, format: time }
-              timezone: { type: string, format: timezone }
-              open-pull-requests-limit: { type: integer, minimum: 0 }
-
-            additionalProperties: false
-
-          docker:
-            type: object
-            properties:
-              enabled: { type: boolean }
-              interval: { enum: [cron, daily, weekly, monthly, quarterly, semiannually, yearly] }
-              cronjob: { type: string, format: cron }
-              day: { type: string, format: weekday }
-              time: { type: string, format: time }
-              timezone: { type: string, format: timezone }
-              open-pull-requests-limit: { type: integer, minimum: 0 }
-
-            additionalProperties: false
-
-          github-actions:
-            type: object
-            properties:
-              enabled: { type: boolean }
-              actionsEnabled: { type: boolean }
-              interval: { enum: [cron, daily, weekly, monthly, quarterly, semiannually, yearly] }
-              cronjob: { type: string, format: cron }
-              day: { type: string, format: weekday }
-              time: { type: string, format: time }
-              timezone: { type: string, format: timezone }
-              open-pull-requests-limit: { type: integer, minimum: 0 }
-
-            additionalProperties: false
-        additionalProperties: false
-
-      executables:
-        anyOf:
-          - type: "null"
-          - type: array
-            items: { type: string }
-            minItems: 1
-            uniqueItems: true
-
-      repository:
-        type: object
-        properties:
-          archived: { type: ["null", boolean] }
-          private: { type: ["null", boolean] }
-          visibility:
-            anyOf:
-              - type: "null"
-              - enum: [public, private]
-
-          hasIssues: { type: ["null", boolean] }
-          hasDiscussions: { type: ["null", boolean] }
-          hasWiki: { type: ["null", boolean] }
-          hasProjects: { type: ["null", boolean] }
-          defaultBranch: { type: ["null", string] }
-          allowForking: { type: ["null", boolean] }
-          webCommitSignoffRequired: { type: ["null", boolean] }
-
-          secretScanning:
-            anyOf:
-              - type: "null"
-              - enum: [enabled, disabled]
-
-          secretScanningPushProtection:
-            anyOf:
-              - type: "null"
-              - enum: [enabled, disabled]
-
-          vulnerabilityAlerts: { type: ["null", boolean] }
-          dependabotsecurityupdates: { type: ["null", boolean] }
-          privateVulnerabilityReporting: { type: ["null", boolean] }
-
-        additionalProperties: false
-
-    additionalProperties: false
-    required: [dependabot, executables, repository]
-
-  subPackages:
-    anyOf:
-      - type: "null"
-      - type: array
-        items: { type: string, format: glob-pattern, pattern: ^/ }
-        minItems: 1
-        uniqueItems: true
-
-  release:
-    type: object
-    properties:
-      enabled: { type: boolean }
-      releaseBranches:
-        anyOf:
-          - type: "null"
-          - const: false
-          - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
-      majorTagEnabled: { type: boolean }
-    additionalProperties: false
-    required: [enabled, releaseBranches, majorTagEnabled]
-
-  docker:
-    type: object
-    properties:
-      composeFile:
-        anyOf:
-          - type: string
-          - type: array
-            items: { type: string }
-            minItems: 1
-            uniqueItems: true
-
-      defaultTag: { type: ["null", string] }
-      autoTags:
-        anyOf:
-          - type: "null"
-          - type: array
-            items: { type: string }
-            minItems: 1
-            uniqueItems: true
-
-    additionalProperties: false
-    required: []
-
-  commits:
-    type: object
-    properties:
-      requireType: { type: boolean }
-      strictType: { type: boolean }
-
-      types:
-        type: object
-        propertyNames: { type: string, format: kebab-case }
-        additionalProperties:
+- $id: config
+  type: object
+  properties:
+    meta:
+      type: object
+      properties:
+        homepage:
           anyOf:
-            - const: false
-            - type: object
-              properties:
-                title: { type: string }
-                description: { type: string }
-                productionChange: { type: boolean }
-                notableChange: { type: boolean }
-                requireScope: { type: boolean }
-                strictScope: { type: boolean }
-                scopes:
-                  anyOf:
-                    - type: "null"
-                    - type: object
-                      propertyNames: { type: string, format: kebab-case }
-                      additionalProperties:
-                        anyOf:
-                          - const: false
-                          - type: string
-              additionalProperties: false
-              required: [description]
+            - type: "null"
+            - { type: string, format: url }
 
-      scopes:
-        anyOf:
-          - type: "null"
-          - type: object
-            propertyNames: { type: string, format: kebab-case }
-            additionalProperties:
+        license: { type: ["null", string] }
+        author: { type: ["null", string] }
+
+        dependabot:
+          type: object
+          properties:
+            npm: { $ref: dependabot }
+            docker: { $ref: dependabot }
+            github-actions: { $ref: dependabot }
+          additionalProperties: false
+
+        executables:
+          anyOf:
+            - type: "null"
+            - type: array
+              items: { type: string }
+              minItems: 1
+              uniqueItems: true
+
+        repository:
+          type: object
+          properties:
+            archived: { type: ["null", boolean] }
+            private: { type: ["null", boolean] }
+            visibility:
               anyOf:
-                - const: false
-                - type: string
+                - type: "null"
+                - enum: [public, private]
 
-    additionalProperties: false
-    required: [requireType, strictType, types, scopes]
+            hasIssues: { type: ["null", boolean] }
+            hasDiscussions: { type: ["null", boolean] }
+            hasWiki: { type: ["null", boolean] }
+            hasProjects: { type: ["null", boolean] }
+            defaultBranch: { type: ["null", string] }
+            allowForking: { type: ["null", boolean] }
+            webCommitSignoffRequired: { type: ["null", boolean] }
 
-  docs:
-    anyOf:
-      - type: "null"
-      - type: object
-        properties:
-          location: { enum: [/, /docs] }
-          aliases: { type: object, additionalProperties: { type: string, format: url } }
+            secretScanning:
+              anyOf:
+                - type: "null"
+                - enum: [enabled, disabled]
 
-          app:
-            type: object
-            properties:
-              api:
-                type: object
-                properties:
-                  url: { type: string, format: url }
+            secretScanningPushProtection:
+              anyOf:
+                - type: "null"
+                - enum: [enabled, disabled]
 
-                additionalProperties: false
-                required: [url]
-              rpc:
-                type: object
-                properties:
-                  url: { type: string, format: url }
+            vulnerabilityAlerts: { type: ["null", boolean] }
+            dependabotsecurityupdates: { type: ["null", boolean] }
+            privateVulnerabilityReporting: { type: ["null", boolean] }
 
-                additionalProperties: false
-                required: [url]
+          additionalProperties: false
 
-            additionalProperties: false
-            required: []
+      additionalProperties: false
+      required: [dependabot, executables, repository]
 
-          changelog:
+    subPackages:
+      anyOf:
+        - type: "null"
+        - type: array
+          items: { type: string, format: glob-pattern, pattern: ^/ }
+          minItems: 1
+          uniqueItems: true
+
+    release:
+      type: object
+      properties:
+        enabled: { type: boolean }
+        releaseBranches:
+          anyOf:
+            - type: "null"
+            - const: false
+            - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+        majorTagEnabled: { type: boolean }
+      additionalProperties: false
+      required: [enabled, releaseBranches, majorTagEnabled]
+
+    docker:
+      type: object
+      properties:
+        composeFile:
+          anyOf:
+            - type: string
+            - type: array
+              items: { type: string }
+              minItems: 1
+              uniqueItems: true
+
+        defaultTag: { type: ["null", string] }
+        autoTags:
+          anyOf:
+            - type: "null"
+            - type: array
+              items: { type: string }
+              minItems: 1
+              uniqueItems: true
+
+      additionalProperties: false
+      required: []
+
+    commits:
+      type: object
+      properties:
+        requireType: { type: boolean }
+        strictType: { type: boolean }
+
+        types:
+          type: object
+          propertyNames: { type: string, format: kebab-case }
+          additionalProperties:
             anyOf:
-              - { type: boolean }
-              - { type: string, format: url }
-
-          favicon: { type: string }
-          generateReadme: { type: boolean }
-          logo:
-            anyOf:
-              - { type: boolean }
-              - { type: string, format: url }
+              - const: false
               - type: object
                 properties:
-                  href: { type: string, format: url }
-                  width: { type: integer, minimum: 32 }
-                  height: { type: integer, minimum: 32 }
-
+                  title: { type: string }
+                  description: { type: string }
+                  productionChange: { type: boolean }
+                  notableChange: { type: boolean }
+                  requireScope: { type: boolean }
+                  strictScope: { type: boolean }
+                  scopes:
+                    anyOf:
+                      - type: "null"
+                      - type: object
+                        propertyNames: { type: string, format: kebab-case }
+                        additionalProperties:
+                          anyOf:
+                            - const: false
+                            - type: string
                 additionalProperties: false
-                required: [href]
+                required: [description]
 
-          name: { type: string }
-          siteURL: { type: string, format: url }
-          subMaxLevel: { type: integer, minimum: 0 }
-          types:
-            anyOf:
-              - type: "null"
-              - type: object
-                additionalProperties:
-                  type: ["null", string]
+        scopes:
+          anyOf:
+            - type: "null"
+            - type: object
+              propertyNames: { type: string, format: kebab-case }
+              additionalProperties:
+                anyOf:
+                  - const: false
+                  - type: string
 
-          externalTypes: { type: array, items: { type: string }, uniqueItems: true }
+      additionalProperties: false
+      required: [requireType, strictType, types, scopes]
 
-        additionalProperties: false
-        required: [location]
+    docs:
+      anyOf:
+        - type: "null"
+        - type: object
+          properties:
+            location: { enum: [/, /docs] }
+            aliases: { type: object, additionalProperties: { type: string, format: url } }
 
-additionalProperties: false
-required: [meta, release, commits]
+            app:
+              type: object
+              properties:
+                api:
+                  type: object
+                  properties:
+                    url: { type: string, format: url }
+
+                  additionalProperties: false
+                  required: [url]
+                rpc:
+                  type: object
+                  properties:
+                    url: { type: string, format: url }
+
+                  additionalProperties: false
+                  required: [url]
+
+              additionalProperties: false
+              required: []
+
+            changelog:
+              anyOf:
+                - { type: boolean }
+                - { type: string, format: url }
+
+            favicon: { type: string }
+            generateReadme: { type: boolean }
+            logo:
+              anyOf:
+                - { type: boolean }
+                - { type: string, format: url }
+                - type: object
+                  properties:
+                    href: { type: string, format: url }
+                    width: { type: integer, minimum: 32 }
+                    height: { type: integer, minimum: 32 }
+
+                  additionalProperties: false
+                  required: [href]
+
+            name: { type: string }
+            siteURL: { type: string, format: url }
+            subMaxLevel: { type: integer, minimum: 0 }
+            types:
+              anyOf:
+                - type: "null"
+                - type: object
+                  additionalProperties:
+                    type: ["null", string]
+
+            externalTypes: { type: array, items: { type: string }, uniqueItems: true }
+
+          additionalProperties: false
+          required: [location]
+
+  additionalProperties: false
+  required: [meta, release, commits]
+
+- $id: dependabot
+  type: object
+  properties:
+    enabled: { type: boolean }
+    actionsEnabled: { type: boolean } # XXX for github-actions only
+    interval: { enum: [cron, daily, weekly, monthly, quarterly, semiannually, yearly] }
+    cronjob: { type: string, format: cron }
+    day: { type: string, format: weekday }
+    time: { type: string, format: time }
+    timezone: { type: string, format: timezone }
+    open-pull-requests-limit: { type: integer, minimum: 0 }
+
+  additionalProperties: false

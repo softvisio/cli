@@ -175,9 +175,9 @@
             }
         },
         "node_modules/@corejslib/uws": {
-            "version": "2.11.36",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/uws/2.11.36/1dab080143f2bea28ad1900501d45bf2e3b20d24",
-            "integrity": "sha512-t7/TjtZcvSpVGDPjmX7Zlk5MAKLGoROw748NAdJH0xPdvRC9BoQkT9a0hxi7zPt4k1VUIJO3VImNPCQPY4kxcA==",
+            "version": "2.11.39",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/uws/2.11.39/85cdf2d7494306201f77358fae2327bb8ef02df7",
+            "integrity": "sha512-3WrMr/7+08uvIy9B7N7p3I7HRzHnClf/gerEPUfVYAxzjwkVP8SXvjBU7wIAtjnId4DFJ/GG3WMzYH3HXqU8Vw==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -1413,9 +1413,9 @@
             "license": "MIT"
         },
         "node_modules/@stylistic/eslint-plugin": {
-            "version": "5.9.0",
-            "resolved": "https://registry.npmjs.org/@stylistic/eslint-plugin/-/eslint-plugin-5.9.0.tgz",
-            "integrity": "sha512-FqqSkvDMYJReydrMhlugc71M76yLLQWNfmGq+SIlLa7N3kHp8Qq8i2PyWrVNAfjOyOIY+xv9XaaYwvVW7vroMA==",
+            "version": "5.10.0",
+            "resolved": "https://registry.npmjs.org/@stylistic/eslint-plugin/-/eslint-plugin-5.10.0.tgz",
+            "integrity": "sha512-nPK52ZHvot8Ju/0A4ucSX1dcPV2/1clx0kLcH5wDmrE4naKso7TUC/voUyU1O9OTKTrR6MYip6LP0ogEMQ9jPQ==",
             "license": "MIT",
             "dependencies": {
                 "@eslint-community/eslint-utils": "^4.9.1",
@@ -2336,9 +2336,9 @@
             }
         },
         "node_modules/caniuse-lite": {
-            "version": "1.0.30001776",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001776.tgz",
-            "integrity": "sha512-sg01JDPzZ9jGshqKSckOQthXnYwOEP50jeVFhaSFbZcOy05TiuuaffDOfcwtCisJ9kNQuLBFibYywv2Bgm9osw==",
+            "version": "1.0.30001777",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001777.tgz",
+            "integrity": "sha512-tmN+fJxroPndC74efCdp12j+0rk0RHwV5Jwa1zWaFVyw2ZxAuPeG8ZgWC3Wz7uSjT3qMRQ5XHZ4COgQmsCMJAQ==",
             "funding": [
                 {
                     "type": "opencollective",
@@ -2559,9 +2559,9 @@
             }
         },
         "node_modules/css-tree": {
-            "version": "3.2.0",
-            "resolved": "https://registry.npmjs.org/css-tree/-/css-tree-3.2.0.tgz",
-            "integrity": "sha512-t99A4LolkP0ZX9WUoaHz4YrPT1FKNlV8IDCeCPPpGaWyxegh64tt/BSUqN3u5necrYRon+ddZ6mPMjxIlfpobg==",
+            "version": "3.2.1",
+            "resolved": "https://registry.npmjs.org/css-tree/-/css-tree-3.2.1.tgz",
+            "integrity": "sha512-X7sjQzceUhu1u7Y/ylrRZFU2FS6LRiFVp6rKLPg23y3x3c3DOKAwuXGDp+PAGjh6CSnCjYeAul8pcT8bAl+lSA==",
             "license": "MIT",
             "dependencies": {
                 "mdn-data": "2.27.1",
@@ -6743,12 +6743,12 @@
             }
         },
         "node_modules/prettier-plugin-packagejson": {
-            "version": "3.0.0",
-            "resolved": "https://registry.npmjs.org/prettier-plugin-packagejson/-/prettier-plugin-packagejson-3.0.0.tgz",
-            "integrity": "sha512-z8/QmPSqx/ANvvQMWJSkSq1+ihBXeuwDEYdjX3ZjRJ5Ty1k7vGbFQfhzk2eDe0rwS/TNyRjWK/qnjJEStAOtDw==",
+            "version": "3.0.2",
+            "resolved": "https://registry.npmjs.org/prettier-plugin-packagejson/-/prettier-plugin-packagejson-3.0.2.tgz",
+            "integrity": "sha512-kmoj3hEynXwoHDo8ZhmWAIjRBoQWCDUVackiWfSDWdgD0rS3LGB61T9zoVbume/cotYdCoadUh4sqViAmXvpBQ==",
             "license": "MIT",
             "dependencies": {
-                "sort-package-json": "3.6.0"
+                "sort-package-json": "^3.6.0"
             },
             "peerDependencies": {
                 "prettier": "^3"
@@ -7287,9 +7287,9 @@
             "license": "MIT"
         },
         "node_modules/sort-package-json": {
-            "version": "3.6.0",
-            "resolved": "https://registry.npmjs.org/sort-package-json/-/sort-package-json-3.6.0.tgz",
-            "integrity": "sha512-fyJsPLhWvY7u2KsKPZn1PixbXp+1m7V8NWqU8CvgFRbMEX41Ffw1kD8n0CfJiGoaSfoAvbrqRRl/DcHO8omQOQ==",
+            "version": "3.6.1",
+            "resolved": "https://registry.npmjs.org/sort-package-json/-/sort-package-json-3.6.1.tgz",
+            "integrity": "sha512-Chgejw1+10p2D0U2tB7au1lHtz6TkFnxmvZktyBCRyV0GgmF6nl1IxXxAsPtJVsUyg/fo+BfCMAVVFUVRkAHrQ==",
             "license": "MIT",
             "dependencies": {
                 "detect-indent": "^7.0.2",

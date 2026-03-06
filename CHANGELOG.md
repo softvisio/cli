@@ -1,5 +1,27 @@
 # Changelog
 
+### v3.98.2 (2026-03-06)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dependabot generator (● [a134803](https://github.com/softvisio/cli/commit/a134803f), [7660610](https://github.com/softvisio/cli/commit/76606104), [72748ed](https://github.com/softvisio/cli/commit/72748ed1), [d524708](https://github.com/softvisio/cli/commit/d5247088), [b7a3364](https://github.com/softvisio/cli/commit/b7a3364f); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: encode secret keys to base64 (● [18b5f36](https://github.com/softvisio/cli/commit/18b5f362); 👬 zdm)
+
+- \[PATCH] refactor: update cli-config.schema (● [842a351](https://github.com/softvisio/cli/commit/842a3516), [e72b3c1](https://github.com/softvisio/cli/commit/e72b3c1b), [a2cef65](https://github.com/softvisio/cli/commit/a2cef652), [fc81549](https://github.com/softvisio/cli/commit/fc815491), [73cb523](https://github.com/softvisio/cli/commit/73cb5232), [011552c](https://github.com/softvisio/cli/commit/011552c0), [bd58fe4](https://github.com/softvisio/cli/commit/bd58fe45), [916b470](https://github.com/softvisio/cli/commit/916b4707), [4d4eb5d](https://github.com/softvisio/cli/commit/4d4eb5de), [eb51da5](https://github.com/softvisio/cli/commit/eb51da53); 👬 zdm)
+
+**Other changes:**
+
+- chore: update depandabot (● [db1917e](https://github.com/softvisio/cli/commit/db1917ed); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [251e6af](https://github.com/softvisio/cli/commit/251e6af2), [9391806](https://github.com/softvisio/cli/commit/93918060), [f5df234](https://github.com/softvisio/cli/commit/f5df2349), [8d6a3b7](https://github.com/softvisio/cli/commit/8d6a3b73), [a69dfb9](https://github.com/softvisio/cli/commit/a69dfb9d); 👬 zdm)
+
+- chore(metadata): update package metadata (● [a046d7b](https://github.com/softvisio/cli/commit/a046d7b9), [ba97cb6](https://github.com/softvisio/cli/commit/ba97cb64); 👬 zdm)
+
+Compare with the previous release: [v3.98.1](https://github.com/softvisio/cli/compare/v3.98.1...v3.98.2)
+
 ### v3.98.1 (2026-03-02)
 
 **Other changes:**

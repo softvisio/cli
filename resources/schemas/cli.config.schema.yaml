@@ -256,8 +256,15 @@
           required: [interval, cronjob]
         - type: object
           properties:
-            interval: { enum: [daily, weekly, monthly, quarterly, semiannually, yearly] }
+            interval: { const: weekly }
             day: { type: string, format: weekday }
+            time: { type: string, format: time }
+            timezone: { type: string, format: timezone }
+          additionalProperties: false
+          required: [interval]
+        - type: object
+          properties:
+            interval: { enum: [daily, monthly, quarterly, semiannually, yearly] }
             time: { type: string, format: time }
             timezone: { type: string, format: timezone }
           additionalProperties: false

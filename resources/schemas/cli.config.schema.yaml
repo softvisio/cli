@@ -225,25 +225,31 @@
   type: object
   properties:
     enabled: { type: boolean }
-    interval: { enum: [cron, daily, weekly, monthly, quarterly, semiannually, yearly] }
-    cronjob: { type: string, format: cron }
-    day: { type: string, format: weekday }
-    time: { type: string, format: time }
-    timezone: { type: string, format: timezone }
-    open-pull-requests-limit: { type: integer, minimum: 0 }
-
+    config: { $ref: dependabot-config }
   additionalProperties: false
+  required: [enabled, config]
 
 - $id: dependabot-github-actions
   type: object
   properties:
     enabled: { type: boolean }
-    actionsEnabled: { type: boolean } # XXX for github-actions only
-    interval: { enum: [cron, daily, weekly, monthly, quarterly, semiannually, yearly] }
-    cronjob: { type: string, format: cron }
-    day: { type: string, format: weekday }
-    time: { type: string, format: time }
-    timezone: { type: string, format: timezone }
-    open-pull-requests-limit: { type: integer, minimum: 0 }
-
+    actionsEnabled: { type: boolean }
+    config: { $ref: dependabot-config }
   additionalProperties: false
+  required: [enabled, actionsEnabled, config]
+
+- $id: dependabot-config
+  type: object
+  properties:
+    schedule:
+      type: object
+      properties:
+        interval: { enum: [cron, daily, weekly, monthly, quarterly, semiannually, yearly] }
+        cronjob: { type: string, format: cron }
+        day: { type: string, format: weekday }
+        time: { type: string, format: time }
+        timezone: { type: string, format: timezone }
+      additionalProperties: false
+      required: [interval]
+    open-pull-requests-limit: { type: integer, minimum: 0 }
+  required: [schedule]

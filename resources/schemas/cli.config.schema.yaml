@@ -241,6 +241,9 @@
 - $id: dependabot-config
   type: object
   properties:
+    package-ecosystem: false
+    registries: false
+    directories: false
     schedule:
       type: object
       properties:

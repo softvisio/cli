@@ -8,24 +8,21 @@ meta:
   dependabot:
     npm:
       enabled: true
-      interval: weekly
-      day: Monday
-      time: 00:00
+      interval: cron
+      cronjob: 0 0 * * 1
       timezone: UTC
       open-pull-requests-limit: 5
     docker:
       enabled: true
-      interval: daily
-      day: Monday
-      time: 00:00
+      interval: cron
+      cronjob: 0 0 * * *
       timezone: UTC
       open-pull-requests-limit: 5
     github-actions:
       enabled: true
       actionsEnabled: false
-      interval: daily
-      day: Monday
-      time: 00:00
+      interval: cron
+      cronjob: 0 0 * * *
       timezone: UTC
       open-pull-requests-limit: 5
 

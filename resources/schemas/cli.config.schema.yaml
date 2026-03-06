@@ -18,7 +18,8 @@ properties:
             type: object
             properties:
               enabled: { type: boolean }
-              interval: { enum: [daily, weekly, monthly] }
+              interval: { enum: [cron, daily, weekly, monthly, quarterly, semiannually, yearly] }
+              cronjob: { type: string, format: cron }
               day: { type: string, format: weekday }
               time: { type: string, format: time }
               timezone: { type: string, format: timezone }
@@ -30,7 +31,8 @@ properties:
             type: object
             properties:
               enabled: { type: boolean }
-              interval: { enum: [daily, weekly, monthly] }
+              interval: { enum: [cron, daily, weekly, monthly, quarterly, semiannually, yearly] }
+              cronjob: { type: string, format: cron }
               day: { type: string, format: weekday }
               time: { type: string, format: time }
               timezone: { type: string, format: timezone }
@@ -43,7 +45,8 @@ properties:
             properties:
               enabled: { type: boolean }
               actionsEnabled: { type: boolean }
-              interval: { enum: [daily, weekly, monthly] }
+              interval: { enum: [cron, daily, weekly, monthly, quarterly, semiannually, yearly] }
+              cronjob: { type: string, format: cron }
               day: { type: string, format: weekday }
               time: { type: string, format: time }
               timezone: { type: string, format: timezone }

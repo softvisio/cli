@@ -87,9 +87,9 @@
             }
         },
         "node_modules/@corejslib/core": {
-            "version": "7.208.3",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.208.3/367c25d0d328ec1389c64a1b635e3671739955ae",
-            "integrity": "sha512-XKsh68qd/ZQZybaWSRY833OmA0KWctButDE7K4cQrAjn/GmSzcdJYb/DgUeJqGWGm5mtSSyjufemHb4cMjzAgA==",
+            "version": "7.208.5",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.208.5/fed8c6d4ea24758a6dc3d41d3cd4db717b4ca8fc",
+            "integrity": "sha512-zvVM7n9mpnc5WR7yj5EXiLf8KGQ3hva5vw/IXNvcwjX+LI2Kx5skYRIkIR5ZnjCNGzAoQoY9O+poMtmHrZWN9w==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -417,9 +417,9 @@
             }
         },
         "node_modules/@eslint/js": {
-            "version": "9.39.3",
-            "resolved": "https://registry.npmjs.org/@eslint/js/-/js-9.39.3.tgz",
-            "integrity": "sha512-1B1VkCq6FuUNlQvlBYb+1jDu/gV297TIs/OeiaSR9l1H27SVW55ONE1e1Vp16NqP683+xEGzxYtv4XCiDPaQiw==",
+            "version": "9.39.4",
+            "resolved": "https://registry.npmjs.org/@eslint/js/-/js-9.39.4.tgz",
+            "integrity": "sha512-nE7DEIchvtiFTwBw4Lfbu59PG+kCofhjsKaCWzxTpt4lfRjRMqG6uMBzKXuEcyXhOHoUp9riAm7/aWYGhXZ9cw==",
             "license": "MIT",
             "engines": {
                 "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
@@ -3260,24 +3260,24 @@
             }
         },
         "node_modules/eslint": {
-            "version": "9.39.3",
-            "resolved": "https://registry.npmjs.org/eslint/-/eslint-9.39.3.tgz",
-            "integrity": "sha512-VmQ+sifHUbI/IcSopBCF/HO3YiHQx/AVd3UVyYL6weuwW+HvON9VYn5l6Zl1WZzPWXPNZrSQpxwkkZ/VuvJZzg==",
+            "version": "9.39.4",
+            "resolved": "https://registry.npmjs.org/eslint/-/eslint-9.39.4.tgz",
+            "integrity": "sha512-XoMjdBOwe/esVgEvLmNsD3IRHkm7fbKIUGvrleloJXUZgDHig2IPWNniv+GwjyJXzuNqVjlr5+4yVUZjycJwfQ==",
             "license": "MIT",
             "dependencies": {
                 "@eslint-community/eslint-utils": "^4.8.0",
                 "@eslint-community/regexpp": "^4.12.1",
-                "@eslint/config-array": "^0.21.1",
+                "@eslint/config-array": "^0.21.2",
                 "@eslint/config-helpers": "^0.4.2",
                 "@eslint/core": "^0.17.0",
-                "@eslint/eslintrc": "^3.3.1",
-                "@eslint/js": "9.39.3",
+                "@eslint/eslintrc": "^3.3.5",
+                "@eslint/js": "9.39.4",
                 "@eslint/plugin-kit": "^0.4.1",
                 "@humanfs/node": "^0.16.6",
                 "@humanwhocodes/module-importer": "^1.0.1",
                 "@humanwhocodes/retry": "^0.4.2",
                 "@types/estree": "^1.0.6",
-                "ajv": "^6.12.4",
+                "ajv": "^6.14.0",
                 "chalk": "^4.0.0",
                 "cross-spawn": "^7.0.6",
                 "debug": "^4.3.2",
@@ -3296,7 +3296,7 @@
                 "is-glob": "^4.0.0",
                 "json-stable-stringify-without-jsonify": "^1.0.1",
                 "lodash.merge": "^4.6.2",
-                "minimatch": "^3.1.2",
+                "minimatch": "^3.1.5",
                 "natural-compare": "^1.4.0",
                 "optionator": "^0.9.3"
             },
@@ -3667,9 +3667,9 @@
             }
         },
         "node_modules/espree": {
-            "version": "11.1.1",
-            "resolved": "https://registry.npmjs.org/espree/-/espree-11.1.1.tgz",
-            "integrity": "sha512-AVHPqQoZYc+RUM4/3Ly5udlZY/U4LS8pIG05jEjWM2lQMU/oaZ7qshzAl2YP1tfNmXfftH3ohurfwNAug+MnsQ==",
+            "version": "11.2.0",
+            "resolved": "https://registry.npmjs.org/espree/-/espree-11.2.0.tgz",
+            "integrity": "sha512-7p3DrVEIopW1B1avAGLuCSh1jubc01H2JHc8B4qqGblmg5gI9yumBgACjWo4JlIc04ufug4xJ3SQI8HkS/Rgzw==",
             "license": "BSD-2-Clause",
             "dependencies": {
                 "acorn": "^8.16.0",

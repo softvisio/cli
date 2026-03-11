@@ -3,10 +3,13 @@ import Comments from "./comments.js";
 import Corejslib from "./corejslib.js";
 import Eslint from "./eslint.js";
 import Globals from "./globals.js";
-import Import from "./import.js";
+import ImportX from "./import-x.js";
 import LanguageOptions from "./language-options.js";
 import Stylistic from "./stylistic.js";
 import Unicorn from "./unicorn.js";
+
+// eslint-plugin-import
+// import Import from "./import.js";
 
 class EslintConfig {
 
@@ -58,7 +61,7 @@ export default class Config extends mixins(
     LanguageOptions,
     Globals,
     Stylistic,
-    Import,
+    ImportX,
     Unicorn,
     Corejslib,
     Comments,

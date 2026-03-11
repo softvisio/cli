@@ -134,12 +134,15 @@
             }
         },
         "node_modules/@corejslib/eslint-plugin": {
-            "version": "1.8.0",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/eslint-plugin/1.8.0/653dad15254ab2afdf3190afd76453cac84015ff",
-            "integrity": "sha512-OVYLfbt2aFVp1DLJZ8YmfwVTWVsMafLDEmniOm4OaJc4bOQ8tjR7bxm0QoJGeGcZRjoW+YPAcxwffJAsOCIFUQ==",
+            "version": "1.8.1",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/eslint-plugin/1.8.1/769a35986166273443032d83923659ed0de634d9",
+            "integrity": "sha512-1cFVwJHnxNBTh6UcO5qgH7+ZP37AdqsUjnGNxEnQfwc1XoYyc0hvAMIeFfidd3bpNtDVNMO3vQfwwYNlhtVP7Q==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"
+            },
+            "peerDependencies": {
+                "eslint": "^10.0.3"
             }
         },
         "node_modules/@corejslib/msgpack": {

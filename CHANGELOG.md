@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.99.0 (2026-03-11)
+
+**New features:**
+
+- \[MINOR] feat: migrate eslint-plugin-import to eslint-plugin-import-x (● [2aab3ab](https://github.com/softvisio/cli/commit/2aab3abf), [12e04ab](https://github.com/softvisio/cli/commit/12e04ab7); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename objectIsEmpty to isEmptyObject (● [042bdf4](https://github.com/softvisio/cli/commit/042bdf40); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [6816a44](https://github.com/softvisio/cli/commit/6816a44a), [889fe6d](https://github.com/softvisio/cli/commit/889fe6d9), [8f32b0b](https://github.com/softvisio/cli/commit/8f32b0bd), [ae9ad79](https://github.com/softvisio/cli/commit/ae9ad795), [914e2c1](https://github.com/softvisio/cli/commit/914e2c10), [16e8864](https://github.com/softvisio/cli/commit/16e88649), [694887e](https://github.com/softvisio/cli/commit/694887e3), [f9bdd53](https://github.com/softvisio/cli/commit/f9bdd536); 👬 zdm)
+
+Compare with the previous release: [v3.98.3](https://github.com/softvisio/cli/compare/v3.98.3...v3.99.0)
+
 ### v3.98.3 (2026-03-06)
 
 **Other changes:**

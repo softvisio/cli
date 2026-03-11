@@ -98,6 +98,15 @@ const CONFIG = [
     },
 ];
 
+const OVERRIDES = [
+    {
+        "name": "unicorn overrides",
+        "rules": {
+            "import/enforce-node-protocol-usage": "off",
+        },
+    },
+];
+
 export default Super =>
     class extends Super {
 
@@ -108,6 +117,15 @@ export default Super =>
                 //
                 ...super._createConfig(),
                 ...CONFIG,
+            ];
+        }
+
+        _createOverrides () {
+            return [
+
+                //
+                ...super._createOverrides(),
+                ...OVERRIDES,
             ];
         }
     };

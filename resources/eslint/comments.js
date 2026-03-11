@@ -1,21 +1,23 @@
-import eslintComments from "eslint-plugin-eslint-comments";
+import eslintComments from "@eslint-community/eslint-plugin-eslint-comments";
 
 const CONFIG = [
     // eslint-comments:recommended
     {
         "name": "eslint-comments",
         "plugins": {
-            "eslint-comments": eslintComments,
+            "@eslint-community/eslint-comments": eslintComments,
         },
         "rules": {
             ...eslintComments.configs.recommended.rules,
-            "eslint-comments/disable-enable-pair": [
+            "@eslint-community/eslint-comments/disable-enable-pair": [
                 "error",
                 {
                     "allowWholeFile": true,
                 },
             ],
-            "eslint-comments/no-unused-disable": "error",
+
+            // XXX deprecated
+            "@eslint-community/eslint-comments/no-unused-disable": "error",
         },
     },
 ];

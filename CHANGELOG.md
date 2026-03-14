@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.100.0 (2026-03-14)
+
+**New features:**
+
+- \[MINOR] feat: migrate to eslint 10 (● [db7bb37](https://github.com/softvisio/cli/commit/db7bb37d); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dependencies updater (● [0768043](https://github.com/softvisio/cli/commit/0768043a), [a15e399](https://github.com/softvisio/cli/commit/a15e3995), [b3462d1](https://github.com/softvisio/cli/commit/b3462d15); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8738929](https://github.com/softvisio/cli/commit/87389299), [135f06b](https://github.com/softvisio/cli/commit/135f06bb), [5205630](https://github.com/softvisio/cli/commit/52056305), [eaeca0e](https://github.com/softvisio/cli/commit/eaeca0e7), [b23a684](https://github.com/softvisio/cli/commit/b23a6845), [e10ba69](https://github.com/softvisio/cli/commit/e10ba69a), [9561428](https://github.com/softvisio/cli/commit/95614282); 👬 zdm)
+
+- style: lint (● [f5d1365](https://github.com/softvisio/cli/commit/f5d13655); 👬 zdm)
+
+Compare with the previous release: [v3.99.0](https://github.com/softvisio/cli/compare/v3.99.0...v3.100.0)
+
 ### v3.99.0 (2026-03-11)
 
 **New features:**

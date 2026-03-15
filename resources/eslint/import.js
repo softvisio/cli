@@ -1,4 +1,4 @@
-import eslintImport from "eslint-plugin-import";
+import eslintImportX from "eslint-plugin-import-x";
 import eslintSimpleImportSort from "eslint-plugin-simple-import-sort";
 
 // import { fileURLToPath } from "node:url";
@@ -8,39 +8,35 @@ const CONFIG = [
     {
         "name": "import",
         "plugins": {
-            "import": eslintImport,
+            "import-x": eslintImportX,
             "import-sort": eslintSimpleImportSort,
         },
         "settings": {
-            "import/resolver": {
+            "import-x/resolver": {
 
                 // [ nodeResolverPath ]: {},
                 // "node": true,
                 // "webpack": true,
                 // "typescript": true,
             },
-            "import/parsers": {
+            "import-x/parsers": {
                 "typescript-eslint/parser": [ ".ts", ".tsx", ".mts", ".cts" ],
                 "vue-eslint-parser": [ ".vue" ],
             },
         },
         "rules": {
+            "import-x/export": "error",
+            "import-x/no-named-as-default-member": "error",
+            "import-x/no-duplicates": "error",
+            "import-x/first": "error",
+            "import-x/newline-after-import": "error",
 
-            // NOTE: covered by "unicorn/prefer-node-protocol"
-            // "import/enforce-node-protocol-usage": [ "error", "always" ],
-
-            "import/export": "error",
-            "import/no-named-as-default-member": "error",
-            "import/no-duplicates": "error",
-            "import/first": "error",
-            "import/newline-after-import": "error",
-
-            // "import/no-unresolved": "error",
-            // "import/default": "error",
-            // "import/no-named-as-default": "error",
+            // "import-x/no-unresolved": "error",
+            // "import-x/default": "error",
+            // "import-x/no-named-as-default": "error",
 
             // XXX does not supports re-exports
-            "import/namespace": [
+            "import-x/namespace": [
                 "error",
                 {
                     "allowComputed": true,
@@ -48,9 +44,9 @@ const CONFIG = [
             ],
 
             // XXX does not supports re-exporrt
-            "import/named": "error",
+            "import-x/named": "error",
 
-            "import/no-cycle": [
+            "import-x/no-cycle": [
                 "error",
                 {
                     "maxDepth": Infinity,
@@ -74,7 +70,7 @@ const OVERRIDES = [
         "name": "import overrides",
         "rules": {
             "sort-imports": "off",
-            "import/order": "off",
+            "import-x/order": "off",
         },
     },
 ];

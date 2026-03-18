@@ -7,7 +7,7 @@ meta:
 
   dependabot:
     npm:
-      enabled: true
+      enabled: false
       config:
         schedule:
           interval: cron

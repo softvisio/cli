@@ -50,7 +50,7 @@ meta:
     secretScanning: enabled
     secretScanningPushProtection: enabled
     vulnerabilityAlerts: true
-    dependabotsecurityupdates: true
+    dependabotsecurityupdates: false
     privateVulnerabilityReporting: true
 
 release:

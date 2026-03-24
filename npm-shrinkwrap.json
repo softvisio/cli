@@ -88,9 +88,9 @@
             }
         },
         "node_modules/@corejslib/core": {
-            "version": "7.211.0",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.211.0/e4f213324d7d861383539467da8a3c440d81457b",
-            "integrity": "sha512-E09HgY2wh4h81uFUFgohaTLQjEat13khc9PjTIgVwy1GZ7hBvd10yBJ3OJju38buRI7bnqqjln4qhJP4qjrYkQ==",
+            "version": "7.211.1",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.211.1/b6f83da7b27ad29f5b98b91cc0a60e0444ce5137",
+            "integrity": "sha512-N4rQoqNoEBphg/MVSjUG8GL5Lr9Q1dfUfas7sbK9RG8oY4EQwx7kdO0QORlQSauEfnCkrziMd+VHsX0f4Z+Yrw==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -179,9 +179,9 @@
             }
         },
         "node_modules/@corejslib/uws": {
-            "version": "2.11.41",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/uws/2.11.41/1501ba2cfd64763caf780dcff208766b47e774be",
-            "integrity": "sha512-Zcwweh+HiKQ9FDYv3o4GdwnISDIvLtgX9Cjq/kNwU5L52EDDGWl13TNFQ70O/BN7N7sLQmWVC0o02KkW5NxmIQ==",
+            "version": "2.11.42",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/uws/2.11.42/c4bd39ee8fccebc8f3c80f00799437ea62a3ad92",
+            "integrity": "sha512-rjA5txhE7EobUNJTHG1d7Mo3vRM7TNOe6HH4bKYwM6XL9WTxG/tvgVrIYNyycPfJfyAfvRBUAbF0zU9GFmefQg==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -5009,9 +5009,9 @@
             "license": "ISC"
         },
         "node_modules/picomatch": {
-            "version": "4.0.3",
-            "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz",
-            "integrity": "sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==",
+            "version": "4.0.4",
+            "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz",
+            "integrity": "sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==",
             "license": "MIT",
             "engines": {
                 "node": ">=12"

@@ -1,5 +1,35 @@
 # Changelog
 
+### v3.100.1 (2026-03-25)
+
+**Bug fixes:**
+
+- \[PATCH] fix: disable dependabot PR creation by default (● [cd19478](https://github.com/softvisio/cli/commit/cd194783); 👬 zdm)
+
+- \[PATCH] fix: disable npm dependabot (● [06beb27](https://github.com/softvisio/cli/commit/06beb277), [778e13b](https://github.com/softvisio/cli/commit/778e13bf), [66d4bfe](https://github.com/softvisio/cli/commit/66d4bfef), [364d9b2](https://github.com/softvisio/cli/commit/364d9b24); 👬 zdm)
+
+- \[PATCH] fix: fix package import (● [14a139e](https://github.com/softvisio/cli/commit/14a139e1); 👬 zdm)
+
+- \[PATCH] fix: fix package release class name (● [fb78e15](https://github.com/softvisio/cli/commit/fb78e157); 👬 zdm)
+
+- \[PATCH] fix: fix publish subpackages (● [4fbf950](https://github.com/softvisio/cli/commit/4fbf9505); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor deps updater (● [ea69c98](https://github.com/softvisio/cli/commit/ea69c98f), [5c4f27a](https://github.com/softvisio/cli/commit/5c4f27ab), [637c103](https://github.com/softvisio/cli/commit/637c103f), [c876def](https://github.com/softvisio/cli/commit/c876def0), [47ce4a5](https://github.com/softvisio/cli/commit/47ce4a5c), [76857d4](https://github.com/softvisio/cli/commit/76857d4d), [232c121](https://github.com/softvisio/cli/commit/232c1219), [9cd9d2e](https://github.com/softvisio/cli/commit/9cd9d2e4), [a3ed98e](https://github.com/softvisio/cli/commit/a3ed98ef), [d47a8b3](https://github.com/softvisio/cli/commit/d47a8b3f); 👬 zdm)
+
+- \[PATCH] refactor: remove eslint import (● [40d9d53](https://github.com/softvisio/cli/commit/40d9d53c); 👬 zdm)
+
+- \[PATCH] refactor: update cli spec (● [e130730](https://github.com/softvisio/cli/commit/e130730a); 👬 zdm)
+
+- \[PATCH] refactor: update release accessor (● [ef69173](https://github.com/softvisio/cli/commit/ef69173e); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [7b29e51](https://github.com/softvisio/cli/commit/7b29e517), [80757f9](https://github.com/softvisio/cli/commit/80757f99), [7ea43f9](https://github.com/softvisio/cli/commit/7ea43f90), [36a2131](https://github.com/softvisio/cli/commit/36a2131f), [2bc70e4](https://github.com/softvisio/cli/commit/2bc70e40), [ccc942d](https://github.com/softvisio/cli/commit/ccc942d1), [a174084](https://github.com/softvisio/cli/commit/a1740840), [f807e9c](https://github.com/softvisio/cli/commit/f807e9cf), [ad5b8a9](https://github.com/softvisio/cli/commit/ad5b8a93), [d905416](https://github.com/softvisio/cli/commit/d9054168), [f6e9625](https://github.com/softvisio/cli/commit/f6e9625f), [7eb6b44](https://github.com/softvisio/cli/commit/7eb6b447), [fd74334](https://github.com/softvisio/cli/commit/fd74334b), [407357c](https://github.com/softvisio/cli/commit/407357cc), [99d6261](https://github.com/softvisio/cli/commit/99d62611), [60cf5df](https://github.com/softvisio/cli/commit/60cf5dfc); 👬 zdm)
+
+Compare with the previous release: [v3.100.0](https://github.com/softvisio/cli/compare/v3.100.0...v3.100.1)
+
 ### v3.100.0 (2026-03-14)
 
 **New features:**

@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.100.2 (2026-03-25)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dependency updater (● [a046cc7](https://github.com/softvisio/cli/commit/a046cc7a), [79ab40c](https://github.com/softvisio/cli/commit/79ab40c9), [8826694](https://github.com/softvisio/cli/commit/88266948), [0034d04](https://github.com/softvisio/cli/commit/0034d048), [0614896](https://github.com/softvisio/cli/commit/06148964), [bab3eb3](https://github.com/softvisio/cli/commit/bab3eb3f), [263c77f](https://github.com/softvisio/cli/commit/263c77fe), [57a19f2](https://github.com/softvisio/cli/commit/57a19f2e), [5c689b7](https://github.com/softvisio/cli/commit/5c689b71), [9341c93](https://github.com/softvisio/cli/commit/9341c93d), [199c50e](https://github.com/softvisio/cli/commit/199c50ee), [200b3fb](https://github.com/softvisio/cli/commit/200b3fbe), [ea71802](https://github.com/softvisio/cli/commit/ea71802a), [1ee7412](https://github.com/softvisio/cli/commit/1ee74129), [494ca5a](https://github.com/softvisio/cli/commit/494ca5a3), [b644230](https://github.com/softvisio/cli/commit/b6442307), [74481f8](https://github.com/softvisio/cli/commit/74481f87); 👬 zdm)
+
+- \[PATCH] fix: fix ls report (● [1e93674](https://github.com/softvisio/cli/commit/1e93674a); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [7f7fc57](https://github.com/softvisio/cli/commit/7f7fc573), [dfb3860](https://github.com/softvisio/cli/commit/dfb38609); 👬 zdm)
+
+Compare with the previous release: [v3.100.1](https://github.com/softvisio/cli/compare/v3.100.1...v3.100.2)
+
 ### v3.100.1 (2026-03-25)
 
 **Bug fixes:**

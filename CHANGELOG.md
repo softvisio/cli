@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.100.3 (2026-03-25)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dependency updater (● [b4a3489](https://github.com/softvisio/cli/commit/b4a34897); 👬 zdm)
+
+Compare with the previous release: [v3.100.2](https://github.com/softvisio/cli/compare/v3.100.2...v3.100.3)
+
 ### v3.100.2 (2026-03-25)
 
 **Bug fixes:**

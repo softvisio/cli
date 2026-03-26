@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.100.4 (2026-03-26)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix cssnano import (● [5bf4359](https://github.com/softvisio/cli/commit/5bf43599); 👬 zdm)
+
+Compare with the previous release: [v3.100.3](https://github.com/softvisio/cli/compare/v3.100.3...v3.100.4)
+
 ### v3.100.3 (2026-03-25)
 
 **Bug fixes:**

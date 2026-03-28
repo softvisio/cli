@@ -8,6 +8,7 @@ const CONFIG = [
         },
         "rules": {
             "unicorn/better-regex": "error",
+            "unicorn/consistent-template-literal-escape": "error",
             "unicorn/prefer-optional-catch-binding": "error",
             "unicorn/catch-error-name": [
                 "error",

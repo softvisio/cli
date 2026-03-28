@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.101.1 (2026-03-28)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix npm api (● [5821eab](https://github.com/softvisio/cli/commit/5821eab5); 👬 zdm)
+
+Compare with the previous release: [v3.101.0](https://github.com/softvisio/cli/compare/v3.101.0...v3.101.1)
+
 ### v3.101.0 (2026-03-28)
 
 **New features:**

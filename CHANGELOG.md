@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.101.0 (2026-03-28)
+
+**New features:**
+
+- \[MINOR] feat: add unicorn consistent-template-literal-escape (● [41ca7f5](https://github.com/softvisio/cli/commit/41ca7f51); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix npm api (● [e6c751d](https://github.com/softvisio/cli/commit/e6c751d6); 👬 zdm)
+
+- \[PATCH] fix: fix npm tests runner (● [301706c](https://github.com/softvisio/cli/commit/301706ca), [5c4bffe](https://github.com/softvisio/cli/commit/5c4bffe9), [190e2c7](https://github.com/softvisio/cli/commit/190e2c7a); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [4af08a8](https://github.com/softvisio/cli/commit/4af08a8c), [bb6e439](https://github.com/softvisio/cli/commit/bb6e4397), [5a54804](https://github.com/softvisio/cli/commit/5a54804f); 👬 zdm)
+
+Compare with the previous release: [v3.100.6](https://github.com/softvisio/cli/compare/v3.100.6...v3.101.0)
+
 ### v3.100.6 (2026-03-27)
 
 **Other changes:**

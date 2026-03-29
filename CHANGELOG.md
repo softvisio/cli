@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.101.2 (2026-03-29)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix deps updater semver compare (● [ba267a7](https://github.com/softvisio/cli/commit/ba267a70); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [91e4220](https://github.com/softvisio/cli/commit/91e4220d), [5a90fb5](https://github.com/softvisio/cli/commit/5a90fb5b); 👬 zdm)
+
+Compare with the previous release: [v3.101.1](https://github.com/softvisio/cli/compare/v3.101.1...v3.101.2)
+
 ### v3.101.1 (2026-03-28)
 
 **Bug fixes:**

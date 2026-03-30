@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.101.4 (2026-03-30)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dependency updater (● [497a274](https://github.com/softvisio/cli/commit/497a2741); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [695f414](https://github.com/softvisio/cli/commit/695f4146); 👬 zdm)
+
+Compare with the previous release: [v3.101.3](https://github.com/softvisio/cli/compare/v3.101.3...v3.101.4)
+
 ### v3.101.3 (2026-03-29)
 
 **Other changes:**

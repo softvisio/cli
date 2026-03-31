@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.103.0 (2026-03-31)
+
+**New features:**
+
+- \[MINOR] feat: add deb patterns (● [d194e95](https://github.com/softvisio/cli/commit/d194e955), [e4ac79b](https://github.com/softvisio/cli/commit/e4ac79be); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: update cli schema (● [4a4f472](https://github.com/softvisio/cli/commit/4a4f472a); 👬 zdm)
+
+Compare with the previous release: [v3.102.0](https://github.com/softvisio/cli/compare/v3.102.0...v3.103.0)
+
 ### v3.102.0 (2026-03-31)
 
 **New features:**

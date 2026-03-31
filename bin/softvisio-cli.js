@@ -56,10 +56,10 @@ const spec = {
             "title": "Manage LSP service",
             "module": () => new URL( "../lib/commands/lsp.js", import.meta.url ),
         },
-        "debian-repository": {
+        "deb-repository": {
             "short": false,
-            "title": "Debian package repository tools",
-            "module": () => new URL( "../lib/commands/debian-repository.js", import.meta.url ),
+            "title": "Deb packages repository tools",
+            "module": () => new URL( "../lib/commands/deb-repository.js", import.meta.url ),
         },
         "git": {
             "title": "Git tools",

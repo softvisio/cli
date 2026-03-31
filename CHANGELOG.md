@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.102.0 (2026-03-31)
+
+**New features:**
+
+- \[MINOR] feat: rename debian-repository to deb-repository (● [04b4359](https://github.com/softvisio/cli/commit/04b43592); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [57905a8](https://github.com/softvisio/cli/commit/57905a8d), [9210b87](https://github.com/softvisio/cli/commit/9210b87d); 👬 zdm)
+
+Compare with the previous release: [v3.101.4](https://github.com/softvisio/cli/compare/v3.101.4...v3.102.0)
+
 ### v3.101.4 (2026-03-30)
 
 **Bug fixes:**

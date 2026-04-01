@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.103.1 (2026-04-01)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [a3b1d42](https://github.com/softvisio/cli/commit/a3b1d428); 👬 zdm)
+
+Compare with the previous release: [v3.103.0](https://github.com/softvisio/cli/compare/v3.103.0...v3.103.1)
+
 ### v3.103.0 (2026-03-31)
 
 **New features:**

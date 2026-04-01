@@ -2023,9 +2023,9 @@
             }
         },
         "node_modules/adm-zip": {
-            "version": "0.5.16",
-            "resolved": "https://registry.npmjs.org/adm-zip/-/adm-zip-0.5.16.tgz",
-            "integrity": "sha512-TGw5yVi4saajsSEgz25grObGHEUaDrniwvA2qwSC060KfqGPdglhvPMA2lPIoxs3PQIItj2iag35fONcQqgUaQ==",
+            "version": "0.5.17",
+            "resolved": "https://registry.npmjs.org/adm-zip/-/adm-zip-0.5.17.tgz",
+            "integrity": "sha512-+Ut8d9LLqwEvHHJl1+PIHqoyDxFgVN847JTVM3Izi3xHDWPE4UtzzXysMZQs64DMcrJfBeS/uoEP4AD3HQHnQQ==",
             "license": "MIT",
             "engines": {
                 "node": ">=12.0"
@@ -2317,9 +2317,9 @@
             }
         },
         "node_modules/caniuse-lite": {
-            "version": "1.0.30001782",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001782.tgz",
-            "integrity": "sha512-dZcaJLJeDMh4rELYFw1tvSn1bhZWYFOt468FcbHHxx/Z/dFidd1I6ciyFdi3iwfQCyOjqo9upF6lGQYtMiJWxw==",
+            "version": "1.0.30001784",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001784.tgz",
+            "integrity": "sha512-WU346nBTklUV9YfUl60fqRbU5ZqyXlqvo1SgigE1OAXK5bFL8LL9q1K7aap3N739l4BvNqnkm3YrGHiY9sfUQw==",
             "funding": [
                 {
                     "type": "opencollective",
@@ -6247,9 +6247,9 @@
             "license": "ISC"
         },
         "node_modules/undici": {
-            "version": "7.24.6",
-            "resolved": "https://registry.npmjs.org/undici/-/undici-7.24.6.tgz",
-            "integrity": "sha512-Xi4agocCbRzt0yYMZGMA6ApD7gvtUFaxm4ZmeacWI4cZxaF6C+8I8QfofC20NAePiB/IcvZmzkJ7XPa471AEtA==",
+            "version": "7.24.7",
+            "resolved": "https://registry.npmjs.org/undici/-/undici-7.24.7.tgz",
+            "integrity": "sha512-H/nlJ/h0ggGC+uRL3ovD+G0i4bqhvsDOpbDv7At5eFLlj2b41L8QliGbnl2H7SnDiYhENphh1tQFJZf+MyfLsQ==",
             "license": "MIT",
             "engines": {
                 "node": ">=20.18.1"

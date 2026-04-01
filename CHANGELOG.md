@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.104.0 (2026-04-01)
+
+**New features:**
+
+- \[MINOR] feat: add package test command (● [ba31075](https://github.com/softvisio/cli/commit/ba310757); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8de286f](https://github.com/softvisio/cli/commit/8de286f5); 👬 zdm)
+
+Compare with the previous release: [v3.103.1](https://github.com/softvisio/cli/compare/v3.103.1...v3.104.0)
+
 ### v3.103.1 (2026-04-01)
 
 **Other changes:**

@@ -73,6 +73,16 @@
           minItems: 1
           uniqueItems: true
 
+    tests:
+      type: object
+      properties:
+        location:
+          anyOf:
+            - type: "null"
+            - { type: string, format: glob-pattern }
+      additionalProperties: false
+      required: [location]
+
     release:
       type: object
       properties:
@@ -219,7 +229,7 @@
           required: [location]
 
   additionalProperties: false
-  required: [meta, release, commits]
+  required: [meta, tests, release, commits]
 
 - $id: dependabot
   type: object

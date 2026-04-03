@@ -53,6 +53,9 @@ meta:
     dependabotsecurityupdates: false
     privateVulnerabilityReporting: true
 
+tests:
+  location: "tests/**/*.test.js"
+
 release:
   enabled: false
   releaseBranches: [main]

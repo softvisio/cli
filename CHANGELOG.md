@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.107.1 (2026-04-04)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix undef var (● [0b49be1](https://github.com/softvisio/cli/commit/0b49be19); 👬 zdm)
+
+Compare with the previous release: [v3.107.0](https://github.com/softvisio/cli/compare/v3.107.0...v3.107.1)
+
 ### v3.107.0 (2026-04-04)
 
 **New features:**

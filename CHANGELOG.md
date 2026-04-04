@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.106.0 (2026-04-04)
+
+**New features:**
+
+- \[MINOR] feat: add package update dependencies command (● [4fbd7ad](https://github.com/softvisio/cli/commit/4fbd7ad1), [ecdb99b](https://github.com/softvisio/cli/commit/ecdb99b6); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [4bd6a25](https://github.com/softvisio/cli/commit/4bd6a255); 👬 zdm)
+
+Compare with the previous release: [v3.105.0](https://github.com/softvisio/cli/compare/v3.105.0...v3.106.0)
+
 ### v3.105.0 (2026-04-04)
 
 **New features:**

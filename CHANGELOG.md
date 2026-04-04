@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.107.0 (2026-04-04)
+
+**New features:**
+
+- \[MINOR] feat: add outdated=dependencies command (● [4ffff82](https://github.com/softvisio/cli/commit/4ffff826), [31f4634](https://github.com/softvisio/cli/commit/31f46343), [4ac1ec0](https://github.com/softvisio/cli/commit/4ac1ec0e), [7720b2b](https://github.com/softvisio/cli/commit/7720b2b2), [bb3d986](https://github.com/softvisio/cli/commit/bb3d9868), [5bc04fc](https://github.com/softvisio/cli/commit/5bc04fca), [7cc3d19](https://github.com/softvisio/cli/commit/7cc3d19b), [f77e56c](https://github.com/softvisio/cli/commit/f77e56c3), [9e366f4](https://github.com/softvisio/cli/commit/9e366f43), [2321126](https://github.com/softvisio/cli/commit/2321126e); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: insrease update deps threads to 10 (● [3737d34](https://github.com/softvisio/cli/commit/3737d34e); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bump temporal-polyfill@^1.0.0 (● [6adb2c3](https://github.com/softvisio/cli/commit/6adb2c35), [981cfb5](https://github.com/softvisio/cli/commit/981cfb50); 👬 zdm)
+
+Compare with the previous release: [v3.106.0](https://github.com/softvisio/cli/compare/v3.106.0...v3.107.0)
+
 ### v3.106.0 (2026-04-04)
 
 **New features:**

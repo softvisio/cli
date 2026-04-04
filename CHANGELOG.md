@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.107.3 (2026-04-04)
+
+**Bug fixes:**
+
+- \[PATCH] fix: set max threads for update deps to 5 (● [c8b4717](https://github.com/softvisio/cli/commit/c8b47179); 👬 zdm)
+
+Compare with the previous release: [v3.107.2](https://github.com/softvisio/cli/compare/v3.107.2...v3.107.3)
+
 ### v3.107.2 (2026-04-04)
 
 **Bug fixes:**

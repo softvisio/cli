@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.105.0 (2026-04-04)
+
+**New features:**
+
+- \[MINOR] feat: add package update dependencies command (● [12bd803](https://github.com/softvisio/cli/commit/12bd8030), [2f78b45](https://github.com/softvisio/cli/commit/2f78b45e), [9e0ed67](https://github.com/softvisio/cli/commit/9e0ed676), [48ff669](https://github.com/softvisio/cli/commit/48ff6699), [940203b](https://github.com/softvisio/cli/commit/940203b5); 👬 zdm)
+
+- \[MINOR] feat: add test location config (● [481d380](https://github.com/softvisio/cli/commit/481d3800), [afd3524](https://github.com/softvisio/cli/commit/afd35249); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: trim source before lint (● [f5d3c31](https://github.com/softvisio/cli/commit/f5d3c31e); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [4de4959](https://github.com/softvisio/cli/commit/4de4959b), [f541e9d](https://github.com/softvisio/cli/commit/f541e9d6), [9d87d12](https://github.com/softvisio/cli/commit/9d87d12a), [9584c0c](https://github.com/softvisio/cli/commit/9584c0c3); 👬 zdm)
+
+Compare with the previous release: [v3.104.0](https://github.com/softvisio/cli/compare/v3.104.0...v3.105.0)
+
 ### v3.104.0 (2026-04-01)
 
 **New features:**

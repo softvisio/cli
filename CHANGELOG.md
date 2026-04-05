@@ -1,5 +1,23 @@
 # Changelog
 
+### v3.107.5 (2026-04-05)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix deps updater commit (● [3f82de1](https://github.com/softvisio/cli/commit/3f82de17); 👬 zdm)
+
+- \[PATCH] fix: fix deps updater log (● [5955988](https://github.com/softvisio/cli/commit/59559883); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update cli options (● [2252a7f](https://github.com/softvisio/cli/commit/2252a7fc); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [af33548](https://github.com/softvisio/cli/commit/af335488), [4720df4](https://github.com/softvisio/cli/commit/4720df4e); 👬 zdm)
+
+Compare with the previous release: [v3.107.4](https://github.com/softvisio/cli/compare/v3.107.4...v3.107.5)
+
 ### v3.107.4 (2026-04-05)
 
 **Code refactoring:**

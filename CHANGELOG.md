@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.107.4 (2026-04-05)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update cli shorts (● [54e238a](https://github.com/softvisio/cli/commit/54e238a9); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [9fdeb3d](https://github.com/softvisio/cli/commit/9fdeb3dd); 👬 zdm)
+
+- style: update code (● [7287099](https://github.com/softvisio/cli/commit/72870991); 👬 zdm)
+
+Compare with the previous release: [v3.107.3](https://github.com/softvisio/cli/compare/v3.107.3...v3.107.4)
+
 ### v3.107.3 (2026-04-04)
 
 **Bug fixes:**

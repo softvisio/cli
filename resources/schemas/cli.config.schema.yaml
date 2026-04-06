@@ -267,15 +267,15 @@
         - type: object
           properties:
             interval: { const: weekly }
-            day: { type: string, format: weekday }
-            time: { type: string, format: time }
+            day: { type: string, format: weekday-name }
+            time: { type: string, format: plain-time }
             timezone: { type: string, format: timezone }
           additionalProperties: false
           required: [interval]
         - type: object
           properties:
             interval: { enum: [daily, monthly, quarterly, semiannually, yearly] }
-            time: { type: string, format: time }
+            time: { type: string, format: plain-time }
             timezone: { type: string, format: timezone }
           additionalProperties: false
           required: [interval]

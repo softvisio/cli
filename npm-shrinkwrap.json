@@ -94,9 +94,9 @@
             "license": "MIT"
         },
         "node_modules/@corejslib/core": {
-            "version": "7.221.0",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.221.0/f1caf7b752a5fc4788705707e07b71311c9d2613",
-            "integrity": "sha512-BISsXw8sRsPrZfiFN2PibcVyhbbVvKOLqHfpqBuU2WGwKnjek+qzm6vhptE0XcAEEZFWVfuvL9Dcl9Y6NzJvZQ==",
+            "version": "7.222.0",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.222.0/0c696688914eab02ce797515647bd886fd2183fe",
+            "integrity": "sha512-/+QjF/iIlSEBeoggxNaTxj20ELF8YsnWKWy5zJEX1sOEMjRzatTQ87DtvHC6KdyZKNDcXNZ5Bns5JLxTo7pZYQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -2475,9 +2475,9 @@
             }
         },
         "node_modules/css-declaration-sorter": {
-            "version": "7.3.1",
-            "resolved": "https://registry.npmjs.org/css-declaration-sorter/-/css-declaration-sorter-7.3.1.tgz",
-            "integrity": "sha512-gz6x+KkgNCjxq3Var03pRYLhyNfwhkKF1g/yoLgDNtFvVu0/fOLV9C8fFEZRjACp/XQLumjAYo7JVjzH3wLbxA==",
+            "version": "7.4.0",
+            "resolved": "https://registry.npmjs.org/css-declaration-sorter/-/css-declaration-sorter-7.4.0.tgz",
+            "integrity": "sha512-LTuzjPoyA2vMGKKcaOqKSp7Ub2eGrNfKiZH4LpezxpNrsICGCSFvsQOI29psISxNZtaXibkC2CXzrQ5enMeGGw==",
             "license": "ISC",
             "engines": {
                 "node": "^14 || ^16 || >=18"
@@ -5049,9 +5049,9 @@
             }
         },
         "node_modules/postcss": {
-            "version": "8.5.8",
-            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.5.8.tgz",
-            "integrity": "sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==",
+            "version": "8.5.9",
+            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.5.9.tgz",
+            "integrity": "sha512-7a70Nsot+EMX9fFU3064K/kdHWZqGVY+BADLyXc8Dfv+mTLLVl6JzJpPaCZ2kQL9gIJvKXSLMHhqdRRjwQeFtw==",
             "funding": [
                 {
                     "type": "opencollective",

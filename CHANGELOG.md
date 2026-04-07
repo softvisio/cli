@@ -1,5 +1,25 @@
 # Changelog
 
+### v3.107.7 (2026-04-07)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix outdated deps report (● [da4642b](https://github.com/softvisio/cli/commit/da4642b6); 👬 zdm)
+
+- \[PATCH] fix: fix update deps report (● [e61bf30](https://github.com/softvisio/cli/commit/e61bf30a); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename ajv date / time formats (● [f442e69](https://github.com/softvisio/cli/commit/f442e69a); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bump eslint-plugin-simple-import-sort@^13.0.0 (● [5788ba2](https://github.com/softvisio/cli/commit/5788ba2c); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [49c3e4f](https://github.com/softvisio/cli/commit/49c3e4f9), [bbf9412](https://github.com/softvisio/cli/commit/bbf9412c), [de7f7c0](https://github.com/softvisio/cli/commit/de7f7c00), [a037335](https://github.com/softvisio/cli/commit/a0373358); 👬 zdm)
+
+Compare with the previous release: [v3.107.6](https://github.com/softvisio/cli/compare/v3.107.6...v3.107.7)
+
 ### v3.107.6 (2026-04-06)
 
 **Bug fixes:**

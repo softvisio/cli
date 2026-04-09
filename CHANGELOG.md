@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.107.9 (2026-04-09)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update deps report (● [281f6ee](https://github.com/softvisio/cli/commit/281f6ee1); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [c32ba30](https://github.com/softvisio/cli/commit/c32ba30d), [952e89b](https://github.com/softvisio/cli/commit/952e89bf), [7222baf](https://github.com/softvisio/cli/commit/7222baf9); 👬 zdm)
+
+Compare with the previous release: [v3.107.8](https://github.com/softvisio/cli/compare/v3.107.8...v3.107.9)
+
 ### v3.107.8 (2026-04-07)
 
 **Other changes:**

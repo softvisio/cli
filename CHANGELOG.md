@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.107.10 (2026-04-09)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fallback to versions if package has no latest tag (● [d99da09](https://github.com/softvisio/cli/commit/d99da093); 👬 zdm)
+
+- \[PATCH] fix: fix deps report (● [d0500b5](https://github.com/softvisio/cli/commit/d0500b57), [14ac955](https://github.com/softvisio/cli/commit/14ac9559), [1731411](https://github.com/softvisio/cli/commit/17314114); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [0c7d1b2](https://github.com/softvisio/cli/commit/0c7d1b24); 👬 zdm)
+
+Compare with the previous release: [v3.107.9](https://github.com/softvisio/cli/compare/v3.107.9...v3.107.10)
+
 ### v3.107.9 (2026-04-09)
 
 **Code refactoring:**

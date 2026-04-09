@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.107.11 (2026-04-09)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix deps update report (● [b279df6](https://github.com/softvisio/cli/commit/b279df64); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8b611cc](https://github.com/softvisio/cli/commit/8b611cc3); 👬 zdm)
+
+Compare with the previous release: [v3.107.10](https://github.com/softvisio/cli/compare/v3.107.10...v3.107.11)
+
 ### v3.107.10 (2026-04-09)
 
 **Bug fixes:**

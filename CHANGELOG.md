@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.108.0 (2026-04-10)
+
+**New features:**
+
+- \[MINOR] feat: add cli shortcut (● [5cffe63](https://github.com/softvisio/cli/commit/5cffe635); 👬 zdm)
+
+Compare with the previous release: [v3.107.11](https://github.com/softvisio/cli/compare/v3.107.11...v3.108.0)
+
 ### v3.107.11 (2026-04-09)
 
 **Bug fixes:**

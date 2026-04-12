@@ -94,9 +94,9 @@
             "license": "MIT"
         },
         "node_modules/@corejslib/core": {
-            "version": "7.223.0",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.223.0/8e702c374d5e8758d73f7118dc4ce2c7834fb91c",
-            "integrity": "sha512-n08eeEXJXHs3pCOpjK76gqvQ7QmE71swHbjYATWTwRpBTpBI/FTFwF5rNVqOOXA0ftOkpJVvn0q+CNQkjTClYQ==",
+            "version": "7.223.1",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.223.1/525f05455783b5af1fe508c1c8ed39c999d88a5a",
+            "integrity": "sha512-0klOYs11epI2z0BoTWMbJ3B9oDLlTGriVMyB6ZB3bV1hF1ONMMW7ah+ctgolsOQX9ecOfAJdUcb+BTMtJAmFTw==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -2274,9 +2274,9 @@
             }
         },
         "node_modules/builtin-modules": {
-            "version": "5.0.0",
-            "resolved": "https://registry.npmjs.org/builtin-modules/-/builtin-modules-5.0.0.tgz",
-            "integrity": "sha512-bkXY9WsVpY7CvMhKSR6pZilZu9Ln5WDrKVBUXf2S443etkmEO4V58heTecXcUIsNsi4Rx8JUO4NfX1IcQl4deg==",
+            "version": "5.1.0",
+            "resolved": "https://registry.npmjs.org/builtin-modules/-/builtin-modules-5.1.0.tgz",
+            "integrity": "sha512-c5JxaDrzwRjq3WyJkI1AGR5xy6Gr6udlt7sQPbl09+3ckB+Zo2qqQ2KhCTBr7Q8dHB43bENGYEk4xddrFH/b7A==",
             "license": "MIT",
             "engines": {
                 "node": ">=18.20"

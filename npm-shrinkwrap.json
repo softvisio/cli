@@ -165,9 +165,9 @@
             "peer": true
         },
         "node_modules/@corejslib/sqlite": {
-            "version": "1.28.48",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/sqlite/1.28.48/64f40934af3578887cd62284d85a132e09f79cc1",
-            "integrity": "sha512-A2nF06KsZT1W6L5oM0IHXO+mcUHu2gv8JCEnpfaEevoh+Hqgvnq9JxBDExNPY41qwlrs5fT1Wm7na1ccyJfpCQ==",
+            "version": "1.28.49",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/sqlite/1.28.49/0b12fa01da7e82c506ccfd60094c101e4b1668cc",
+            "integrity": "sha512-mIqtV9uSt1SKlvOPTfXNhJv0InVAmQXKYPdNdLzgUe5kQ5tLkotbxCqC2dCjbhn4aaZz0z6VpmXsOAuPUaNA6Q==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -3385,9 +3385,9 @@
             }
         },
         "node_modules/fast-xml-parser": {
-            "version": "5.5.11",
-            "resolved": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-5.5.11.tgz",
-            "integrity": "sha512-QL0eb0YbSTVWF6tTf1+LEMSgtCEjBYPpnAjoLC8SscESlAjXEIRJ7cHtLG0pLeDFaZLa4VKZLArtA/60ZS7vyA==",
+            "version": "5.5.12",
+            "resolved": "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-5.5.12.tgz",
+            "integrity": "sha512-nUR0q8PPfoA/svPM43Gup7vLOZWppaNrYgGmrVqrAVJa7cOH4hMG6FX9M4mQ8dZA1/ObGZHzES7Ed88hxEBSJg==",
             "funding": [
                 {
                     "type": "github",
@@ -3397,7 +3397,7 @@
             "license": "MIT",
             "dependencies": {
                 "fast-xml-builder": "^1.1.4",
-                "path-expression-matcher": "^1.4.0",
+                "path-expression-matcher": "^1.5.0",
                 "strnum": "^2.2.3"
             },
             "bin": {
@@ -6247,9 +6247,9 @@
             "license": "ISC"
         },
         "node_modules/undici": {
-            "version": "8.0.2",
-            "resolved": "https://registry.npmjs.org/undici/-/undici-8.0.2.tgz",
-            "integrity": "sha512-B9MeU5wuFhkFAuNeA19K2GDFcQXZxq33fL0nRy2Aq30wdufZbyyvxW3/ChaeipXVfy/wUweZyzovQGk39+9k2w==",
+            "version": "8.0.3",
+            "resolved": "https://registry.npmjs.org/undici/-/undici-8.0.3.tgz",
+            "integrity": "sha512-vTLEG/ceXgu/dMTQ8uNE2zgl7I7qEkx9l9tkz2H802AkgbBMvbmHMu4YqsrpGbUAMYKSQhCbmjsWMAeGu1dYXg==",
             "license": "MIT",
             "engines": {
                 "node": ">=22.19.0"

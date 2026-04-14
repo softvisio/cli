@@ -94,9 +94,9 @@
             "license": "MIT"
         },
         "node_modules/@corejslib/core": {
-            "version": "7.223.2",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.223.2/1348c5c5dc7e46c05cbdb0e265efbf8c98acb95d",
-            "integrity": "sha512-gm1mYipHPtbePPuduJSLr5r2tEglUjBVq13CjgytiTT0g/+MarpnItafjgCmK/K0XuojXCZI4c7ydynO9c2CQQ==",
+            "version": "7.224.0",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.224.0/cb36ff1a6aba1f0eac0d363b478b9efa2b46c004",
+            "integrity": "sha512-YoVW3N05c4r5VK53v8jCfpSYXEqlvlGmJndPhZ+aOrtpme6q5ptgRUyOkRxEkvO0aaqimeNJK24+7LWBaF8vXw==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -2159,9 +2159,9 @@
             "license": "MIT"
         },
         "node_modules/baseline-browser-mapping": {
-            "version": "2.10.18",
-            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.18.tgz",
-            "integrity": "sha512-VSnGQAOLtP5mib/DPyg2/t+Tlv65NTBz83BJBJvmLVHHuKJVaDOBvJJykiT5TR++em5nfAySPccDZDa4oSrn8A==",
+            "version": "2.10.19",
+            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.19.tgz",
+            "integrity": "sha512-qCkNLi2sfBOn8XhZQ0FXsT1Ki/Yo5P90hrkRamVFRS7/KV9hpfA4HkoWNU152+8w0zPjnxo5psx5NL3PSGgv5g==",
             "license": "Apache-2.0",
             "bin": {
                 "baseline-browser-mapping": "dist/cli.cjs"
@@ -2317,9 +2317,9 @@
             }
         },
         "node_modules/caniuse-lite": {
-            "version": "1.0.30001787",
-            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001787.tgz",
-            "integrity": "sha512-mNcrMN9KeI68u7muanUpEejSLghOKlVhRqS/Za2IeyGllJ9I9otGpR9g3nsw7n4W378TE/LyIteA0+/FOZm4Kg==",
+            "version": "1.0.30001788",
+            "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001788.tgz",
+            "integrity": "sha512-6q8HFp+lOQtcf7wBK+uEenxymVWkGKkjFpCvw5W25cmMwEDU45p1xQFBQv8JDlMMry7eNxyBaR+qxgmTUZkIRQ==",
             "funding": [
                 {
                     "type": "opencollective",

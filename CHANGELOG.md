@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.108.3 (2026-04-16)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor ejs (● [80aca36](https://github.com/softvisio/cli/commit/80aca360); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [cefc885](https://github.com/softvisio/cli/commit/cefc8858), [97c6287](https://github.com/softvisio/cli/commit/97c6287f); 👬 zdm)
+
+Compare with the previous release: [v3.108.2](https://github.com/softvisio/cli/compare/v3.108.2...v3.108.3)
+
 ### v3.108.2 (2026-04-14)
 
 **Other changes:**

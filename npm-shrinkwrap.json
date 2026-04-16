@@ -94,9 +94,9 @@
             "license": "MIT"
         },
         "node_modules/@corejslib/core": {
-            "version": "7.224.9",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.224.9/df68eabc2966e56abb5e51d4c9873d0ba98689d1",
-            "integrity": "sha512-5rMmEcB6i0m2nQdlb6HY9yPXbjGUEMrhtoZ1ypHDUTyWK48AglJXyhp4npwwLA94wY6Ceqv1MdFAqrsemZt6pw==",
+            "version": "7.224.11",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.224.11/840c0e875b9784acd9c5b76cd700d75f554eef84",
+            "integrity": "sha512-Tcsw/wStxWSXNbhzU/KnZP5rqAGimfxBtUBram7gd0cfqHygTw1FRhaQ/GgDWE4Kkic530HEHmsqPw3OkxrqAA==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -184,9 +184,9 @@
             }
         },
         "node_modules/@corejslib/uws": {
-            "version": "2.11.50",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/uws/2.11.50/a32d4030e0fba4e8f9f29b29f1b69f442874a375",
-            "integrity": "sha512-lbxsHcGukZXXDSCWJfnTK3Z5h7WAfuhrHKRSxB6bhk5oLTFDkGGPa99vvHHbZUmOoBeq7msJBceOFFKEW2klPA==",
+            "version": "2.11.51",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/uws/2.11.51/b9c970c28f4bb27d9781c0f7a526924f6f6e111e",
+            "integrity": "sha512-IvSqIkaftjnNwZl3bOXbAYU1x4114pbSpxX6Tk93ItpcUVqDxaoNW1p883Jty3Bm+Vo+FHdbChfFakX9gkMTgQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "peerDependencies": {
@@ -2965,9 +2965,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.337",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.337.tgz",
-            "integrity": "sha512-15gKW9mRUNP9RdzhedJNypFUxtYWSXohFz2nTLzM272xbRXHws68kNDzyATG3qej+vUj/7Sn9hf5XTDh0XK6/w==",
+            "version": "1.5.338",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.338.tgz",
+            "integrity": "sha512-KVQQ3xko9/coDX3qXLUEEbqkKT8L+1DyAovrtu0Khtrt9wjSZ+7CZV4GVzxFy9Oe1NbrIU1oVXCwHJruIA1PNg==",
             "license": "ISC"
         },
         "node_modules/entities": {

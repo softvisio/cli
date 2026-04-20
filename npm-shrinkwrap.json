@@ -88,15 +88,15 @@
             }
         },
         "node_modules/@colordx/core": {
-            "version": "5.1.0",
-            "resolved": "https://registry.npmjs.org/@colordx/core/-/core-5.1.0.tgz",
-            "integrity": "sha512-W8h9l1l8J/P6agFXdrTEHFs/ylRYKLkiZAqwQp+efEow3OUNcW4mAXsLCbaxCHGkOguMOwBpnkn0CCQsoUdUYw==",
+            "version": "5.2.0",
+            "resolved": "https://registry.npmjs.org/@colordx/core/-/core-5.2.0.tgz",
+            "integrity": "sha512-wifnqsGCXRh+lJdX4975nKEPJaSk7k8rMiA/VeGrS4tOTn06WZrow6cUA7wFJKPXfcqj0rXeH4BMgGoKZvBf7g==",
             "license": "MIT"
         },
         "node_modules/@corejslib/core": {
-            "version": "7.224.11",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.224.11/840c0e875b9784acd9c5b76cd700d75f554eef84",
-            "integrity": "sha512-Tcsw/wStxWSXNbhzU/KnZP5rqAGimfxBtUBram7gd0cfqHygTw1FRhaQ/GgDWE4Kkic530HEHmsqPw3OkxrqAA==",
+            "version": "7.225.0",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.225.0/bbba95bbba68e21f93fe69539600176128e0275e",
+            "integrity": "sha512-04Z/iIjK6TkqLTy6o5H4u9M3Sv3/Xl58C9GSnLlpQEXG3tfK2zAsKAzlFCoKOlIsCykRzIsMw998QmBybqL7lA==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -2271,9 +2271,9 @@
             "license": "MIT"
         },
         "node_modules/baseline-browser-mapping": {
-            "version": "2.10.19",
-            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.19.tgz",
-            "integrity": "sha512-qCkNLi2sfBOn8XhZQ0FXsT1Ki/Yo5P90hrkRamVFRS7/KV9hpfA4HkoWNU152+8w0zPjnxo5psx5NL3PSGgv5g==",
+            "version": "2.10.20",
+            "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.20.tgz",
+            "integrity": "sha512-1AaXxEPfXT+GvTBJFuy4yXVHWJBXa4OdbIebGN/wX5DlsIkU0+wzGnd2lOzokSk51d5LUmqjgBLRLlypLUqInQ==",
             "license": "Apache-2.0",
             "bin": {
                 "baseline-browser-mapping": "dist/cli.cjs"

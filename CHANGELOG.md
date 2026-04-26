@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.109.1 (2026-04-26)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix sh error trap (● [ac3c29e](https://github.com/softvisio/cli/commit/ac3c29e2); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [a099ec6](https://github.com/softvisio/cli/commit/a099ec6c); 👬 zdm)
+
+Compare with the previous release: [v3.109.0...v3.109.1](https://github.com/softvisio/cli/compare/v3.109.0...v3.109.1)
+
 ### v3.109.0 (2026-04-26)
 
 **New features:**

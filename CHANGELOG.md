@@ -1,5 +1,31 @@
 # Changelog
 
+### v3.109.0 (2026-04-26)
+
+**New features:**
+
+- \[MINOR] feat: add heredoc formatter (● [54bcc5f](https://github.com/softvisio/cli/commit/54bcc5f0); 👬 zdm)
+
+- \[MINOR] feat: enable dockerfile parser (● [bf78b42](https://github.com/softvisio/cli/commit/bf78b421); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: disable prettier dockerfile parser (● [f845115](https://github.com/softvisio/cli/commit/f8451155); 👬 zdm)
+
+- \[PATCH] fix: fix changelog compare link name (● [b28e287](https://github.com/softvisio/cli/commit/b28e2873), [c8281c9](https://github.com/softvisio/cli/commit/c8281c98), [6a79efa](https://github.com/softvisio/cli/commit/6a79efa2), [5ec560d](https://github.com/softvisio/cli/commit/5ec560d6); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update .editorconfig (● [92664a6](https://github.com/softvisio/cli/commit/92664a60), [bd8951c](https://github.com/softvisio/cli/commit/bd8951cb); 👬 zdm)
+
+- \[PATCH] refactor: update sh error trap (● [7ca4881](https://github.com/softvisio/cli/commit/7ca48814); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [4724b67](https://github.com/softvisio/cli/commit/4724b67e), [68806d8](https://github.com/softvisio/cli/commit/68806d8e), [e7d9acf](https://github.com/softvisio/cli/commit/e7d9acf5), [dcf7395](https://github.com/softvisio/cli/commit/dcf7395e), [80e4bfd](https://github.com/softvisio/cli/commit/80e4bfd0), [472f5df](https://github.com/softvisio/cli/commit/472f5dff), [57c8b19](https://github.com/softvisio/cli/commit/57c8b191), [05d3087](https://github.com/softvisio/cli/commit/05d30875), [22735cb](https://github.com/softvisio/cli/commit/22735cb4), [6456d75](https://github.com/softvisio/cli/commit/6456d752), [2d0fbbd](https://github.com/softvisio/cli/commit/2d0fbbd8), [544d6b3](https://github.com/softvisio/cli/commit/544d6b3a), [ea9bb25](https://github.com/softvisio/cli/commit/ea9bb257), [93c7a65](https://github.com/softvisio/cli/commit/93c7a65c), [a47a241](https://github.com/softvisio/cli/commit/a47a2419), [87aba83](https://github.com/softvisio/cli/commit/87aba83a), [2967711](https://github.com/softvisio/cli/commit/29677113), [0cb7c4c](https://github.com/softvisio/cli/commit/0cb7c4cd), [9f7f164](https://github.com/softvisio/cli/commit/9f7f164a), [5d54d75](https://github.com/softvisio/cli/commit/5d54d759), [ac0c59c](https://github.com/softvisio/cli/commit/ac0c59c2), [df349a6](https://github.com/softvisio/cli/commit/df349a66); 👬 zdm)
+
+Compare with the previous release: [v3.108.3...v3.109.0](https://github.com/softvisio/cli/compare/v3.108.3...v3.109.0)
+
 ### v3.108.3 (2026-04-16)
 
 **Code refactoring:**

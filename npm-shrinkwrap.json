@@ -94,9 +94,9 @@
             "license": "MIT"
         },
         "node_modules/@corejslib/core": {
-            "version": "7.226.0",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.226.0/116521b1603247e0db898820b1812c076aded951",
-            "integrity": "sha512-n9u/zBwyNOujXNXZvAvqS0RoyEXEu65kXWLn/jHYxnVlzMGGbS/+ocg3/0/pRU2ANQ4ICvsyFNqKLnHlQSJ38Q==",
+            "version": "7.226.1",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.226.1/cfd5556660804a838cad366ad6101a11291178f1",
+            "integrity": "sha512-YOVbRbfqQB83BN2h56RvMlb1cnmDjmz+ZlQdTzTXfwHm11oc6FOEAwCHJoWRMvYfbU//hU5yXi8XBbKQYmPIQw==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -5155,9 +5155,9 @@
             }
         },
         "node_modules/postcss": {
-            "version": "8.5.12",
-            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.5.12.tgz",
-            "integrity": "sha512-W62t/Se6rA0Az3DfCL0AqJwXuKwBeYg6nOaIgzP+xZ7N5BFCI7DYi1qs6ygUYT6rvfi6t9k65UMLJC+PHZpDAA==",
+            "version": "8.5.13",
+            "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.5.13.tgz",
+            "integrity": "sha512-qif0+jGGZoLWdHey3UFHHWP0H7Gbmsk8T5VEqyYFbWqPr1XqvLGBbk/sl8V5exGmcYJklJOhOQq1pV9IcsiFag==",
             "funding": [
                 {
                     "type": "opencollective",

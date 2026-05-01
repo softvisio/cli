@@ -2978,9 +2978,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.347",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.347.tgz",
-            "integrity": "sha512-BqbKWR67PjxFypgOFcDevD6j8N8GCPkSnQQRuqQIBh3GYCwr0xsLqw2EtSn83oq5iTqJ/wabM/YHV7KgvWGz7Q==",
+            "version": "1.5.348",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.348.tgz",
+            "integrity": "sha512-QC2X59nRlycQQMc4ZXjSVBX+tSgJfgRtcrYHbIZLgOV2dCvefoQGegLR7lLXKgpPpSuVmJU19LMzGrSa2C7k3Q==",
             "license": "ISC"
         },
         "node_modules/entities": {
@@ -3750,9 +3750,9 @@
             }
         },
         "node_modules/ip-address": {
-            "version": "10.1.1",
-            "resolved": "https://registry.npmjs.org/ip-address/-/ip-address-10.1.1.tgz",
-            "integrity": "sha512-1FMu8/N15Ck1BL551Jf42NYIoin2unWjLQ2Fze/DXryJRl5twqtwNHlO39qERGbIOcKYWHdgRryhOC+NG4eaLw==",
+            "version": "10.2.0",
+            "resolved": "https://registry.npmjs.org/ip-address/-/ip-address-10.2.0.tgz",
+            "integrity": "sha512-/+S6j4E9AHvW9SWMSEY9Xfy66O5PWvVEJ08O0y5JGyEKQpojb0K0GKpz/v5HJ/G0vi3D2sjGK78119oXZeE0qA==",
             "license": "MIT",
             "engines": {
                 "node": ">= 12"

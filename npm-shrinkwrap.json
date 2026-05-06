@@ -2978,9 +2978,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.349",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.349.tgz",
-            "integrity": "sha512-QsWVGyRuY07Aqb234QytTfwd5d9AJlfNIQ5wIOl1L+PZDzI9d9+Fn0FRale/QYlFxt/bUnB0/nLd1jFPGxGK1A==",
+            "version": "1.5.350",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.350.tgz",
+            "integrity": "sha512-/KWD4qK8nMqIoJh35Rpc37fiVyOe80mcUQKpfje0Dp9uot2ROuipsh+EriCdfInxjleD5v1S4OlIn41I0LXP0g==",
             "license": "ISC"
         },
         "node_modules/entities": {
@@ -6089,9 +6089,9 @@
             }
         },
         "node_modules/tar": {
-            "version": "7.5.13",
-            "resolved": "https://registry.npmjs.org/tar/-/tar-7.5.13.tgz",
-            "integrity": "sha512-tOG/7GyXpFevhXVh8jOPJrmtRpOTsYqUIkVdVooZYJS/z8WhfQUX8RJILmeuJNinGAMSu1veBr4asSHFt5/hng==",
+            "version": "7.5.14",
+            "resolved": "https://registry.npmjs.org/tar/-/tar-7.5.14.tgz",
+            "integrity": "sha512-/7sHKgQO3JLP9ESlwTYUUftHUadOURUqq23xs1vjcnp8Vss6k0wCfzulyEtk5g91pjvnuriimGlyG7k6msrzRw==",
             "license": "BlueOak-1.0.0",
             "peer": true,
             "dependencies": {

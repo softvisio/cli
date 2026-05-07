@@ -2,8 +2,8 @@
 
 set -Eeuo pipefail
 
-if [[ -x node_modules/.bin/softvisio-cli ]]; then
-    node_modules/.bin/softvisio-cli git pre-commit
-elif [[ -x "$(command -v softvisio-cli)" ]]; then
-    softvisio-cli git pre-commit
+if [[ -x node_modules/.bin/scli ]]; then
+    node_modules/.bin/scli git pre-commit
+elif [[ -x "$(command -v scli)" ]]; then
+    scli git pre-commit
 fi

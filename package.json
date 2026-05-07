@@ -28,7 +28,7 @@
         "./resources/*": "./resources/*"
     },
     "bin": {
-        "softvisio-cli": "bin/softvisio-cli.js"
+        "scli": "bin/scli.js"
     },
     "files": [
         "npm-shrinkwrap.json",

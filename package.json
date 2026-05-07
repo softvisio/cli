@@ -4,7 +4,8 @@
     "description": "Softisio CLI Tool",
     "keywords": [
         "softvisio",
-        "cli"
+        "cli",
+        "scli"
     ],
     "homepage": "https://softvisio.github.io/cli/",
     "bugs": {

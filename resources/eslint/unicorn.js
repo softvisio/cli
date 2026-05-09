@@ -44,8 +44,34 @@ const CONFIG = [
             "unicorn/no-useless-undefined": "error",
             "unicorn/no-zero-fractions": "error",
 
-            "unicorn/number-literal-case": "error",
-            "unicorn/numeric-separators-style": "error",
+            "unicorn/number-literal-case": [
+                "error",
+                {
+                    "hexadecimalValue": "uppercase",
+                },
+            ],
+            "unicorn/numeric-separators-style": [
+                "error",
+                {
+                    "onlyIfContainsSeparator": false,
+                    "binary": {
+                        "minimumDigits": 0,
+                        "groupLength": 4,
+                    },
+                    "hexadecimal": {
+                        "minimumDigits": 4,
+                        "groupLength": 4,
+                    },
+                    "number": {
+                        "minimumDigits": 5,
+                        "groupLength": 3,
+                    },
+                    "octal": {
+                        "minimumDigits": 0,
+                        "groupLength": 4,
+                    },
+                },
+            ],
 
             // NOTE: can break third-party code
             // "unicorn/prefer-at": "error",

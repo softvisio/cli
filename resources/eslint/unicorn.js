@@ -59,7 +59,7 @@ const CONFIG = [
                         "groupLength": 4,
                     },
                     "hexadecimal": {
-                        "minimumDigits": 4,
+                        "minimumDigits": 8,
                         "groupLength": 4,
                     },
                     "number": {

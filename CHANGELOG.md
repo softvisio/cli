@@ -1,5 +1,33 @@
 # Changelog
 
+### v3.110.0 (2026-05-09)
+
+**New features:**
+
+- \[MINOR] feat: add eslint-plugin-math (● [2c74a83](https://github.com/softvisio/cli/commit/2c74a83d); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor uuid (● [7119313](https://github.com/softvisio/cli/commit/7119313d); 👬 zdm)
+
+- \[PATCH] refactor: rename cli.config.yaml to scli.config.yaml (● [fc48031](https://github.com/softvisio/cli/commit/fc480310); 👬 zdm)
+
+- \[PATCH] refactor: rename softvisio-cli to scli (● [ba4dfdc](https://github.com/softvisio/cli/commit/ba4dfdcc), [ab84be2](https://github.com/softvisio/cli/commit/ab84be21); 👬 zdm)
+
+- \[PATCH] refactor: set maxRunningThreads to 4 (● [e5546f2](https://github.com/softvisio/cli/commit/e5546f22); 👬 zdm)
+
+- \[PATCH] refactor: update number formattin rule (● [eb30858](https://github.com/softvisio/cli/commit/eb308583), [2c0489c](https://github.com/softvisio/cli/commit/2c0489c1); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bump cssnano@^8.0.0 (● [9f7e63c](https://github.com/softvisio/cli/commit/9f7e63ce); 👬 zdm)
+
+- chore: update package keywords (● [b909371](https://github.com/softvisio/cli/commit/b909371b); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [c5a70d6](https://github.com/softvisio/cli/commit/c5a70d69), [e3a2d9f](https://github.com/softvisio/cli/commit/e3a2d9fa), [4a48e5c](https://github.com/softvisio/cli/commit/4a48e5c6), [3e24e28](https://github.com/softvisio/cli/commit/3e24e282), [5c1d2e9](https://github.com/softvisio/cli/commit/5c1d2e9d), [e8859f3](https://github.com/softvisio/cli/commit/e8859f3b), [73eb624](https://github.com/softvisio/cli/commit/73eb624d), [ddc9c8e](https://github.com/softvisio/cli/commit/ddc9c8e6), [b594cf2](https://github.com/softvisio/cli/commit/b594cf2e), [c0ffdf1](https://github.com/softvisio/cli/commit/c0ffdf1a), [93d309a](https://github.com/softvisio/cli/commit/93d309a5), [b081785](https://github.com/softvisio/cli/commit/b081785a), [2f55bbf](https://github.com/softvisio/cli/commit/2f55bbf5), [2ae9328](https://github.com/softvisio/cli/commit/2ae93287), [285b15b](https://github.com/softvisio/cli/commit/285b15ba), [6678f3a](https://github.com/softvisio/cli/commit/6678f3a4), [e582c21](https://github.com/softvisio/cli/commit/e582c212), [024b4f0](https://github.com/softvisio/cli/commit/024b4f00), [2aa6015](https://github.com/softvisio/cli/commit/2aa60157); 👬 zdm)
+
+Compare with the previous release: [v3.109.2...v3.110.0](https://github.com/softvisio/cli/compare/v3.109.2...v3.110.0)
+
 ### v3.109.2 (2026-04-30)
 
 **Other changes:**

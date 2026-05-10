@@ -25,6 +25,9 @@ const CONFIG = [
             "promise/no-callback-in-promise": "off", // "error"
 
             // XXX investigate
+            "promise/no-nesting": "off", // "error"
+
+            // XXX investigate
             "promise/no-promise-in-callback": "off", // "error"
 
             "promise/no-return-in-finally": "error",

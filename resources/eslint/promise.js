@@ -10,7 +10,7 @@ const CONFIG = [
         "name": "promise custom",
         "rules": {
 
-            // XXX
+            // XXX investigate
             "promise/always-return": [
                 "off", // "error",
                 {
@@ -21,11 +21,8 @@ const CONFIG = [
             // XXX investigate
             "promise/catch-or-return": "off",
 
-            // XXX investigate
             "promise/no-callback-in-promise": "error",
-
-            // XXX investigate
-            "promise/no-nesting": "off", // "error",
+            "promise/no-nesting": "error",
 
             // XXX investigate
             // XXX conflicts with "result.catch"

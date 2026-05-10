@@ -1,6 +1,7 @@
 import mixins from "#core/mixins";
 import Comments from "./comments.js";
 import Corejslib from "./corejslib.js";
+import DeMorgan from "./de-morgan.js";
 import Eslint from "./eslint.js";
 import Globals from "./globals.js";
 import Import from "./import.js";
@@ -62,6 +63,7 @@ export default class Config extends mixins(
     Import,
     Unicorn,
     MathConfig,
+    DeMorgan,
     Corejslib,
     Comments,
     Eslint,

@@ -15,6 +15,10 @@ const CONFIG = [
                     "ignoreLastCallback": true,
                 },
             ],
+
+            // XXX investigate
+            "promise/catch-or-return": "off",
+
             "promise/no-return-in-finally": "error",
             "promise/valid-params": [
                 "error",

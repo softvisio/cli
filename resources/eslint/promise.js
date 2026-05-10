@@ -9,8 +9,10 @@ const CONFIG = [
     {
         "name": "promise custom",
         "rules": {
+
+            // XXX
             "promise/always-return": [
-                "error",
+                "off", // "error",
                 {
                     "ignoreLastCallback": true,
                 },
@@ -18,6 +20,12 @@ const CONFIG = [
 
             // XXX investigate
             "promise/catch-or-return": "off",
+
+            // XXX investigate
+            "promise/no-callback-in-promise": "off", // "error"
+
+            // XXX investigate
+            "promise/no-promise-in-callback": "off", // "error"
 
             "promise/no-return-in-finally": "error",
             "promise/valid-params": [

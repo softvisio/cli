@@ -22,13 +22,14 @@ const CONFIG = [
             "promise/catch-or-return": "off",
 
             // XXX investigate
-            "promise/no-callback-in-promise": "off", // "error"
+            "promise/no-callback-in-promise": "error",
 
             // XXX investigate
-            "promise/no-nesting": "off", // "error"
+            "promise/no-nesting": "off", // "error",
 
             // XXX investigate
-            "promise/no-promise-in-callback": "off", // "error"
+            // XXX conflicts with "result.catch"
+            "promise/no-promise-in-callback": "off", // "error",
 
             "promise/no-return-in-finally": "error",
             "promise/valid-params": [

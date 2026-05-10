@@ -12,7 +12,9 @@ const CONFIG = [
             "promise/valid-params": [
                 "error",
                 {
-                    "exclude": [ "result.catch" ],
+
+                    // XXX add exclusion for "result.catch"
+                    "exclude": [ "catch" ],
                 },
             ],
         },

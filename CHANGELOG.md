@@ -1,5 +1,25 @@
 # Changelog
 
+### v3.111.0 (2026-05-11)
+
+**New features:**
+
+- \[MINOR] feat: add eslint de-morgan plugin (● [c3cbcea](https://github.com/softvisio/cli/commit/c3cbcea7); 👬 zdm)
+
+- \[MINOR] feat: add eslint-plugin-promise (● [340a378](https://github.com/softvisio/cli/commit/340a3785), [ad5b4f4](https://github.com/softvisio/cli/commit/ad5b4f47), [b374fd0](https://github.com/softvisio/cli/commit/b374fd02), [7036d91](https://github.com/softvisio/cli/commit/7036d918), [bc6aecc](https://github.com/softvisio/cli/commit/bc6aeccd), [ab85d0c](https://github.com/softvisio/cli/commit/ab85d0cd), [6be1fed](https://github.com/softvisio/cli/commit/6be1fed4), [43152e5](https://github.com/softvisio/cli/commit/43152e5b), [0ce5b55](https://github.com/softvisio/cli/commit/0ce5b553), [69f093c](https://github.com/softvisio/cli/commit/69f093ca), [5a14614](https://github.com/softvisio/cli/commit/5a146145), [985196b](https://github.com/softvisio/cli/commit/985196b7), [4394bef](https://github.com/softvisio/cli/commit/4394bef7), [59f0a25](https://github.com/softvisio/cli/commit/59f0a251); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename result.catch() to result.fromError() (● [ad5bcae](https://github.com/softvisio/cli/commit/ad5bcaeb); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [058be72](https://github.com/softvisio/cli/commit/058be721), [706639d](https://github.com/softvisio/cli/commit/706639d0), [7b57c3a](https://github.com/softvisio/cli/commit/7b57c3a2); 👬 zdm)
+
+- style: lint (● [2a5be2c](https://github.com/softvisio/cli/commit/2a5be2c3), [6f90fef](https://github.com/softvisio/cli/commit/6f90fef4); 👬 zdm)
+
+Compare with the previous release: [v3.110.0...v3.111.0](https://github.com/softvisio/cli/compare/v3.110.0...v3.111.0)
+
 ### v3.110.0 (2026-05-09)
 
 **New features:**

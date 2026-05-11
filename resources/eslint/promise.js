@@ -25,6 +25,7 @@ const CONFIG = [
             "promise/no-promise-in-callback": "error",
             "promise/no-return-in-finally": "error",
             "promise/prefer-await-to-callbacks": "off",
+            "promise/prefer-await-to-then": "off",
             "promise/prefer-catch": "error",
             "promise/spec-only": "error",
             "promise/valid-params": "error",

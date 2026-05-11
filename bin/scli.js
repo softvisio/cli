@@ -76,7 +76,7 @@ try {
     res = result.try( await new cli.module().run(), { "allowUndefined": true } );
 }
 catch ( e ) {
-    res = result.catch( e );
+    res = result.fromError( e );
 }
 
 if ( res.ok ) {

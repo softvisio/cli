@@ -9,10 +9,8 @@ const CONFIG = [
     {
         "name": "promise custom",
         "rules": {
-
-            // XXX investigate
             "promise/always-return": [
-                "off", // "error",
+                "error",
                 {
                     "ignoreLastCallback": true,
                 },

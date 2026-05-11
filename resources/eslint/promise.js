@@ -20,9 +20,12 @@ const CONFIG = [
             "promise/catch-or-return": "off",
 
             "promise/no-callback-in-promise": "error",
+            "promise/no-multiple-resolved": "error",
             "promise/no-nesting": "error",
             "promise/no-promise-in-callback": "error",
             "promise/no-return-in-finally": "error",
+            "promise/prefer-await-to-callbacks": "off",
+            "promise/spec-only": "error",
             "promise/valid-params": "error",
         },
     },

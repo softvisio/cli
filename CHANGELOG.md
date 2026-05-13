@@ -1,5 +1,25 @@
 # Changelog
 
+### v3.112.0 (2026-05-13)
+
+**New features:**
+
+- \[MINOR] feat: add generator uuid version (● [74971b5](https://github.com/softvisio/cli/commit/74971b5d); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: use npm threads pool (● [70c2ec5](https://github.com/softvisio/cli/commit/70c2ec5f); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: use threads queue async iterator (● [044e7fc](https://github.com/softvisio/cli/commit/044e7fc0); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [10e701b](https://github.com/softvisio/cli/commit/10e701b8), [2bfafe7](https://github.com/softvisio/cli/commit/2bfafe7c); 👬 zdm)
+
+Compare with the previous release: [v3.111.0...v3.112.0](https://github.com/softvisio/cli/compare/v3.111.0...v3.112.0)
+
 ### v3.111.0 (2026-05-11)
 
 **New features:**

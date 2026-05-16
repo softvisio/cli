@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.112.2 (2026-05-16)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [b4d14f7](https://github.com/softvisio/cli/commit/b4d14f72), [df849fc](https://github.com/softvisio/cli/commit/df849fc2), [6141dd4](https://github.com/softvisio/cli/commit/6141dd4d); 👬 zdm)
+
+- docs: update readme (● [033afd7](https://github.com/softvisio/cli/commit/033afd7e), [21092d7](https://github.com/softvisio/cli/commit/21092d71); 👬 zdm)
+
+- docs: update readme template (● [80a06e3](https://github.com/softvisio/cli/commit/80a06e31); 👬 zdm)
+
+Compare with the previous release: [v3.112.1...v3.112.2](https://github.com/softvisio/cli/compare/v3.112.1...v3.112.2)
+
 ### v3.112.1 (2026-05-16)
 
 **Other changes:**

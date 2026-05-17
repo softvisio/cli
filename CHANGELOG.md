@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.113.1 (2026-05-17)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor status command (● [6153c28](https://github.com/softvisio/cli/commit/6153c281); 👬 zdm)
+
+Compare with the previous release: [v3.113.0...v3.113.1](https://github.com/softvisio/cli/compare/v3.113.0...v3.113.1)
+
 ### v3.113.0 (2026-05-17)
 
 **New features:**

@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.113.0 (2026-05-17)
+
+**New features:**
+
+- \[MINOR] feat: add label to non-main branch in list command (● [4456013](https://github.com/softvisio/cli/commit/44560137); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor status command (● [4e43825](https://github.com/softvisio/cli/commit/4e43825a); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [ab30a73](https://github.com/softvisio/cli/commit/ab30a73f); 👬 zdm)
+
+Compare with the previous release: [v3.112.2...v3.113.0](https://github.com/softvisio/cli/compare/v3.112.2...v3.113.0)
+
 ### v3.112.2 (2026-05-16)
 
 **Other changes:**

@@ -97,9 +97,9 @@
             "license": "MIT"
         },
         "node_modules/@corejslib/core": {
-            "version": "7.230.0",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.230.0/820d43420165cbc1bcced29f4c82ea7d8d229f2f",
-            "integrity": "sha512-GWJgxDWLbShLxOm0BafqXPI/z1rcz9/pBc8pEP8XpyJPQccFpeReGef1DX/JNF2O090fdjsRz7IssfAT6DO2wQ==",
+            "version": "7.230.2",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.230.2/a8cd4d08319a541248279a7e80d448193cc48012",
+            "integrity": "sha512-CwTQYsWCRyX3Ca8pJfEb+mr3U/LbSLihtUDeQSESBXzoaNgS6OouZE+0Ae12nfJrfOHkn6nJ7Ge0aI5LBqaTjQ==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -1755,9 +1755,9 @@
             }
         },
         "node_modules/@unrs/resolver-binding-android-arm-eabi": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-android-arm-eabi/-/resolver-binding-android-arm-eabi-1.12.0.tgz",
-            "integrity": "sha512-FmIJ5Bq2UUrpj2TrJiOvtfvgh98QqB3PKVqWrHp0SrYqlNSlch4YXToiiNK+mSTNFes07DipzT/JpJIq8xsOrg==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-android-arm-eabi/-/resolver-binding-android-arm-eabi-1.12.1.tgz",
+            "integrity": "sha512-diBxYrhKMJWZiQMFDgKVRDV4zSRyRTR6PBg+0p6/7zAWP6fqUfl0Be0RKvjLhzfRT0Ye5TCAP04gg4rZHSTvnA==",
             "cpu": [
                 "arm"
             ],
@@ -1768,9 +1768,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-android-arm64": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-android-arm64/-/resolver-binding-android-arm64-1.12.0.tgz",
-            "integrity": "sha512-XqE7sTuM4wquiiSptDC18/7SRh5LOQhmjRgu7j65T+m7lP0FzJQl0fSL+Zd7aATVJciVpcNkk0ml4hMwASvfXQ==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-android-arm64/-/resolver-binding-android-arm64-1.12.1.tgz",
+            "integrity": "sha512-7VQXkWRrq3zFmL1byHilfy8YjCGxf9dKMYbLIGzR6ujAu4+FB3YD8IkesmpgB9vpiitYjMPs/Dk5Sh/P9aoHLQ==",
             "cpu": [
                 "arm64"
             ],
@@ -1781,9 +1781,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-darwin-arm64": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-darwin-arm64/-/resolver-binding-darwin-arm64-1.12.0.tgz",
-            "integrity": "sha512-7aOfLOGYIh3Whvzv6fi3bA9aj8tuf7XDYbzTtsMeXixdRGLT6luR1htBSbjvWXyCn4TbKgz5SDa5gURYdlM0GQ==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-darwin-arm64/-/resolver-binding-darwin-arm64-1.12.1.tgz",
+            "integrity": "sha512-SJbHelGnb7hZVLCEWSkbTOpmTC63ZUweZEIPNtRD1D+UkDqYHFynwGUTG1WAjQTdTTaiJ4xab3z5Vk334WeqbA==",
             "cpu": [
                 "arm64"
             ],
@@ -1794,9 +1794,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-darwin-x64": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-darwin-x64/-/resolver-binding-darwin-x64-1.12.0.tgz",
-            "integrity": "sha512-2NiHBibXXDCBnjpzpwHoq4Fs6kvt9QYD6ravNA3D8KQaKr7r0qu6CyvqJfDLYssijCSs2UwEmkKcAmCxP/HOXA==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-darwin-x64/-/resolver-binding-darwin-x64-1.12.1.tgz",
+            "integrity": "sha512-sCCTeB7e2L49YhjPK7IkPfWfCR+NHSfbCbDOy3LqyfkrBpK9qXRRyS1ImCHqEE1LMJxmVN5bAvioI/zTFu48xw==",
             "cpu": [
                 "x64"
             ],
@@ -1807,9 +1807,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-freebsd-x64": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-freebsd-x64/-/resolver-binding-freebsd-x64-1.12.0.tgz",
-            "integrity": "sha512-x/k1Vy1QoDrOYLJzQg2/WsRGQPS0Saw4basKqjZDQlPdkSApsvDdB9h8oRQDUTJCCazSlqLm+Ry9NQFlJicacQ==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-freebsd-x64/-/resolver-binding-freebsd-x64-1.12.1.tgz",
+            "integrity": "sha512-rsKJJykPydB+lA/mdeMSYqsQpdRTAjhJiwdQ+jdihPDpbN1h7PaNAo6Fz8PxqWtKd+YC3uGjjW+m+1iPwRwJuA==",
             "cpu": [
                 "x64"
             ],
@@ -1820,9 +1820,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-linux-arm-gnueabihf": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-arm-gnueabihf/-/resolver-binding-linux-arm-gnueabihf-1.12.0.tgz",
-            "integrity": "sha512-zuHruxqemJqM2lrVwIgw7o3/0rLrskWDqVRAc8974nNy3cZR2N9cfatIE5PzmSNeRSafh0rAaS3ev294yCyj7A==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-arm-gnueabihf/-/resolver-binding-linux-arm-gnueabihf-1.12.1.tgz",
+            "integrity": "sha512-D6Al5C6j9RdqjGI7Hqa/iVbh09xOEIyZScG60OJGRF0fvf9cy2FdSHG6qLG9Osv8aYe+syWId+PLRwR43soVkA==",
             "cpu": [
                 "arm"
             ],
@@ -1833,9 +1833,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-linux-arm-musleabihf": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-arm-musleabihf/-/resolver-binding-linux-arm-musleabihf-1.12.0.tgz",
-            "integrity": "sha512-s2WgKQXQXhV14OT3jNoS1jN4c+8Mvamxq6jG3L7Igl8teXaGZvjI3RfZksqoxL3UAEin9UkZSApXZ+shocI1ZQ==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-arm-musleabihf/-/resolver-binding-linux-arm-musleabihf-1.12.1.tgz",
+            "integrity": "sha512-9+yQ/cnoapQ1G+HS6nXQ+4GZ/qKpieZuZxO8GWGJ+F2/1WC5eRzIU2BYUgT029A/y7n3qb0whuT6vvMzB9Zd0g==",
             "cpu": [
                 "arm"
             ],
@@ -1846,9 +1846,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-linux-arm64-gnu": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-arm64-gnu/-/resolver-binding-linux-arm64-gnu-1.12.0.tgz",
-            "integrity": "sha512-ghMWlxxa3aCW9sk5FpzrTXSo/NSanKs/RovDal5q+T2Q+dAKLFyGXWmQ6AAMsl6k/TgXHw+jj9Q9sELLx9mfJw==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-arm64-gnu/-/resolver-binding-linux-arm64-gnu-1.12.1.tgz",
+            "integrity": "sha512-OY/REy8lJgrkZgUpiwhClBvSDLSJNxkvqV7il6I1iNBQFyIEZRpOm1ttV8iMjpcPN2Dl7kjGd7CoKoJUebn6Jw==",
             "cpu": [
                 "arm64"
             ],
@@ -1862,9 +1862,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-linux-arm64-musl": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-arm64-musl/-/resolver-binding-linux-arm64-musl-1.12.0.tgz",
-            "integrity": "sha512-ldOaKTzXNIHjGzRtzgfh+g6mqt30Q8hnR+EFdfeKYgeuMqnwsllk6IaN2kadvuRRQNBr1ycI45pmgGA5EUxzuA==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-arm64-musl/-/resolver-binding-linux-arm64-musl-1.12.1.tgz",
+            "integrity": "sha512-C0nRwuMNgiGU8M5ym7eFe1qOo4oJtZ4TH6g+qAMWIR0hXgMjMs0bsggIv7Sbeia1GI8ZQHzQwrhBEawFiHQIPQ==",
             "cpu": [
                 "arm64"
             ],
@@ -1878,9 +1878,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-linux-ppc64-gnu": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-ppc64-gnu/-/resolver-binding-linux-ppc64-gnu-1.12.0.tgz",
-            "integrity": "sha512-PQRjWSz5v+7K9CHh8a11t6JHfmuG2o3ozHgj/9IsEtSMBc/S8p8eZoJO0+i7FUq0JEjnIfLRLUADXOF/2jx4SQ==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-ppc64-gnu/-/resolver-binding-linux-ppc64-gnu-1.12.1.tgz",
+            "integrity": "sha512-1GrdTqRuLZMsLa9d6T1BM6WTPGMZxkDKLR4SSzWaUtWpBuOVb33DIShXadhDYrTRESEm7pRN8m7SOM2m8pPT8w==",
             "cpu": [
                 "ppc64"
             ],
@@ -1894,9 +1894,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-linux-riscv64-gnu": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-riscv64-gnu/-/resolver-binding-linux-riscv64-gnu-1.12.0.tgz",
-            "integrity": "sha512-slpQUuAp3+I0jsFyHxBaqETZSe8+OaG019nDOCBD0ZqZSNv0z7lMXKDgpH9BsSD+1Z5BSvV1QUbWS/MbGxpI+A==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-riscv64-gnu/-/resolver-binding-linux-riscv64-gnu-1.12.1.tgz",
+            "integrity": "sha512-q9gc8/37+8jGc8RJahXtonvxgbUisjOHCaiDXrg4Nv8+pk9iKv97drJ61crkZJEms+bIr7lLc54SlZ08qVY9nA==",
             "cpu": [
                 "riscv64"
             ],
@@ -1910,9 +1910,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-linux-riscv64-musl": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-riscv64-musl/-/resolver-binding-linux-riscv64-musl-1.12.0.tgz",
-            "integrity": "sha512-v30e31aTFDfl1R+On53cNpd4sMQ+lzYTE4dxVia1B++Ds+27lEZSOlwjPfPN20mxb9ENis1mwUW+5SO6OzXJcA==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-riscv64-musl/-/resolver-binding-linux-riscv64-musl-1.12.1.tgz",
+            "integrity": "sha512-kLFS/MfGFpeYUrnnsUnmZAxwXMPHZOIPHNp3d4zHnx7/etyX2SSQQ1Kj/Ycaxy4V5dN16YoXpnhrwANjywiJCg==",
             "cpu": [
                 "riscv64"
             ],
@@ -1926,9 +1926,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-linux-s390x-gnu": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-s390x-gnu/-/resolver-binding-linux-s390x-gnu-1.12.0.tgz",
-            "integrity": "sha512-yn6cnDhoH1IOgYvLnTeu7iAf1iknc7SXjqyLPCr3umbaeuFD8Uy2x3c3F82x2SDVEX/JpEkAGNd18lUBw4w9aQ==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-s390x-gnu/-/resolver-binding-linux-s390x-gnu-1.12.1.tgz",
+            "integrity": "sha512-vKlW4XOJUrpvMBgbIg97t6UEBsFsxGZS5Khi47XkNzC5T1obPhEYWfaGGv9oAe6xXzXib9xaH64CQV8AXN9GiA==",
             "cpu": [
                 "s390x"
             ],
@@ -1942,9 +1942,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-linux-x64-gnu": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-x64-gnu/-/resolver-binding-linux-x64-gnu-1.12.0.tgz",
-            "integrity": "sha512-M0zUTXIoRbPdWmLOs8hG3CnLVKTMbcAkC1++GJzjLAlGfH5gvhbePa6+TFniTgqiizGr0/3fdXI7R8aNwy/N4g==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-x64-gnu/-/resolver-binding-linux-x64-gnu-1.12.1.tgz",
+            "integrity": "sha512-e9gRaBDEraJLdeScpwBA+WqaJDXnmlHPC7aZTAp9N4BYiEs8BvDfjgeqSVygrc3NZbeMfiKygevINZ9QP271wA==",
             "cpu": [
                 "x64"
             ],
@@ -1958,9 +1958,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-linux-x64-musl": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-x64-musl/-/resolver-binding-linux-x64-musl-1.12.0.tgz",
-            "integrity": "sha512-GJUwROe22qValEd7JRT7FG/u36Iv/IL9AedRw7pEdbc8KcfbODcygvQHAVigBFReylyLe8UkPYxJy7F5Sm+Ldw==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-linux-x64-musl/-/resolver-binding-linux-x64-musl-1.12.1.tgz",
+            "integrity": "sha512-Z7813xEacoT+WRBm1O0wgIkXRgVyTctaRPkKx7T+WgeAfGzMfgWCxhRjAAJh/2LMDPlSXOnapr3vwI1TgDEtTA==",
             "cpu": [
                 "x64"
             ],
@@ -1974,9 +1974,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-openharmony-arm64": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-openharmony-arm64/-/resolver-binding-openharmony-arm64-1.12.0.tgz",
-            "integrity": "sha512-UwIkgOapYxrSPf8KTOtXeZKJD69upM9hQQuty1W0wQAJwsZrJSXFEoxuJ6lcjmEp/iJvx5PUknMqqBXJlzPTyw==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-openharmony-arm64/-/resolver-binding-openharmony-arm64-1.12.1.tgz",
+            "integrity": "sha512-GN5YjvnL5nGd5twW4KHWre6iOzLVsIgZwBin3jTT1Pef2Q3l0WgMYA5uo908wL+gsxSFzFXuxkO+AjpsLoOaYw==",
             "cpu": [
                 "arm64"
             ],
@@ -1987,9 +1987,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-wasm32-wasi": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-wasm32-wasi/-/resolver-binding-wasm32-wasi-1.12.0.tgz",
-            "integrity": "sha512-hE7r1jGIYXTR+inEZxKpUUT+P44RS/J5fz6x5UVvLjVsmHlkpeHOetRs5eglgoPskXwfROZlChCWBq+UoS+6Qg==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-wasm32-wasi/-/resolver-binding-wasm32-wasi-1.12.1.tgz",
+            "integrity": "sha512-Gue4obXW5E2223qBWqW05S9m1uPcBIEu8cJWs3YqzVVf+h6lNRofgJlhGNxmuqu+C/fSlqaW4T1JHFZdoOgGGQ==",
             "cpu": [
                 "wasm32"
             ],
@@ -2026,9 +2026,9 @@
             }
         },
         "node_modules/@unrs/resolver-binding-win32-arm64-msvc": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-win32-arm64-msvc/-/resolver-binding-win32-arm64-msvc-1.12.0.tgz",
-            "integrity": "sha512-zkwy74gxj0z6G6KxCaVsQJQDlLs8g3sUYtNJYrmThB0GHsK7cmCFtRLLqaeFUvf+K2lWG8KXv1PpQr18NgNOWw==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-win32-arm64-msvc/-/resolver-binding-win32-arm64-msvc-1.12.1.tgz",
+            "integrity": "sha512-z09l7yiDIOLDTFkW+TEroFjidYAM6JriPqMMpXpM7/EnEe6tehrJZrghlvvPyI/W4JGWAJVDaOs4rl+snJlHwg==",
             "cpu": [
                 "arm64"
             ],
@@ -2039,9 +2039,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-win32-ia32-msvc": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-win32-ia32-msvc/-/resolver-binding-win32-ia32-msvc-1.12.0.tgz",
-            "integrity": "sha512-dDLr9aigi1kz+sjL9o/TSVe+5Xf5zjSrXlSJALCJE2hY/J2Ml1qKxmFZYJVEWvp72hRjIxnHH83o0cPXLkJqiA==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-win32-ia32-msvc/-/resolver-binding-win32-ia32-msvc-1.12.1.tgz",
+            "integrity": "sha512-RZ9vu5nw+Lgf91LJIZXFx6OrbId+EN2x0HzpAdm0C9oywiPw5x7LBs4uNboZ2Taozo8SiX/7vEDWWyIpKqktgA==",
             "cpu": [
                 "ia32"
             ],
@@ -2052,9 +2052,9 @@
             ]
         },
         "node_modules/@unrs/resolver-binding-win32-x64-msvc": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.12.0.tgz",
-            "integrity": "sha512-xLJGnOAnh4eYwZLoPW27FsCAI1zwgXpeOsxUUYRNjbSmEip5j4B8fPazsoicTN+YcaAET64JyuMvazxZUe/Wzg==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.12.1.tgz",
+            "integrity": "sha512-rXHMTryD4YT8wuGDhV8UevKiD02/wUrdKLyokgNQQf/AcO6BCUEkQu5WGQ9i41bA4tlSfKo02WmAcAgxuP6izA==",
             "cpu": [
                 "x64"
             ],
@@ -6491,9 +6491,9 @@
             }
         },
         "node_modules/unrs-resolver": {
-            "version": "1.12.0",
-            "resolved": "https://registry.npmjs.org/unrs-resolver/-/unrs-resolver-1.12.0.tgz",
-            "integrity": "sha512-hiJjN9x3O/SF2yGpNX7swfg24bi4t+uqEww16EeH9LT2I6mkGNf8uZvAS9PL1pvkA/fBagTaxbgHfYQPRfahuQ==",
+            "version": "1.12.1",
+            "resolved": "https://registry.npmjs.org/unrs-resolver/-/unrs-resolver-1.12.1.tgz",
+            "integrity": "sha512-LmOTmcBbFqxu1rzubnqHT6EZeqDYpenlGYwyFhHj7oc1HdyZE+0cLQ+s9SDSK+KKQQKuoJhUbzHQ89Ubwg2Oxg==",
             "hasInstallScript": true,
             "license": "MIT",
             "dependencies": {
@@ -6503,26 +6503,26 @@
                 "url": "https://opencollective.com/unrs-resolver"
             },
             "optionalDependencies": {
-                "@unrs/resolver-binding-android-arm-eabi": "1.12.0",
-                "@unrs/resolver-binding-android-arm64": "1.12.0",
-                "@unrs/resolver-binding-darwin-arm64": "1.12.0",
-                "@unrs/resolver-binding-darwin-x64": "1.12.0",
-                "@unrs/resolver-binding-freebsd-x64": "1.12.0",
-                "@unrs/resolver-binding-linux-arm-gnueabihf": "1.12.0",
-                "@unrs/resolver-binding-linux-arm-musleabihf": "1.12.0",
-                "@unrs/resolver-binding-linux-arm64-gnu": "1.12.0",
-                "@unrs/resolver-binding-linux-arm64-musl": "1.12.0",
-                "@unrs/resolver-binding-linux-ppc64-gnu": "1.12.0",
-                "@unrs/resolver-binding-linux-riscv64-gnu": "1.12.0",
-                "@unrs/resolver-binding-linux-riscv64-musl": "1.12.0",
-                "@unrs/resolver-binding-linux-s390x-gnu": "1.12.0",
-                "@unrs/resolver-binding-linux-x64-gnu": "1.12.0",
-                "@unrs/resolver-binding-linux-x64-musl": "1.12.0",
-                "@unrs/resolver-binding-openharmony-arm64": "1.12.0",
-                "@unrs/resolver-binding-wasm32-wasi": "1.12.0",
-                "@unrs/resolver-binding-win32-arm64-msvc": "1.12.0",
-                "@unrs/resolver-binding-win32-ia32-msvc": "1.12.0",
-                "@unrs/resolver-binding-win32-x64-msvc": "1.12.0"
+                "@unrs/resolver-binding-android-arm-eabi": "1.12.1",
+                "@unrs/resolver-binding-android-arm64": "1.12.1",
+                "@unrs/resolver-binding-darwin-arm64": "1.12.1",
+                "@unrs/resolver-binding-darwin-x64": "1.12.1",
+                "@unrs/resolver-binding-freebsd-x64": "1.12.1",
+                "@unrs/resolver-binding-linux-arm-gnueabihf": "1.12.1",
+                "@unrs/resolver-binding-linux-arm-musleabihf": "1.12.1",
+                "@unrs/resolver-binding-linux-arm64-gnu": "1.12.1",
+                "@unrs/resolver-binding-linux-arm64-musl": "1.12.1",
+                "@unrs/resolver-binding-linux-ppc64-gnu": "1.12.1",
+                "@unrs/resolver-binding-linux-riscv64-gnu": "1.12.1",
+                "@unrs/resolver-binding-linux-riscv64-musl": "1.12.1",
+                "@unrs/resolver-binding-linux-s390x-gnu": "1.12.1",
+                "@unrs/resolver-binding-linux-x64-gnu": "1.12.1",
+                "@unrs/resolver-binding-linux-x64-musl": "1.12.1",
+                "@unrs/resolver-binding-openharmony-arm64": "1.12.1",
+                "@unrs/resolver-binding-wasm32-wasi": "1.12.1",
+                "@unrs/resolver-binding-win32-arm64-msvc": "1.12.1",
+                "@unrs/resolver-binding-win32-ia32-msvc": "1.12.1",
+                "@unrs/resolver-binding-win32-x64-msvc": "1.12.1"
             }
         },
         "node_modules/update-browserslist-db": {

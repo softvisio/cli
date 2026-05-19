@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.113.2 (2026-05-19)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: use readmeUrl in package home (● [a58d191](https://github.com/softvisio/cli/commit/a58d191e); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8d17450](https://github.com/softvisio/cli/commit/8d17450d), [607b4b5](https://github.com/softvisio/cli/commit/607b4b51), [e99b705](https://github.com/softvisio/cli/commit/e99b7055), [9250b9d](https://github.com/softvisio/cli/commit/9250b9dc), [c77249a](https://github.com/softvisio/cli/commit/c77249ab); 👬 zdm)
+
+Compare with the previous release: [v3.113.1...v3.113.2](https://github.com/softvisio/cli/compare/v3.113.1...v3.113.2)
+
 ### v3.113.1 (2026-05-17)
 
 **Code refactoring:**

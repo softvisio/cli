@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.114.0 (2026-05-20)
+
+**New features:**
+
+- \[MINOR] feat: add password generator (● [3674cf7](https://github.com/softvisio/cli/commit/3674cf7f), [fb82386](https://github.com/softvisio/cli/commit/fb823862); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix workspace deps updater (● [d80b9f3](https://github.com/softvisio/cli/commit/d80b9f37), [19b73bd](https://github.com/softvisio/cli/commit/19b73bda), [c1b1e1d](https://github.com/softvisio/cli/commit/c1b1e1d0); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [3061b42](https://github.com/softvisio/cli/commit/3061b421), [c673125](https://github.com/softvisio/cli/commit/c6731258); 👬 zdm)
+
+Compare with the previous release: [v3.113.2...v3.114.0](https://github.com/softvisio/cli/compare/v3.113.2...v3.114.0)
+
 ### v3.113.2 (2026-05-19)
 
 **Code refactoring:**

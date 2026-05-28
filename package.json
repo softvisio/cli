@@ -72,14 +72,5 @@
         "terser": "^5.5.1",
         "typescript-eslint": "^8.0.0",
         "vue-eslint-parser": "^10.0.0"
-    },
-    "allowScripts": {
-        "@corejslib/core": true,
-        "@corejslib/uws": true,
-        "bufferutil": true,
-        "es5-ext": true,
-        "sharp": true,
-        "unrs-resolver": true,
-        "utf-8-validate": true
     }
 }

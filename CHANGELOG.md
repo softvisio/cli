@@ -1,5 +1,25 @@
 # Changelog
 
+### v3.114.1 (2026-05-29)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix passwords bit strength (● [592c30a](https://github.com/softvisio/cli/commit/592c30a3); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: make ejs.fromFile async (● [bcd5023](https://github.com/softvisio/cli/commit/bcd50237); 👬 zdm)
+
+- \[PATCH] refactor: refactor passwords (● [097397f](https://github.com/softvisio/cli/commit/097397f5), [bbf1ab4](https://github.com/softvisio/cli/commit/bbf1ab45); 👬 zdm)
+
+**Other changes:**
+
+- build: remove registries from .npmrc (● [2ac0792](https://github.com/softvisio/cli/commit/2ac0792a); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [2e76d05](https://github.com/softvisio/cli/commit/2e76d05c), [ca715ab](https://github.com/softvisio/cli/commit/ca715ab6), [65fbb31](https://github.com/softvisio/cli/commit/65fbb318), [505601f](https://github.com/softvisio/cli/commit/505601f5), [a63af17](https://github.com/softvisio/cli/commit/a63af179), [35f4488](https://github.com/softvisio/cli/commit/35f4488b), [ba0e441](https://github.com/softvisio/cli/commit/ba0e441a), [2c915b8](https://github.com/softvisio/cli/commit/2c915b8f), [07a434e](https://github.com/softvisio/cli/commit/07a434ec), [28de933](https://github.com/softvisio/cli/commit/28de9330), [53482c4](https://github.com/softvisio/cli/commit/53482c48), [55b3db1](https://github.com/softvisio/cli/commit/55b3db15), [ed6c258](https://github.com/softvisio/cli/commit/ed6c2580), [705a64e](https://github.com/softvisio/cli/commit/705a64ec), [6384000](https://github.com/softvisio/cli/commit/63840000), [47a05df](https://github.com/softvisio/cli/commit/47a05df1); 👬 zdm)
+
+Compare with the previous release: [v3.114.0...v3.114.1](https://github.com/softvisio/cli/compare/v3.114.0...v3.114.1)
+
 ### v3.114.0 (2026-05-20)
 
 **New features:**

@@ -97,9 +97,9 @@
             "license": "MIT"
         },
         "node_modules/@corejslib/core": {
-            "version": "7.232.1",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.232.1/be097eaad6d1410cae517af122b579028e487bb6",
-            "integrity": "sha512-gVM9p47TGPA7lgUpsSWh9x2++iaodaiwKxDcGD5IlTSiekOiCG5jZQKUjSZMi0/ycxzTgNJi5ehsJ77s51ywbA==",
+            "version": "7.232.2",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.232.2/84d5181d3f5e84904218df136b5079e06233cb38",
+            "integrity": "sha512-cML/L3ZNKpDylUjv9bZp8q4DHPo1p23/BUbcfjYIAV9rdJchRuPFxPwFXc8hbulvXJYyWsIfxLUa3y71Td17Pg==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -3047,9 +3047,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.372",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.372.tgz",
-            "integrity": "sha512-M3yhbAlilnwqC8D21t28UCDGHyitShTmmLRU/H+b74P6Ski16Nb9HONYEaVpMj/pwC7BEo5B95FpjODLCWbtfA==",
+            "version": "1.5.373",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.373.tgz",
+            "integrity": "sha512-G2Hym8JIf/QreuseqkDibgH8Ci8KfJzqGDKdakbhSx9UltwRBH2cBLAWU/lBX0sCdv0TlhyxQyDCnSfxgMWsjA==",
             "license": "ISC"
         },
         "node_modules/entities": {

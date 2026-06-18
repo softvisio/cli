@@ -97,9 +97,9 @@
             "license": "MIT"
         },
         "node_modules/@corejslib/core": {
-            "version": "7.232.6",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.232.6/bfc6ce7c6d5ab2574ffe21dc5a0b115b921cac80",
-            "integrity": "sha512-unVvymZ+jrX7rZAAttx+Mlb5uOuf33X4OpPdJJf+AgaE2fVRfuLgYijUQ7ZkerJiQzfvto8VaQHHBKyeGEoV8Q==",
+            "version": "7.232.7",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.232.7/4cec9d2866eae720b16527785e74997f6bde811b",
+            "integrity": "sha512-EQdEj2YSbt/BZGCokKZ4RbDqS83qsJG37zrZbVy380Hmf3jm8PkL01EhiOJLPaQCISIy9Ek6RTP6vimF6QB56Q==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {

@@ -1,5 +1,37 @@
 # Changelog
 
+### v3.114.2 (2026-06-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix ejs render (● [c7437df](https://github.com/softvisio/cli/commit/c7437df4), [3a7f532](https://github.com/softvisio/cli/commit/3a7f5326); 👬 zdm)
+
+- \[PATCH] fix: fix gen password cli spec (● [98e19d7](https://github.com/softvisio/cli/commit/98e19d7f), [8ab4788](https://github.com/softvisio/cli/commit/8ab47886), [a5ad53d](https://github.com/softvisio/cli/commit/a5ad53d8); 👬 zdm)
+
+- \[PATCH] fix: fix password gen report (● [04d8536](https://github.com/softvisio/cli/commit/04d85367); 👬 zdm)
+
+- \[PATCH] fix: limit paswords generator alphabets to ascii (● [66a1cd4](https://github.com/softvisio/cli/commit/66a1cd43); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor passwords (● [65d30c5](https://github.com/softvisio/cli/commit/65d30c5e), [018ea59](https://github.com/softvisio/cli/commit/018ea599), [7334919](https://github.com/softvisio/cli/commit/73349192); 👬 zdm)
+
+- \[PATCH] refactor: update eslint-plugin-unicorn rules (● [d4d5f9f](https://github.com/softvisio/cli/commit/d4d5f9f7); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bunp eslint-plugin-unicorn@^65.0.0 (● [51ca814](https://github.com/softvisio/cli/commit/51ca814b); 👬 zdm)
+
+- build(deps): bunp eslint-plugin-unicorn@^66.0.0 (● [4bbf114](https://github.com/softvisio/cli/commit/4bbf114b); 👬 zdm)
+
+- build(deps): bunp eslint-plugin-unicorn@^67.0.0 (● [8ade637](https://github.com/softvisio/cli/commit/8ade6371); 👬 zdm)
+
+- build(deps): bunp sharp@^0.35.0 (● [cba8164](https://github.com/softvisio/cli/commit/cba81646); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [d6da07f](https://github.com/softvisio/cli/commit/d6da07f7), [2722b8b](https://github.com/softvisio/cli/commit/2722b8b4), [086a279](https://github.com/softvisio/cli/commit/086a2796), [52cbbf3](https://github.com/softvisio/cli/commit/52cbbf38), [bb49c8a](https://github.com/softvisio/cli/commit/bb49c8a7), [f207843](https://github.com/softvisio/cli/commit/f207843b), [95b56d7](https://github.com/softvisio/cli/commit/95b56d7e), [595f0b4](https://github.com/softvisio/cli/commit/595f0b40), [98919da](https://github.com/softvisio/cli/commit/98919daa), [2711b77](https://github.com/softvisio/cli/commit/2711b77a), [4e9827f](https://github.com/softvisio/cli/commit/4e9827f8), [5825f6c](https://github.com/softvisio/cli/commit/5825f6cd), [c71242d](https://github.com/softvisio/cli/commit/c71242db), [fe41d4f](https://github.com/softvisio/cli/commit/fe41d4fe), [f99e1ad](https://github.com/softvisio/cli/commit/f99e1ad5), [739ba57](https://github.com/softvisio/cli/commit/739ba572), [da1976d](https://github.com/softvisio/cli/commit/da1976d0), [5a74c69](https://github.com/softvisio/cli/commit/5a74c69b), [db8ad5c](https://github.com/softvisio/cli/commit/db8ad5ce), [2bb0e28](https://github.com/softvisio/cli/commit/2bb0e28e), [7be1ab9](https://github.com/softvisio/cli/commit/7be1ab9e), [e226013](https://github.com/softvisio/cli/commit/e2260138), [d0e2423](https://github.com/softvisio/cli/commit/d0e2423d), [c0e187f](https://github.com/softvisio/cli/commit/c0e187f1), [e8df9c0](https://github.com/softvisio/cli/commit/e8df9c03), [9dc1694](https://github.com/softvisio/cli/commit/9dc1694d), [b25e896](https://github.com/softvisio/cli/commit/b25e8964), [3fd7bcf](https://github.com/softvisio/cli/commit/3fd7bcfa), [347ae02](https://github.com/softvisio/cli/commit/347ae024), [20e1f87](https://github.com/softvisio/cli/commit/20e1f874), [1fcc9ac](https://github.com/softvisio/cli/commit/1fcc9aca), [4c337a3](https://github.com/softvisio/cli/commit/4c337a3d), [2914218](https://github.com/softvisio/cli/commit/29142184), [0be062c](https://github.com/softvisio/cli/commit/0be062ca), [caaa7cf](https://github.com/softvisio/cli/commit/caaa7cfc), [5267670](https://github.com/softvisio/cli/commit/52676706), [a17f3e7](https://github.com/softvisio/cli/commit/a17f3e71), [a28bf6a](https://github.com/softvisio/cli/commit/a28bf6a1), [84d8054](https://github.com/softvisio/cli/commit/84d80544); 👬 zdm)
+
+Compare with the previous release: [v3.114.1...v3.114.2](https://github.com/softvisio/cli/compare/v3.114.1...v3.114.2)
+
 ### v3.114.1 (2026-05-29)
 
 **Bug fixes:**

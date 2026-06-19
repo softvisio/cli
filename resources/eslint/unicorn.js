@@ -7,6 +7,10 @@ const CONFIG = [
             "unicorn": eslintUnicorn,
         },
         "rules": {
+
+            // FIXME [engine:node@>=26.0.0]: "unicorn/prefer-iterator-concat": "error",
+            // FIXME [engine:node@>=26.0.0]: "unicorn/prefer-temporal": "error",
+
             "unicorn/consistent-template-literal-escape": "error",
             "unicorn/prefer-optional-catch-binding": "error",
             "unicorn/catch-error-name": [
@@ -15,23 +19,14 @@ const CONFIG = [
                     "name": "e",
                 },
             ],
-
             "unicorn/consistent-assert": "error",
             "unicorn/consistent-date-clone": "error",
             "unicorn/escape-case": "error",
             "unicorn/new-for-builtins": "error",
             "unicorn/no-accessor-recursion": "error",
-
-            // XXX "unicorn/no-array-for-each": "error",
-            // XXX "unicorn/no-array-reduce": "error",
-            // XXX "unicorn/no-await-expression-member": "error",
-
             "unicorn/no-immediate-mutation": "error",
             "unicorn/no-instanceof-builtins": "error",
             "unicorn/no-length-as-slice-end": "error",
-
-            // XXX "unicorn/no-lonely-if": "error",
-
             "unicorn/no-named-default": "error",
             "unicorn/no-unnecessary-array-flat-depth": "error",
             "unicorn/no-unnecessary-array-splice-count": "error",
@@ -42,7 +37,6 @@ const CONFIG = [
             "unicorn/no-useless-spread": "error",
             "unicorn/no-useless-undefined": "error",
             "unicorn/no-zero-fractions": "error",
-
             "unicorn/number-literal-case": [
                 "error",
                 {
@@ -71,10 +65,6 @@ const CONFIG = [
                     },
                 },
             ],
-
-            // NOTE: can break third-party code
-            // "unicorn/prefer-at": "error",
-
             "unicorn/prefer-bigint-literals": "error",
             "unicorn/prefer-class-fields": "error",
             "unicorn/prefer-classlist-toggle": "error",
@@ -84,10 +74,6 @@ const CONFIG = [
             "unicorn/prefer-dom-node-remove": "error",
             "unicorn/prefer-global-this": "error",
             "unicorn/prefer-import-meta-properties": "error",
-
-            // XXX can break browser code (extjs.js)
-            // "unicorn/prefer-modern-dom-apis": "error",
-
             "unicorn/prefer-modern-math-apis": "error",
             "unicorn/prefer-negative-index": "error",
 
@@ -105,21 +91,79 @@ const CONFIG = [
             "unicorn/prefer-response-static-json": "error",
             "unicorn/prefer-set-has": "error",
             "unicorn/prefer-set-size": "error",
-
-            // combines consecutive push() calls into one, not safe for stream.push()
-            // "unicorn/prefer-single-call": "error",
-
             "unicorn/prefer-string-replace-all": "error",
             "unicorn/prefer-string-starts-ends-with": "error",
             "unicorn/prefer-string-trim-start-end": "error",
             "unicorn/prefer-structured-clone": "error",
-
-            // "unicorn/prefer-string-raw": "error",
             "unicorn/prefer-string-slice": "error",
             "unicorn/relative-url-style": "error",
             "unicorn/require-module-attributes": "error",
             "unicorn/require-module-specifiers": "error",
             "unicorn/text-encoding-identifier-case": "error",
+            "unicorn/consistent-compound-words": "error",
+            "unicorn/no-duplicate-set-values": "error",
+            "unicorn/no-exports-in-scripts": "error",
+            "unicorn/no-unnecessary-nested-ternary": "error",
+            "unicorn/no-unused-array-method-return": "error",
+            "unicorn/prefer-array-last-methods": "error",
+            "unicorn/prefer-get-or-insert-computed": "error",
+            "unicorn/prefer-iterator-to-array-at-end": "error",
+            "unicorn/prefer-split-limit": "error",
+            "unicorn/prefer-string-match-all": "error",
+            "unicorn/prefer-string-pad-start-end": "error",
+            "unicorn/explicit-timer-delay": "error",
+            "unicorn/no-duplicate-loops": "error",
+            "unicorn/no-negated-array-predicate": "error",
+            "unicorn/no-redundant-comparison": "error",
+            "unicorn/no-subtraction-comparison": "error",
+            "unicorn/no-unnecessary-splice": "error",
+            "unicorn/expiring-todo-comments": "error",
+            "unicorn/no-unsafe-buffer-conversion": "error",
+            "unicorn/no-useless-boolean-cast": "error",
+            "unicorn/no-useless-concat": "error",
+            "unicorn/prefer-array-from-map": "error",
+            "unicorn/prefer-iterable-in-constructor": "error",
+            "unicorn/no-accidental-bitwise-operator": "error",
+            "unicorn/no-array-sort-for-min-max": "error",
+            "unicorn/no-boolean-sort-comparator": "error",
+            "unicorn/no-chained-comparison": "error",
+            "unicorn/no-double-comparison": "error",
+            "unicorn/no-duplicate-logical-operands": "error",
+            "unicorn/no-loop-iterable-mutation": "error",
+            "unicorn/prefer-array-from-async": "error",
+            "unicorn/prefer-math-constants": "error",
+            "unicorn/prefer-single-replace": "error",
+            "unicorn/prefer-unary-minus": "error",
+
+            // XXX "unicorn/no-break-in-nested-loop": "error",
+            // XXX "unicorn/prefer-unicode-code-point-escapes": "error",
+            // XXX "unicorn/consistent-optional-chaining": "error",
+            // XXX "unicorn/prefer-queue-microtask": "error",
+            // XXX "unicorn/class-reference-in-static-methods": "error",
+            // XXX "unicorn/no-this-outside-of-class": "error",
+            // XXX "unicorn/no-unnecessary-global-this": "error",
+            // XXX "unicorn/no-unreadable-object-destructuring": "error",
+            // XXX "unicorn/prefer-direct-iteration": "error",
+            // XXX: "unicorn/prefer-iterator-to-array": ``"error",
+            // XXX "unicorn/require-array-sort-compare": "error",
+            // XXX "unicorn/no-useless-continue": "error",
+            // XXX "unicorn/no-for-each": "error",
+            // XXX "unicorn/no-array-reduce": "error",
+            // XXX "unicorn/no-await-expression-member": "error",
+            // XXX "unicorn/no-lonely-if": "error",
+
+            // ERROR: can break third-party code
+            // "unicorn/prefer-at": "error",
+
+            // ERROR: "unicorn/prefer-string-repeat": "error",
+
+            // ERROR: "unicorn/prefer-string-raw": "error",
+
+            // ERROR: combines consecutive push() calls into one, not safe for stream.push()
+            // "unicorn/prefer-single-call": "error",
+
+            // ERROR: can break browser code (extjs.js)
+            // "unicorn/prefer-modern-dom-apis": "error",
         },
     },
 ];

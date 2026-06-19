@@ -42,6 +42,10 @@
             },
             "bin": {
                 "scli": "bin/scli.js"
+            },
+            "engines": {
+                "node": ">=24.16.0",
+                "npm": ">=11.13.0"
             }
         },
         "node_modules/@babel/helper-string-parser": {
@@ -97,9 +101,9 @@
             "license": "MIT"
         },
         "node_modules/@corejslib/core": {
-            "version": "7.232.12",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.232.12/3a901e9f02b29fe38afe01ce5f986c60a20f2ba5",
-            "integrity": "sha512-8cjbn4iu3UZnCcPN6z5COFh8rfiuDsVAqbWCV/ku6w6Urx2pmvDNTXVherO026wj9t81dxhVJ3Osz5AeYl3VMA==",
+            "version": "7.232.13",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.232.13/d2616affacef3f61b13abb280611fae487440d15",
+            "integrity": "sha512-CPaf5IHiSs59CK2reDVUjz78kp/ExcbtMrcZuDN8ogNJGpfz04qD1/DgxgoepBafreX8QIIR6XYZFGaPdX+Dkw==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -153,9 +157,9 @@
             }
         },
         "node_modules/@corejslib/msgpack": {
-            "version": "3.5.18",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/msgpack/3.5.18/03959b73f62e61ad7d6c528d8f6a007a9996c9f2",
-            "integrity": "sha512-cFyFXoSKD5Hv9vwr6eK0BP+W283hDEHtSTnPUQj6SHMIl6o860KKcsG1RKvmihtrdZse5xEQOnyQbui6HPmgSQ==",
+            "version": "3.5.19",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/msgpack/3.5.19/ea7ab8e83e3defab870b296870d6a7de2c4a9528",
+            "integrity": "sha512-FBJKXdK02SOl4Fl1Yb/CJCAmNQAu3ALP0FlA4Ex9UzBsiBvmoQoqLtNvce16VqLNMQ0P0PDOkCd66/vYEV992w==",
             "license": "ISC"
         },
         "node_modules/@corejslib/result": {
@@ -5954,9 +5958,9 @@
             }
         },
         "node_modules/semver": {
-            "version": "7.8.4",
-            "resolved": "https://registry.npmjs.org/semver/-/semver-7.8.4.tgz",
-            "integrity": "sha512-rUCObTnP32Q08R2uuIrt7r9PlEonuTmtuXYcW6s5kjdlj3xbnwe+21yXptAUYcMAABLkYYTtnmzb3w3EDZfueA==",
+            "version": "7.8.5",
+            "resolved": "https://registry.npmjs.org/semver/-/semver-7.8.5.tgz",
+            "integrity": "sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==",
             "license": "ISC",
             "bin": {
                 "semver": "bin/semver.js"

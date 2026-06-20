@@ -147,10 +147,10 @@ const CONFIG = [
             // XXX "unicorn/no-unreadable-object-destructuring": "error",
             // XXX "unicorn/no-useless-continue": "error",
             // XXX "unicorn/prefer-direct-iteration": "error",
+            // XXX "unicorn/prefer-iterator-to-array": ``"error",
             // XXX "unicorn/prefer-queue-microtask": "error",
             // XXX "unicorn/prefer-unicode-code-point-escapes": "error",
             // XXX "unicorn/require-array-sort-compare": "error",
-            // XXX "unicorn/prefer-iterator-to-array": ``"error",
 
             // ERROR: can break third-party code
             // "unicorn/prefer-at": "error",

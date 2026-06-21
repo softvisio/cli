@@ -146,9 +146,9 @@
             }
         },
         "node_modules/@corejslib/eslint-plugin": {
-            "version": "1.8.8",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/eslint-plugin/1.8.8/9d625a3c724e455802e62580c9217c2434251a96",
-            "integrity": "sha512-sUwR3x7wNleyOtza7wkzjVK6PUXcOQi8J0be6p88PiawxF+93tNDaOFpdoLOECvL4sVpZzIyFNDv+UrHoO7XVQ==",
+            "version": "1.8.9",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/eslint-plugin/1.8.9/339c5ce5cc8c5af08ad70740339859b3ef51c0cc",
+            "integrity": "sha512-YW0HTRi0iCFJK6SQlKywcTD5yBa5gSYxFTPYG8IZHeny1mYyZPB3GLXB9HppKvwTNwXb9pPg9eAjQfSxn/bPHQ==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"
@@ -171,9 +171,9 @@
             "peer": true
         },
         "node_modules/@corejslib/utils": {
-            "version": "2.13.7",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/utils/2.13.7/b13523859a3b9dfb00cfdbe725f8c8e2404065f5",
-            "integrity": "sha512-r2MtdwLNE68dEvhLoxwuN4CqbmmO3usjfHNjjAOIYL4KX2qSFPKK3JL+ZIY88oxxhAUWYcND2Gq1jglFaCfR2Q==",
+            "version": "2.13.8",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/utils/2.13.8/d2c0c42b60ff7e7c9e67a3774726116de487cc93",
+            "integrity": "sha512-XEu2RSujhJNZZRooyU/xXOVtpjd7CZwkufIJpQFkuJvKUQyAWNDre+B0T2H6eETIRZi+KOiApKR3uaPq6L53JA==",
             "license": "ISC",
             "peerDependencies": {
                 "@corejslib/result": "^6.1.1",

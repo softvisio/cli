@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.114.4 (2026-06-21)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix tests (● [60d2f0f](https://github.com/softvisio/cli/commit/60d2f0fc); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update unicorn rules (● [2d33c45](https://github.com/softvisio/cli/commit/2d33c45d), [07665e3](https://github.com/softvisio/cli/commit/07665e3c), [87bfad6](https://github.com/softvisio/cli/commit/87bfad66); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [c7f4471](https://github.com/softvisio/cli/commit/c7f44719), [25b9d19](https://github.com/softvisio/cli/commit/25b9d19b); 👬 zdm)
+
+Compare with the previous release: [v3.114.3...v3.114.4](https://github.com/softvisio/cli/compare/v3.114.3...v3.114.4)
+
 ### v3.114.3 (2026-06-19)
 
 **Code refactoring:**

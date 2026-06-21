@@ -5,75 +5,74 @@ import eslintSimpleImportSort from "eslint-plugin-simple-import-sort";
 // const nodeResolverPath = fileURLToPath( new URL( "import/resolve.cjs", import.meta.url ) );
 
 const CONFIG = [
-    {
-        "name": "import",
-        "plugins": {
-            "import-x": eslintImportX,
-            "import-sort": eslintSimpleImportSort,
-        },
-        "settings": {
-            "import-x/resolver": {
-
-                // [ nodeResolverPath ]: {},
-                // "node": true,
-                // "webpack": true,
-                // "typescript": true,
+        {
+            "name": "import",
+            "plugins": {
+                "import-x": eslintImportX,
+                "import-sort": eslintSimpleImportSort,
             },
-            "import-x/parsers": {
-                "typescript-eslint/parser": [ ".ts", ".tsx", ".mts", ".cts" ],
-                "vue-eslint-parser": [ ".vue" ],
+            "settings": {
+                "import-x/resolver": {
+
+                    // [ nodeResolverPath ]: {},
+                    // "node": true,
+                    // "webpack": true,
+                    // "typescript": true,
+                },
+                "import-x/parsers": {
+                    "typescript-eslint/parser": [ ".ts", ".tsx", ".mts", ".cts" ],
+                    "vue-eslint-parser": [ ".vue" ],
+                },
+            },
+            "rules": {
+                "import-x/export": "error",
+                "import-x/no-named-as-default-member": "error",
+                "import-x/no-duplicates": "error",
+                "import-x/first": "error",
+                "import-x/newline-after-import": "error",
+
+                // "import-x/no-unresolved": "error",
+                // "import-x/default": "error",
+                // "import-x/no-named-as-default": "error",
+
+                // XXX does not supports re-exports
+                "import-x/namespace": [
+                    "error",
+                    {
+                        "allowComputed": true,
+                    },
+                ],
+
+                // XXX does not supports re-exporrt
+                "import-x/named": "error",
+
+                "import-x/no-cycle": [
+                    "error",
+                    {
+                        "maxDepth": Infinity,
+                        "allowUnsafeDynamicCyclicDependency": true,
+                    },
+                ],
+
+                "import-sort/imports": [
+                    "error",
+                    {
+                        "groups": [ [ "^\\u0000", "^node:", "^@?\\w", "^", "^\\." ] ],
+                    },
+                ],
+                "import-sort/exports": "error",
             },
         },
-        "rules": {
-            "import-x/export": "error",
-            "import-x/no-named-as-default-member": "error",
-            "import-x/no-duplicates": "error",
-            "import-x/first": "error",
-            "import-x/newline-after-import": "error",
-
-            // "import-x/no-unresolved": "error",
-            // "import-x/default": "error",
-            // "import-x/no-named-as-default": "error",
-
-            // XXX does not supports re-exports
-            "import-x/namespace": [
-                "error",
-                {
-                    "allowComputed": true,
-                },
-            ],
-
-            // XXX does not supports re-exporrt
-            "import-x/named": "error",
-
-            "import-x/no-cycle": [
-                "error",
-                {
-                    "maxDepth": Infinity,
-                    "allowUnsafeDynamicCyclicDependency": true,
-                },
-            ],
-
-            "import-sort/imports": [
-                "error",
-                {
-                    "groups": [ [ "^\\u0000", "^node:", "^@?\\w", "^", "^\\." ] ],
-                },
-            ],
-            "import-sort/exports": "error",
+    ],
+    OVERRIDES = [
+        {
+            "name": "import overrides",
+            "rules": {
+                "sort-imports": "off",
+                "import-x/order": "off",
+            },
         },
-    },
-];
-
-const OVERRIDES = [
-    {
-        "name": "import overrides",
-        "rules": {
-            "sort-imports": "off",
-            "import-x/order": "off",
-        },
-    },
-];
+    ];
 
 export default Super =>
     class extends Super {

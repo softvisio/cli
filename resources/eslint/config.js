@@ -8,6 +8,7 @@ import Import from "./import.js";
 import LanguageOptions from "./language-options.js";
 import MathConfig from "./math.js";
 import PromiseConfig from "./promise.js";
+import RegexpConfig from "./regexp.js";
 import Stylistic from "./stylistic.js";
 import Unicorn from "./unicorn.js";
 
@@ -66,6 +67,7 @@ export default class Config extends mixins(
     MathConfig,
     DeMorgan,
     PromiseConfig,
+    RegexpConfig,
     Corejslib,
     Comments,
     Eslint,

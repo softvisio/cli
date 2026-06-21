@@ -5,7 +5,7 @@ import { suite, test } from "node:test";
 
 suite( "git", () => {
     suite( "branch-parser", () => {
-        const BRANCH_RE = /^(?<current>\*)? +(?:\((?<head>HEAD)[^)]+\)|(?<branch>[^ ]+)) +(?<hash>[\da-z]+)(?: \[ahead (?<ahead>\d+)])? (?<description>.+)/;
+        const BRANCH_RE = /^(?<current>\*)? +(?:\((?<head>HEAD)[\^\)]+\)|(?<branch>[^ ]+)) +(?<hash>[\da-z]+)(?: \[ahead (?<ahead>\d+)\])? (?<description>.+)/v;
 
         const tests = [
 

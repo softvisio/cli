@@ -36,7 +36,7 @@ class Theme {
     // private
     #gotoTop ( e ) {
         const oldUrl = globalThis.location.href,
-            newUrl = oldUrl.replace( /\?.*/, "" );
+            newUrl = oldUrl.replace( /\?.*/v, "" );
 
         if ( oldUrl !== newUrl ) history.pushState( {}, null, newUrl );
 
@@ -81,7 +81,7 @@ class Theme {
 
     // XXX use mdast parser
     #beforeEach ( markdown ) {
-        const blocks = markdown.split( /(```+)(.+?\1)/s );
+        const blocks = markdown.split( /(`{3,})([^`].*?\1)/sv );
 
         for ( let n = 0; n < blocks.length; n++ ) {
 
@@ -104,15 +104,15 @@ class Theme {
 
         if ( !types ) return markdown;
 
-        markdown = markdown.replaceAll( /{([\w.[\\\]|]+)}/g, ( match, value ) => {
+        markdown = markdown.replaceAll( /\{([\w.\[\\\]\|]+)\}/gv, ( match, value ) => {
             const res = [];
 
             for ( const type of value.split( "|" ) ) {
-                const url = types[ type.replace( /\\\[]$/, "" ) ];
+                const url = types[ type.replace( /\\\[\]$/v, "" ) ];
 
                 if ( !url ) return match;
 
-                res.push( `\\<[${ type.replace( /\\\[]$/, "[]" ) }](${ url })>` );
+                res.push( `\\<[${ type.replace( /\\\[\]$/v, "[]" ) }](${ url })>` );
             }
 
             return res.join( " | " );
@@ -127,7 +127,7 @@ class Theme {
         markdown = markdown.replaceAll(
 
             //
-            /\[\^([\w-]+)]:/g,
+            /\[\^([\w\-]+)\]:/gv,
             ( match, id ) => `<strong class="footnote-definition" id="footnote-${ id }">[[${ id }]](#footnote-${ id })</strong>:`
         );
 
@@ -135,7 +135,7 @@ class Theme {
         markdown = markdown.replaceAll(
 
             //
-            /\[\^([\w-]+)]/g,
+            /\[\^([\w\-]+)\]/gv,
             ( match, id ) => `<sup class="footnote-reference">[[${ id }]](#footnote-${ id })</sup>`
         );
 
@@ -217,12 +217,12 @@ class Theme {
         // find minimal heading level
         for ( const heading of headings ) {
             const tag = heading.tagName,
-                level = +tag.slice( 1 );
+                level = Number( tag.slice( 1 ) );
 
             levels[ level ] = level;
         }
 
-        const sortedLevels = Object.keys( levels ).sort();
+        const sortedLevels = Object.values( levels ).sort( ( a, b ) => a - b );
 
         for ( let n = 0; n < sortedLevels.length; n++ ) {
             levels[ sortedLevels[ n ] ] = n + 1;

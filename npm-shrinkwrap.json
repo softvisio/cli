@@ -102,9 +102,9 @@
             "license": "MIT"
         },
         "node_modules/@corejslib/core": {
-            "version": "7.232.14",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.232.14/51d413d84517057a1d767daf1dc096e7a715f36f",
-            "integrity": "sha512-lMZLGxGBGQeH5ZuvQOkXL8XkhWaRpcfNjkyz4/bYrrIXjluA3rBul1MZA0DkVLxfEpEBeNpp+WTSYlRO+NFpig==",
+            "version": "7.233.0",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/core/7.233.0/dfc68bac5519b1d02221784c4a13357ff4b6f628",
+            "integrity": "sha512-ki1U2QYQugvktw2dnPMtKKzLBIOA9LDmypivSP6Y8+nm4M+zUzjE9bGhk4sHyripXmV7+bFFIjfIE7UnSPwiWg==",
             "hasInstallScript": true,
             "license": "ISC",
             "dependencies": {
@@ -3776,9 +3776,9 @@
             }
         },
         "node_modules/globals": {
-            "version": "17.6.0",
-            "resolved": "https://registry.npmjs.org/globals/-/globals-17.6.0.tgz",
-            "integrity": "sha512-sepffkT8stwnIYbsMBpoCHJuJM5l98FUF2AnE07hfvE0m/qp3R586hw4jF4uadbhvg1ooIdzuu7CsfD2jzCaNA==",
+            "version": "17.7.0",
+            "resolved": "https://registry.npmjs.org/globals/-/globals-17.7.0.tgz",
+            "integrity": "sha512-Czmyns5dUsq4seFBR/Kdydhmo8y9kC79hiSkPn0YcGtNnYWnrgt0vjrSjx9tspoDGWm2CMarffRuLjM4xUz8xg==",
             "license": "MIT",
             "engines": {
                 "node": ">=18"

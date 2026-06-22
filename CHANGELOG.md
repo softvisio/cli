@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.115.0 (2026-06-22)
+
+**New features:**
+
+- \[MINOR] feat: change yaml noCompatMode option to yaml11 (● [21d2a2c](https://github.com/softvisio/cli/commit/21d2a2ca); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [b8c74bc](https://github.com/softvisio/cli/commit/b8c74bcd), [d579458](https://github.com/softvisio/cli/commit/d5794581), [5864160](https://github.com/softvisio/cli/commit/58641606), [db67070](https://github.com/softvisio/cli/commit/db67070e), [789cb94](https://github.com/softvisio/cli/commit/789cb94f); 👬 zdm)
+
+Compare with the previous release: [v3.114.4...v3.115.0](https://github.com/softvisio/cli/compare/v3.114.4...v3.115.0)
+
 ### v3.114.4 (2026-06-21)
 
 **Bug fixes:**

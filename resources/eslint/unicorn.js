@@ -146,6 +146,12 @@ const CONFIG = [
                 "unicorn/prefer-unicode-code-point-escapes": "error",
                 "unicorn/prefer-queue-microtask": "error",
                 "unicorn/class-reference-in-static-methods": "error",
+                "unicorn/no-invalid-well-known-symbol-methods": "error",
+                "unicorn/no-late-event-control": "error",
+                "unicorn/prefer-abort-signal-timeout": "error",
+                "unicorn/prefer-error-is-error": "error",
+                "unicorn/prefer-promise-try": "error",
+                "unicorn/prefer-set-methods": "error",
 
                 // ERROR: can break third-party code
                 "unicorn/prefer-at": "off",

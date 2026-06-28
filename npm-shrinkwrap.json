@@ -1473,13 +1473,74 @@
             }
         },
         "node_modules/@reteps/dockerfmt": {
-            "version": "0.5.2",
-            "resolved": "https://registry.npmjs.org/@reteps/dockerfmt/-/dockerfmt-0.5.2.tgz",
-            "integrity": "sha512-Hbr7yen4fP5TxGM54ucXa4o5NwWXatJ6Bd9I8gp0PValYbI4Rug2Gu+rVv7K7o/efQc3F5ctqWJz47rYaa8zBw==",
+            "version": "0.5.4",
+            "resolved": "https://registry.npmjs.org/@reteps/dockerfmt/-/dockerfmt-0.5.4.tgz",
+            "integrity": "sha512-HEGgXVVOb+JtGUSSzXl/XPKFIZjMDTUoHarCjaQdkY+cb5M9K/O3b5xm+x0IPIk3SfHurbc0bSgcFsQlzjitxA==",
             "license": "MIT",
+            "bin": {
+                "dockerfmt": "dist/launcher.js"
+            },
             "engines": {
                 "node": "^v12.20.0 || ^14.13.0 || >=16.0.0"
+            },
+            "optionalDependencies": {
+                "@reteps/dockerfmt-darwin-arm64": "0.5.4",
+                "@reteps/dockerfmt-darwin-x64": "0.5.4",
+                "@reteps/dockerfmt-linux-arm64": "0.5.4",
+                "@reteps/dockerfmt-linux-x64": "0.5.4"
             }
+        },
+        "node_modules/@reteps/dockerfmt-darwin-arm64": {
+            "version": "0.5.4",
+            "resolved": "https://registry.npmjs.org/@reteps/dockerfmt-darwin-arm64/-/dockerfmt-darwin-arm64-0.5.4.tgz",
+            "integrity": "sha512-urMqV+dQyvVI8/WrXwClX9e1PEyS35wFdwJjpZYmL09AkV4Io5U1oam8UBKK7jZk0+YsdF88ay6e86Kn6DIyQg==",
+            "cpu": [
+                "arm64"
+            ],
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "darwin"
+            ]
+        },
+        "node_modules/@reteps/dockerfmt-darwin-x64": {
+            "version": "0.5.4",
+            "resolved": "https://registry.npmjs.org/@reteps/dockerfmt-darwin-x64/-/dockerfmt-darwin-x64-0.5.4.tgz",
+            "integrity": "sha512-fJORy6DFxbgDiMqxpLTPZlb5KUY0Vq0iR4NGnyKnuYZ9LdZUS508DK2kt/AJ87/jIKNV1qRG0JXG1Tc6xdvWjw==",
+            "cpu": [
+                "x64"
+            ],
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "darwin"
+            ]
+        },
+        "node_modules/@reteps/dockerfmt-linux-arm64": {
+            "version": "0.5.4",
+            "resolved": "https://registry.npmjs.org/@reteps/dockerfmt-linux-arm64/-/dockerfmt-linux-arm64-0.5.4.tgz",
+            "integrity": "sha512-6pVakO06eXtDuvxy1Dnjs/gQyUoGGycle8PRSt5IFRwLi/AVaOQwfkfmW0WP8VH9wNUeti6BfJ3ksTn2G+XMxg==",
+            "cpu": [
+                "arm64"
+            ],
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
+        },
+        "node_modules/@reteps/dockerfmt-linux-x64": {
+            "version": "0.5.4",
+            "resolved": "https://registry.npmjs.org/@reteps/dockerfmt-linux-x64/-/dockerfmt-linux-x64-0.5.4.tgz",
+            "integrity": "sha512-OD6SIlUV1D4TgJoTui3FMBAZsGbTSPYsiT0BKhD6jMUcJb3GpFTa7dY9rL8rP9FUqfL7OTHVUGUOL4Rh64Olog==",
+            "cpu": [
+                "x64"
+            ],
+            "license": "MIT",
+            "optional": true,
+            "os": [
+                "linux"
+            ]
         },
         "node_modules/@stylistic/eslint-plugin": {
             "version": "5.10.0",
@@ -3046,9 +3107,9 @@
             }
         },
         "node_modules/electron-to-chromium": {
-            "version": "1.5.379",
-            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.379.tgz",
-            "integrity": "sha512-v/qV5aV5EUA2pGilzUCq5/eyOloZAqDZBu9UMBIzgPpLlprjSR6zswsWBTv0KpqxLGUAZEwhO95ZCt7srymNVA==",
+            "version": "1.5.380",
+            "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.380.tgz",
+            "integrity": "sha512-W6d5AbuEoRayO447cqrg6lKJIlscgRnnxOZl/08kfV71BQDoEBC7Wwis68z87LjyK6f4kWyTaubuDbhHKrZkbA==",
             "license": "ISC"
         },
         "node_modules/entities": {
@@ -5817,9 +5878,9 @@
             }
         },
         "node_modules/prettier": {
-            "version": "3.8.5",
-            "resolved": "https://registry.npmjs.org/prettier/-/prettier-3.8.5.tgz",
-            "integrity": "sha512-zxcTTCedNGJM4R8sj/Cq/F0W/c4iE0afWBcBwMTRtw4WHYP9TWkYjdiH3npPRUYsXQCPR0hTU9yjovOu+E6EQA==",
+            "version": "3.9.1",
+            "resolved": "https://registry.npmjs.org/prettier/-/prettier-3.9.1.tgz",
+            "integrity": "sha512-ppiDo2CSwexck1eyZUwJHg/N3nf1+6IRCv7W/VJ5vaLnVCmB7+3CdRfMwoCHBBX6xTrREDTksZ4OZl5SSf4zXA==",
             "license": "MIT",
             "bin": {
                 "prettier": "bin/prettier.cjs"
@@ -6315,9 +6376,9 @@
             }
         },
         "node_modules/tar": {
-            "version": "7.5.17",
-            "resolved": "https://registry.npmjs.org/tar/-/tar-7.5.17.tgz",
-            "integrity": "sha512-wPEBwzapC+2PaTYPH6e2L+cNOEE227S47wUYFqlegcs8zlLLmeb9Fcff1HVZY4Fwku/1Eyv38n7GYwB2aaS71g==",
+            "version": "7.5.19",
+            "resolved": "https://registry.npmjs.org/tar/-/tar-7.5.19.tgz",
+            "integrity": "sha512-4LeEWl96twnS2Q7Bz4MGqgazLqO+hJN63GZxXoIqh1T3VweYD997gbU1ItNsQafqqXTXd5WFyFdReLtwvRBNiw==",
             "license": "BlueOak-1.0.0",
             "peer": true,
             "dependencies": {

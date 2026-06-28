@@ -47,7 +47,7 @@
         "@corejslib/eslint-plugin": "^1.0.1",
         "@eslint-community/eslint-plugin-eslint-comments": "^4.7.1",
         "@eslint/js": "^10.0.1",
-        "@prettier/plugin-oxc": "^0.1.2",
+        "@prettier/plugin-oxc": "^0.2.0",
         "@prettier/plugin-xml": "^3.4.1",
         "@stylistic/eslint-plugin": "^5.0.0",
         "@vue/compiler-sfc": "^3.2.36",

@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.115.7 (2026-06-29)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix var declaration (● [c3dadc1](https://github.com/softvisio/cli/commit/c3dadc1d); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bunp @prettier/plugin-oxc@^0.2.0 (● [57e1cea](https://github.com/softvisio/cli/commit/57e1cea7); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [52d863c](https://github.com/softvisio/cli/commit/52d863c4), [938480a](https://github.com/softvisio/cli/commit/938480a6), [a35fb6e](https://github.com/softvisio/cli/commit/a35fb6e5), [4a11e03](https://github.com/softvisio/cli/commit/4a11e036), [fdd4439](https://github.com/softvisio/cli/commit/fdd44391), [0a3c27b](https://github.com/softvisio/cli/commit/0a3c27b6); 👬 zdm)
+
+Compare with the previous release: [v3.115.6...v3.115.7](https://github.com/softvisio/cli/compare/v3.115.6...v3.115.7)
+
 ### v3.115.6 (2026-06-25)
 
 **Other changes:**
@@ -1416,7 +1430,7 @@ Compare with the previous release: [v3.90.1](https://github.com/softvisio/cli/co
 
 - \[PATCH] fix: fix oxc plugin usage (● [74d050c](https://github.com/softvisio/cli/commit/74d050c7); 👬 zdm)
 
-- \[PATCH] fix: remove NPM_TOKEN_GITHUB (● [2dc331c](https://github.com/softvisio/cli/commit/2dc331c6); 👬 zdm)
+- \[PATCH] fix: remove NPM\_TOKEN\_GITHUB (● [2dc331c](https://github.com/softvisio/cli/commit/2dc331c6); 👬 zdm)
 
 **Code refactoring:**
 
@@ -1838,7 +1852,7 @@ Compare with the previous release: [v3.84.0](https://github.com/softvisio/cli/co
 
 - \[PATCH] fix: fix commit msg for no type (● [8f93cdd](https://github.com/softvisio/cli/commit/8f93cdd2); 👬 zdm)
 
-- \[PATCH] fix: fix lint insert_final_newline (● [afff161](https://github.com/softvisio/cli/commit/afff1616); 👬 zdm)
+- \[PATCH] fix: fix lint insert\_final\_newline (● [afff161](https://github.com/softvisio/cli/commit/afff1616); 👬 zdm)
 
 **Other changes:**
 

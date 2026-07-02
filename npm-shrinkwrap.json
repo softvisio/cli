@@ -146,9 +146,9 @@
             }
         },
         "node_modules/@corejslib/eslint-plugin": {
-            "version": "1.8.9",
-            "resolved": "https://npm.pkg.github.com/download/@corejslib/eslint-plugin/1.8.9/339c5ce5cc8c5af08ad70740339859b3ef51c0cc",
-            "integrity": "sha512-YW0HTRi0iCFJK6SQlKywcTD5yBa5gSYxFTPYG8IZHeny1mYyZPB3GLXB9HppKvwTNwXb9pPg9eAjQfSxn/bPHQ==",
+            "version": "1.8.10",
+            "resolved": "https://npm.pkg.github.com/download/@corejslib/eslint-plugin/1.8.10/c73c838494401df316e9e0a6f26023400d9085dd",
+            "integrity": "sha512-z0IXFlsO8OVCmneUve9bM65lixHwFwOwNZRtP8qOvw0+b8CmZEFEeE1TqcsGk75fkyd8KLGrVk4/f9W58pPMxQ==",
             "license": "ISC",
             "dependencies": {
                 "json5": "^2.1.3"
@@ -6654,9 +6654,9 @@
             "license": "ISC"
         },
         "node_modules/undici": {
-            "version": "8.5.0",
-            "resolved": "https://registry.npmjs.org/undici/-/undici-8.5.0.tgz",
-            "integrity": "sha512-xamtWoB1EshgjpmlXd7GGm2VfdDtw1+rD8uhry8pSNW3If6S8E0m2T2+orSKeZXEn/aPJMviCpDBA65WJt8zhg==",
+            "version": "8.6.0",
+            "resolved": "https://registry.npmjs.org/undici/-/undici-8.6.0.tgz",
+            "integrity": "sha512-l2FlC6I510GawyEd1qgcE/okihKrzy+BRTEBlu6T0fdbM9m5yxtIH5Oa3ysRsH0zC4EhmWUEaSDsy2QngBeRlw==",
             "license": "MIT",
             "engines": {
                 "node": ">=22.19.0"

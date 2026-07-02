@@ -21,6 +21,7 @@ const CONFIG = [
                 // FIXME [engine:node@>=26.0.0]: "unicorn/prefer-iterator-to-array": ``"error",
                 // FIXME [engine:node@>=26.0.0]: "unicorn/prefer-iterator-to-array-at-end": "error",
 
+                "unicorn/prefer-simplified-conditions": "error",
                 "unicorn/consistent-template-literal-escape": "error",
                 "unicorn/prefer-optional-catch-binding": "error",
                 "unicorn/catch-error-name": [

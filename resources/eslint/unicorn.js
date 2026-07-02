@@ -21,6 +21,11 @@ const CONFIG = [
                 // FIXME [engine:node@>=26.0.0]: "unicorn/prefer-iterator-to-array": ``"error",
                 // FIXME [engine:node@>=26.0.0]: "unicorn/prefer-iterator-to-array-at-end": "error",
 
+                "unicorn/no-unsafe-promise-all-settled-values": "error",
+                "unicorn/prefer-abort-signal-any": "error",
+                "unicorn/prefer-array-flat-map": "error",
+                "unicorn/prefer-block-statement-over-iife": "error",
+                "unicorn/prefer-group-by": "error",
                 "unicorn/prefer-iterator-helpers": "error",
                 "unicorn/no-async-promise-finally": "error",
                 "unicorn/prefer-simplified-conditions": "error",

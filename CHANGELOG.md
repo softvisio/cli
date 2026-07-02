@@ -1,5 +1,17 @@
 # Changelog
 
+### v3.116.1 (2026-07-02)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix changelog conflict on release (● [38b2f6d](https://github.com/softvisio/cli/commit/38b2f6d9); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [f2c5c1b](https://github.com/softvisio/cli/commit/f2c5c1be); 👬 zdm)
+
+Compare with the previous release: [v3.116.0...v3.116.1](https://github.com/softvisio/cli/compare/v3.116.0...v3.116.1)
+
 ### v3.116.0 (2026-07-02)
 
 **New features:**

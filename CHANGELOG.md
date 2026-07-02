@@ -1,5 +1,19 @@
 # Changelog
 
+### v3.116.0 (2026-07-02)
+
+**New features:**
+
+- \[MINOR] feat: update unicorn rules (● [8837f2b](https://github.com/softvisio/cli/commit/8837f2bd), [476dcab](https://github.com/softvisio/cli/commit/476dcab4), [a065a3c](https://github.com/softvisio/cli/commit/a065a3c1); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): bunp eslint-plugin-unicorn@^70.0.0 (● [57445d1](https://github.com/softvisio/cli/commit/57445d1d); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [f515374](https://github.com/softvisio/cli/commit/f515374a), [e31d28b](https://github.com/softvisio/cli/commit/e31d28b1); 👬 zdm)
+
+Compare with the previous release: [v3.115.10...v3.116.0](https://github.com/softvisio/cli/compare/v3.115.10...v3.116.0)
+
 ### v3.115.10 (2026-07-01)
 
 **Other changes:**

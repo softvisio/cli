@@ -1,5 +1,15 @@
 # Changelog
 
+### v3.116.5 (2026-07-05)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [bc401ec](https://github.com/softvisio/cli/commit/bc401ecf), [ed16614](https://github.com/softvisio/cli/commit/ed166145), [f5b78c2](https://github.com/softvisio/cli/commit/f5b78c24); 👬 zdm)
+
+- style: refactor code (● [9464b87](https://github.com/softvisio/cli/commit/9464b879); 👬 zdm)
+
+Compare with the previous release: [v3.116.4...v3.116.5](https://github.com/softvisio/cli/compare/v3.116.4...v3.116.5)
+
 ### v3.116.4 (2026-07-03)
 
 **Other changes:**

@@ -1,5 +1,15 @@
 # Changelog
 
+### v3.116.7 (2026-07-06)
+
+**Other changes:**
+
+- build(deps): bunp eslint-plugin-unicorn@^71.0.0 (● [704a4d2](https://github.com/softvisio/cli/commit/704a4d2e); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [cb55d2d](https://github.com/softvisio/cli/commit/cb55d2d0); 👬 zdm)
+
+Compare with the previous release: [v3.116.6...v3.116.7](https://github.com/softvisio/cli/compare/v3.116.6...v3.116.7)
+
 ### v3.116.6 (2026-07-05)
 
 **Other changes:**

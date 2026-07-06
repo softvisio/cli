@@ -1,5 +1,15 @@
 # Changelog
 
+### v3.116.8 (2026-07-06)
+
+**Other changes:**
+
+- build(deps): bunp @corejslib/core@^8.0.0 (● [cef2090](https://github.com/softvisio/cli/commit/cef20907); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [10a6019](https://github.com/softvisio/cli/commit/10a60196), [18068bf](https://github.com/softvisio/cli/commit/18068bfa); 👬 zdm)
+
+Compare with the previous release: [v3.116.7...v3.116.8](https://github.com/softvisio/cli/compare/v3.116.7...v3.116.8)
+
 ### v3.116.7 (2026-07-06)
 
 **Other changes:**

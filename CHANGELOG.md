@@ -1,5 +1,21 @@
 # Changelog
 
+### v3.116.9 (2026-07-07)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dualserver management (● [38f5aca](https://github.com/softvisio/cli/commit/38f5aca6); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: move symbols to symbols module (● [a2a03de](https://github.com/softvisio/cli/commit/a2a03de7), [b7f7e4b](https://github.com/softvisio/cli/commit/b7f7e4be); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [a5cc6c7](https://github.com/softvisio/cli/commit/a5cc6c7b), [77a56a5](https://github.com/softvisio/cli/commit/77a56a5f), [22f2e69](https://github.com/softvisio/cli/commit/22f2e696); 👬 zdm)
+
+Compare with the previous release: [v3.116.8...v3.116.9](https://github.com/softvisio/cli/compare/v3.116.8...v3.116.9)
+
 ### v3.116.8 (2026-07-06)
 
 **Other changes:**

@@ -32,7 +32,6 @@
         "scli": "bin/scli.js"
     },
     "files": [
-        "npm-shrinkwrap.json",
         "/bin",
         "/lib",
         "/resources",

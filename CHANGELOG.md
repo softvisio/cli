@@ -1,5 +1,23 @@
 # Changelog
 
+### v4.0.3 (2026-07-19)
+
+**Other changes:**
+
+- build(deps): bunp eslint-plugin-simple-import-sort@^14.0.0 (● [d6ba129](https://github.com/softvisio/cli/commit/d6ba129a); 👬 zdm)
+
+- build(deps): bunp eslint-plugin-unicorn@^72.0.0 (● [c62c14a](https://github.com/softvisio/cli/commit/c62c14a8); 👬 zdm)
+
+- build(deps): bunp npm@>=12.0.1 (● [899b74f](https://github.com/softvisio/cli/commit/899b74f2); 👬 zdm)
+
+- build(deps): bunp prettier-plugin-sh@^0.19.0 (● [13500c1](https://github.com/softvisio/cli/commit/13500c1a); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [fbe030d](https://github.com/softvisio/cli/commit/fbe030d0), [055927b](https://github.com/softvisio/cli/commit/055927b3), [e33e056](https://github.com/softvisio/cli/commit/e33e0569), [24b5c21](https://github.com/softvisio/cli/commit/24b5c219), [1095575](https://github.com/softvisio/cli/commit/10955756), [cfe0a4b](https://github.com/softvisio/cli/commit/cfe0a4b6), [a163667](https://github.com/softvisio/cli/commit/a1636678), [092d61e](https://github.com/softvisio/cli/commit/092d61e8), [812f185](https://github.com/softvisio/cli/commit/812f1854), [26b9625](https://github.com/softvisio/cli/commit/26b9625a), [ed084e3](https://github.com/softvisio/cli/commit/ed084e30), [02b062a](https://github.com/softvisio/cli/commit/02b062ad), [f7e854f](https://github.com/softvisio/cli/commit/f7e854f0), [1ca8847](https://github.com/softvisio/cli/commit/1ca8847e); 👬 zdm)
+
+- style: lint (● [6c832a8](https://github.com/softvisio/cli/commit/6c832a8d), [a4ec3a3](https://github.com/softvisio/cli/commit/a4ec3a34), [19cbd11](https://github.com/softvisio/cli/commit/19cbd115); 👬 zdm)
+
+Compare with the previous release: [v4.0.2...v4.0.3](https://github.com/softvisio/cli/compare/v4.0.2...v4.0.3)
+
 ### v4.0.2 (2026-07-09)
 
 **Other changes:**
